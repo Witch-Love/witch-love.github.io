@@ -23,9 +23,13 @@
       <link rel="icon" type="image/png" href="favicon.png">
    </head>
    <body>
-      <audio autoplay controls hidden>
-         <source src="audio/umilse_002.ogg" type="audio/ogg">
-      </audio>
+      <script>
+         var audio = document.createElement("AUDIO");
+         document.body.appendChild(audio);
+         audio.src = "audio/umilse_002.ogg";
+         audio.volume = 0.04;
+         document.body.addEventListener("click", function () { audio.play() });
+     </script> 
       <div class="main-container">
          <section class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
             <ul class="slides">
