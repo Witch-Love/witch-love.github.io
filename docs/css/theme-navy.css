@@ -47,7 +47,18 @@ body{
     line-height:24px;
     font-family:open sans,helvetica neue,Helvetica,Arial,sans-serif;
     color:#666;
-    overflow-x:hidden
+    overflow-x:hidden;
+    top:0;
+    left:0;
+    z-index:1;
+    background-color: #000000;
+    background-image: url('../img/home.webp');
+    background-size:cover!important;
+    background-position:50% 50%!important;
+    transition: background 1.5s linear;
+    -webkit-transition: background 1.5s linear;
+    -moz-transition: background 1.5s linear;
+    -o-transition: background 1.5s linear;
 }
 body.boxed-layout{
     background:#eee
@@ -551,8 +562,6 @@ footer{
     height:100%;
     top:0;
     left:0;
-    background:#292929;
-    background-image:url(../img/home.webp);
     background-position:center;
     background-size:cover;
     z-index:2
