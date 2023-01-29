@@ -36,10 +36,13 @@
             change(images[i]);
             function change(url) {
                setTimeout(function () {
-                  document.body.style.backgroundImage = document.body.style.backgroundImage = "url('" + url + "')";
-                  i++;
-                  if (i >= images.length) i = 0;
-                  change(images[i]);
+                  document.body.style.backgroundImage = document.body.style.backgroundImage = "url('img/butterfly.gif?a=" + Math.random() + "')"
+                  setTimeout(function () {
+                     document.body.style.backgroundImage = document.body.style.backgroundImage = "url('" + url + "')";
+                     i++;
+                     if (i >= images.length) i = 0;
+                     change(images[i]);
+                  }, 4 * 1000);
                }, 180 * 1000);
             }
          }
