@@ -20,37 +20,16 @@
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600" rel='stylesheet' type='text/css'>
       <link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,600,700" rel="stylesheet" type="text/css">
       <link href="css/font-montserrat.css" rel="stylesheet" type="text/css">
-      <link rel="icon" type="image/png" href="favicon.png">
+      <link rel="icon" type="image/png" href="img/favicon.png">
    </head>
    <body>
-      <script>
-         var audio = document.createElement("AUDIO");
-         document.body.appendChild(audio);
-         audio.src = "audio/umilse_002.ogg";
-         audio.volume = 0.04;
-         document.body.addEventListener("click", function () { audio.play() });
-
-         window.onload = function () {
-            var i = 0;
-            var images = ["img/home2.webp", "img/home.webp",]
-            change(images[i]);
-            function change(url) {
-               setTimeout(function () {
-                  document.body.style.backgroundImage = document.body.style.backgroundImage = "url('img/butterfly.gif?a=" + Math.random() + "')"
-                  setTimeout(function () {
-                     document.body.style.backgroundImage = document.body.style.backgroundImage = "url('" + url + "')";
-                     i++;
-                     if (i >= images.length) i = 0;
-                     change(images[i]);
-                  }, 4 * 1000);
-               }, 180 * 1000);
-            }
-         }
-     </script> 
       <div class="main-container">
-         <section class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
+         <section class="cover fullscreen image-slider slider-arrow-controls controls-inside parallax">
             <ul class="slides">
                <li class="overlay image-bg">
+                  <div class="background-image-holder">
+                     <img alt="image" class="background-image" src="img/home.webp">
+                  </div>
                   <div class="container v-align-transform">
                      <div class="row">
                         <div class="col-md-6 col-sm-8">
@@ -62,8 +41,26 @@
                      </div>
                   </div>
                </li>
+               <li class="overlay image-bg">
+                  <div class="background-image-holder">
+                     <img alt="image" class="background-image" src="img/home3.webp">
+                  </div>
+                  <div class="container v-align-transform">
+                     <div class="row">
+                        <div class="col-md-6 col-sm-8">
+                           <h1 class="mb40 mb-xs-16 large">Witch Love</h1>
+                           <h6 class="uppercase mb16">Hollow Knight: Silksong Türkçe çeviri<br><br>~ Silksong çıktığı zaman :P</h6>
+                        </div>
+                     </div>
+                  </div>
+               </li>
             </ul>
          </section>
       </div>
    </body>
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/flexslider.min.js"></script>
+   <script src="js/parallax.js"></script>
+   <script src="js/scripts.js"></script>
 </html>
