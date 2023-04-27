@@ -338,7 +338,7 @@ $(document).ready(function() {
             directionNav: false
         });
         $('.slider-arrow-controls').flexslider({
-            controlNav: false,
+            controlNav: true,
             slideshow: false,
             animation: "slide",
             animationLoop: false,
