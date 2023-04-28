@@ -226,9 +226,12 @@ hr.short-thick{
 }
 .v-align-transform{
     position:relative;
+    /*
     transform:translate3d(0,-50%,0);
     -webkit-transform:translate3d(0,-50%,0);
     top:50%;
+    */
+    top:20%;
     z-index:2
 }
 .align-bottom{
@@ -607,10 +610,11 @@ footer{
     transition:all .3s ease;
     -webkit-transition:all .3s ease;
     -moz-transition:all .3s ease;
-    opacity:0
+    opacity:0;
+    box-shadow: 0 0 70px 45px black inset;
 }
 .background-image-holder img{
-    display:none
+    display:none;
 }
 .background-multiply .background-image-holder{
     background-color:#282a38!important;

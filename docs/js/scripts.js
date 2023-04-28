@@ -340,13 +340,15 @@ $(document).ready(function() {
         $('.slider-arrow-controls').flexslider({
             controlNav: true,
             slideshow: false,
+            slideshowSpeed: 100000,
             animation: "slide",
-            animationLoop: false,
+            animationLoop: true,
             animationSpeed: 1000,
-            keyboard: true,
+            keyboard: false,
             pauseOnAction: true,
             pauseOnHover: true,
-            mousewheel: true,
+            mousewheel: false,
+            startAt: 1,
             after: function(){
                 /*
                 var audio = document.createElement("AUDIO");
