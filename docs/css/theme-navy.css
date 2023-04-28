@@ -224,6 +224,7 @@ hr.short-thick{
         display:block!important
     }
 }
+
 .v-align-transform{
     position:relative;
     /*
@@ -231,7 +232,7 @@ hr.short-thick{
     -webkit-transform:translate3d(0,-50%,0);
     top:50%;
     */
-    top:20%;
+    top:25%;
     z-index:2
 }
 .align-bottom{
@@ -286,7 +287,13 @@ h1,.h1{
 h1.large{
     font-size:72px;
     line-height:80px;
-    font-weight:100
+    font-weight:100;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 @media all and (max-width:990px){
     h1.large{
