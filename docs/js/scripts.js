@@ -339,14 +339,14 @@ $(document).ready(function() {
         });
         $('.slider-arrow-controls').flexslider({
             controlNav: true,
-            slideshow: false,
-            slideshowSpeed: 100000,
+            slideshow: true,
+            slideshowSpeed: 15000,
             animation: "slide",
             animationLoop: true,
             animationSpeed: 1000,
             keyboard: false,
             pauseOnAction: true,
-            pauseOnHover: true,
+            pauseOnHover: false,
             mousewheel: false,
             startAt: 1,
             after: function(){
