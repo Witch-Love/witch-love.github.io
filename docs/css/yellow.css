@@ -6166,13 +6166,24 @@
 	z-index: 2;
 	position: relative;
   }
-  
+
+  .bg-headerimage {
+	background-color: #000000;
+	background-image: url("../img/header.webp") !important;
+	background-repeat: no-repeat !important;
+	background-attachment: unset;
+	bottom: 0;
+	background-position: left bottom;
+	position: relative;
+	z-index: -100;
+  }
+
   .bg-header {
 	position: absolute;
     bottom: 0;
     min-width: 100%; 
     min-height: 100%;
-    z-index: -100;
+    z-index: -50;
     background-size: auto 100%;
     overflow: hidden;
 	box-shadow: 0 0 70px 30px black inset;
