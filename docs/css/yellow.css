@@ -6172,7 +6172,6 @@
 	background-image: url("../img/header.webp") !important;
 	background-repeat: no-repeat !important;
 	background-attachment: unset;
-	bottom: 0;
 	background-position: left bottom;
 	position: relative;
 	z-index: -100;
