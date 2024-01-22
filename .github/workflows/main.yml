@@ -34,18 +34,18 @@ jobs:
         run: |
           cd mkdocs
           mkdocs build
-          cp -r wiki ../docs/wiki
+          cp -r wiki ../site/wiki
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         uses: actions/jekyll-build-pages@v1
         with:
-          source: ./docs
-          destination: ./docs/_site
+          source: ./site
+          destination: ./site/_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./docs/_site
+          path: ./site/_site
 
   deploy:
     environment:
