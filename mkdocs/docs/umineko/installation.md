@@ -1,12 +1,12 @@
 ---
-icon: material/download 
+icon: material/download
 ---
 
 # 1. Umineko Project
 
 !!! abstract "Not"
 	Bu sayfa [Umineko Project](https://umineko-project.org/en/)'in kurulumu içermektedir.  
-	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](../tr-installation) geçebilirsiniz.
+	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](tr-installation.md) geçebilirsiniz.
 
 ???+ warning "Umineko Project: Önemli Telif Hakkı Uyarısı"
 	Alttaki metin **Umineko Project**'in sitesinde bulunan [Copyright message](https://umineko-project.org/en/copyright-message/) sayfasından alınmıştır.
@@ -54,13 +54,15 @@ Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işle
 
 ## 1. Resources İndirmeleri
 
-<img src="https://i.imgur.com/0a5u0Or.png" />
-
 Şimdi burada önemli bir kısım var. Burada indireceğiniz 12 dosyanın hepsi aslında tek bir dosyanın bölünmüş hali. Yani, buradaki tüm dosyaları indirene kadar bu dosyaları `(yani dosyayı)` açamazsınız.
+
+![Resources](https://i.imgur.com/0a5u0Or.png)
 
 ^^SADECE AMA SADECE^^ bu 12 dosyanın hepsinin indirmesi tamamlandıktan ve hepsini aynı klasörde topladıktan sonra `umiproj_31.12.19.7z.001` adlı dosyayı açabileceksiniz.
 
 On iki dosyanın tamamı indirildikten sonra yapmanız gereken şey WinRAR gibi bir arşiv programı kullanarak `umiproj_31.12.19.7z.001` adlı dosyayı açmaktır.
+
+Arşiv dosyasını açtıktan sonra içindeki tüm dosyaları önceden oluşturmuş olduğunuz klasöre çıkartın. Bu adım neredeyse oyunun tüm dosyalarını içerdiğinden bilgisayarınızın hızına bağlı olarak biraz zaman alacaktır.
 
 ??? warning "Arşiv Şifresi"
 	Sayfanın başında bulunan telif hakkı uyarısını kabul ettiğinizi varsayıyoruz.
@@ -69,46 +71,31 @@ On iki dosyanın tamamı indirildikten sonra yapmanız gereken şey WinRAR gibi 
 	035646750436634546568555050
 	```
 
-Dosyayı açtıktan sonra dosyayı önceden oluşturmuş olduğunuz klasöre çıkartın. Bu adım neredeyse oyunun tüm dosyalarını içerdiğinden bilgisayarınızın hızına bağlı olarak biraz zaman alacaktır.
+Çıkarma işlemi tamamlandıktan sonra sonraki adıma geçebilirsiniz.
 
------
+***
 
 ## 2. Scripts İndirmesi
 
-Bu adım basit. [Buradan](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip) oyunun scriptlerinin bulunduğu dosyayı indirin ve klasörünüze çıkartın.
+Bu adım oldukça basit. Hemen alttaki linkten oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
 
------
+[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip){ .md-button }
+
+***
 
 ## 3. Game Engine İndirmesi
 
+![Game Engines](https://i.imgur.com/F35o4lp.png)
+
 Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indirin ve klasörünüze çıkartın.
 
-Bu adımla beraber Umineko Project kurulumu tamamlanıyor. Türkçe Patch'i kurmak için bir sonraki adımı da tamamlayın.
+???+ note "Windows hakkında"
+	Windows kullananlar ==Windows XP 32-bit== yazdığına aldırış etmesinler. Bunu indirmeniz gerekiyor.
 
-> [!NOTE]
-> Windows kullananlar `Windows XP` ve `32-bit` yazdığına aldırış etmesinler. Bunu indirmeniz gerekiyor.
+## 4. Kurulum Tamamlandı
 
-<img src="https://i.imgur.com/F35o4lp.png" width="700">
+!!! success "Her şey tamam!"
+	Bu adımla beraber Umineko Project kurulumu tamamlandı. `onscripter-ru.exe` dosyasından oyunu başlatabilirsiniz.  
+	Bazı bilgisayarlarda kayıt ederken sorun oluşabildiği için yönetici olarak çalıştırmanızı öneririz.
 
------
-
-## Türkçe Patch Kurulumu
-
-1. [Türkçe Script](../../releases/latest/download/umineko-tr-scripts.zip) linkinden Türkçe scriptleri,  
-2. [Türkçe Dosyalar](../../../umineko-scripting-tr-files/releases/latest/download/umineko-tr-files.zip) linkinden de Türkçe dosyaları indirin.
-
-İndirdiğiniz bu iki arşiv dosyasını da önceki adımlarda olduğu gibi klasörünüze çıkartın.
-
------
-
-### Kurulum Tamamlandı
-
-Kurulum tamamlandıktan sonra klasörünüz aşağıdaki şekilde görünmeli. Eğer ekstra bir klasör bulunuyorsa ya da eksik varsa bir şeyleri yanlış yapmış olma ihtimaliniz yüksek.  
-Artık klasörünüzün içindeki `onscripter-ru.exe` dosyasından oyununuzu başlatabilirsiniz!  
-Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyununuz Türkçe olacaktır. İyi okumalar!
-
-**Notlar:**
-- Oyunda herhangi bir sorunla karşılaşırsanız yönetici olarak çalıştırmayı deneyin.
-- Çeviri çalışması hâlâ devam ettiği için scriptlerinizin ve dosyalarınızın güncel olduğundan emin olup oynamanız daha iyi olacaktır. Bir chapter çevirisi her bittiğinde veya önemli bir güncelleme yaptığımızda yeni sürüm yayınlıyoruz. Türkçe yamayı güncellemek için [Türkçe Patch Kurulumu](#türkçe-patch-kurulumu) adımını tekrarlamanız yeterlidir.
-
-<img src="https://i.imgur.com/g3vlw1d.png" width="700">
+	Türkçe Patch kurulumu için sonraki sayfaya ilerleyin.

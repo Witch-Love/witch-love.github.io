@@ -1,6 +1,12 @@
 # Ana Sayfa
 
-## Yapımda
+!!! tip "İpucu"
+    Sol menüden ilgili içeriğin adına tıklayarak içerik hakkında detaylı bilgi alabilirsiniz.
 
-!!! abstract
-    **Wiki sayfamız yapımdadır ve yakın zamanda doldurulacaktır.**
+***
+
+!!! info "Discord Sunucusu"
+    ![Discord](https://i.imgur.com/bGfPWSY.png){ width="100" align=left }
+    ### [Discord](https://discord.gg/jyD5jn9Vpd)'da bize katılın
+
+    Destek almak, sohbet etmek ve diğer takipçilerimizle vakit geçirmek için sunucumuza katılın!

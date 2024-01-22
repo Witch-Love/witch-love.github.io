@@ -12,7 +12,9 @@ nav:
   - <b>Umineko</b>:
     - Kurulum:
       - umineko/installation.md
+      - umineko/tr-installation.md
   - Website: 'https://witch-love.github.io/'
+  - Bağış: 'donation.md'
 
 # extra
 extra:
@@ -23,6 +25,8 @@ extra:
       link: https://www.youtube.com/@Singularityy
 
 # plugins
+plugins:
+  - search
 
 # theme
 theme:
@@ -34,6 +38,8 @@ theme:
     - navigation.footer
     - content.tabs.link
     - content.code.copy
+    - search.suggest
+    - search.highlight
   palette:
     - scheme: slate
       accent: yellow
@@ -63,6 +69,9 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
   - footnotes
