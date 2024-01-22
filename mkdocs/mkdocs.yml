@@ -1,33 +1,72 @@
 # settings
-site_name: Witch Love - Wiki
+site_name: Witch Love Wiki
 site_url: https://witch-love.github.io/
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
-copyright: All nipahs reserved
+copyright: '&copy; All nipahs reserved'
 site_dir: wiki
 
 # navigation
 nav:
+  - index.md
+  - <b>Umineko</b>:
+    - Kurulum:
+      - umineko/installation.md
   - Website: 'https://witch-love.github.io/'
-  - Ana Sayfa: index.md
+
+# extra
+extra:
+  social:
+    - icon: fontawesome/brands/discord 
+      link: https://discord.gg/jyD5jn9Vpd
+    - icon: fontawesome/brands/youtube 
+      link: https://www.youtube.com/@Singularityy
+
+# plugins
 
 # theme
 theme:
   name: material
   language: tr
   favicon: img/favicon.ico
+  features:
+    - navigation.path
+    - navigation.footer
+    - content.tabs.link
+    - content.code.copy
   palette:
     - scheme: slate
+      accent: yellow
       toggle:
         icon: material/weather-sunny
         name: Aydınlık temaya geç
     - scheme: default
+      accent: amber
       toggle:
         icon: material/weather-night
         name: Karaklık temaya geç
 
 markdown_extensions:
   - admonition
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
   - pymdownx.mark
+  - pymdownx.tilde
   - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
+  - md_in_html
+  - footnotes
+  - toc:
+      permalink: true
+      permalink_title: Bağlantıyı kopyala
+      toc_depth: 5
