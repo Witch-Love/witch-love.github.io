@@ -1,5 +1,6 @@
 ---
 icon: material/download
+comments: true
 ---
 
 # 2. Türkçe Patch

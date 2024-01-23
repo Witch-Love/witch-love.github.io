@@ -1,5 +1,6 @@
 ---
 icon: material/download
+comments: true
 ---
 
 # 1. Umineko Project

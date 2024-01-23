@@ -5,7 +5,7 @@ repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
 copyright: '&copy; All nipahs reserved'
 site_dir: wiki
-edit_uri: edit/main/mkdocs/docs
+edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 
 # navigation
 nav:
@@ -52,16 +52,19 @@ plugins:
 theme:
   name: material
   language: tr
+  custom_dir: overrides
   favicon: img/favicon.ico
   icon:
     logo: material/book
+    edit: material/pencil 
+    view: material/eye
   features:
     - navigation.footer
     - navigation.sections
     - navigation.top
     - content.tabs.link
     - content.code.copy
-#    - content.action.edit
+    - content.action.edit
     - content.action.view
     - search.suggest
     - search.highlight
