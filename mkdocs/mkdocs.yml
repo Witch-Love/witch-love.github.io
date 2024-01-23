@@ -21,6 +21,9 @@ nav:
   - <b>Higurashi</b>:
     - higurashi/index.md
     - higurashi/installation.md
+    - Katkıda Bulunmak:
+      - higurashi/contributing/info.md
+      - higurashi/contributing/rules.md
   - Diğer:
     - donation.md
     - "Site'ye dön": https://witch-love.github.io/
