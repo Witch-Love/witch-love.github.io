@@ -41,12 +41,12 @@ plugins:
       enabled: true
       enable_creation_date: true
       type: timeago
-  - git-authors
-#  - git-committers:
-#      enabled: true
-#      repository: Witch-Love/witch-love.github.io
-#      docs_path: mkdocs/docs
-#      branch: main
+#  - git-authors
+  - git-committers:
+      enabled: true
+      repository: Witch-Love/witch-love.github.io
+      docs_path: mkdocs/docs
+      branch: main
 
 # theme
 theme:
