@@ -1,4 +1,4 @@
-# Bağış
+# Bilgi
 
 !!! abstract
 	Bu sayfa yapımdadır.

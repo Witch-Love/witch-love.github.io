@@ -81,7 +81,7 @@ Arşiv dosyasını açtıktan sonra içindeki tüm dosyaları önceden oluşturm
 
 Bu adım oldukça basit. Hemen alttaki linkten oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
 
-[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip){ .md-button }
+[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip){ .md-button .md-button--primary }
 
 ***
 

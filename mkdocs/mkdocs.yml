@@ -1,7 +1,7 @@
 # settings
 site_name: Witch Love Wiki
 site_url: https://witch-love.github.io/
-repo_url: https://github.com/Witch-Love/witch-love.github.io
+repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
 copyright: '&copy; All nipahs reserved'
 site_dir: wiki
@@ -11,14 +11,15 @@ edit_uri: edit/main/mkdocs/docs
 nav:
   - index.md
   - Umineko:
+    - umineko/index.md
     - Kurulum:
       - umineko/installation.md
       - umineko/tr-installation.md
   - Higurashi:
-    - Kurulum:
-      - higurashi/tr-installation.md
-  - Bağış: 'donation.md'
-  - "Site'ye dön": https://witch-love.github.io/
+    - higurashi/installation.md
+  - Diğer:
+    - donation.md
+    - "Site'ye dön": https://witch-love.github.io/
 
 # extra
 extra:
@@ -38,11 +39,12 @@ plugins:
       enabled: true
       enable_creation_date: true
       type: timeago
-  - git-committers:
-      enabled: true
-      repository: Witch-Love/witch-love.github.io
-      docs_path: mkdocs/docs
-      branch: main
+  - git-authors
+#  - git-committers:
+#      enabled: true
+#      repository: Witch-Love/witch-love.github.io
+#      docs_path: mkdocs/docs
+#      branch: main
 
 # theme
 theme:

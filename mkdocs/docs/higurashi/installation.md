@@ -1,11 +1,8 @@
----
-icon: material/download
----
+# Kurulum
 
-# 1. Higurashi 07th-Mod Patch
+!!! abstract
+	Bu sayfa yapımdadır.
 
-***
-
-## Higurashi 
+## 1. 07th-mod 
 
 Higurashi çevirimizi okumak için öncelikle güncel oyunlara sahip olmalısınız. Bu oyunları Steam veyahut bir arkadaşınız aracılığıyla temin edebilirsiniz.

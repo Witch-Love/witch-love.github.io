@@ -3,15 +3,19 @@ icon: material/download
 ---
 
 # 2. Türkçe Patch
+	
+!!! info "Bilgi"
+	[Umineko Project](https://umineko-project.org/en/)'i henüz kurmadıysanız lütfen [1. adıma](installation.md) dönüp kurunuz.
 
-***
+???+ note "Steam Hakkında"
+	Herkesin Umineko'yu en iyi şekilde deneyimleyebilmesini dilediğimiz için oyunun steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
 
-## Türkçe Dosya İndirmesi
+## Türkçe Dosyaların İndirmesi
 
 Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve ikisini de **Umineko Project**'in kurulu olduğu klasörünüze çıkartın.
 
-[:fontawesome-solid-download: Türkçe Script](https://github.com/Witch-Love/umineko-scripting-tr/releases/latest/download/umineko-tr-scripts.zip){ .md-button }
-[:fontawesome-solid-download: Türkçe Grafikler](https://github.com/Witch-Love/umineko-scripting-tr-files/releases/latest/download/umineko-tr-files.zip){ .md-button }
+[:fontawesome-solid-download: Türkçe Script](https://github.com/Witch-Love/umineko-scripting-tr/releases/latest/download/umineko-tr-scripts.zip){ .md-button .md-button--primary }
+[:fontawesome-solid-download: Türkçe Grafikler](https://github.com/Witch-Love/umineko-scripting-tr-files/releases/latest/download/umineko-tr-files.zip){ .md-button .md-button--primary }
 
 ***
 
@@ -24,7 +28,7 @@ Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz a�
 Artık klasörünüzün içindeki `onscripter-ru.exe` dosyasından oyununuzu başlatabilirsiniz.  
 Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
 
-!!! info "Bilgi"
+!!! note "Not"
 	Oyunda herhangi bir sorunla karşılaşmanız halinde yönetici olarak çalıştırmayı deneyin. Sorununuz muhtemelen çözülecektir.
 
 ***
