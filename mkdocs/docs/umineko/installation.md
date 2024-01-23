@@ -14,7 +14,7 @@ comments: true
 
 	Bu açıklamayı kabul ediyorsanız rehberi okumaya devam edebilirsiniz.
 
-	```{ .txt .no-copy }
+	```markdown title="Copyright message"
 	This game may violate various copyrights of Ryukishi07, Alchemist, artists, musicians, voice actors, translators, and more.
 	
 	It is not our intent to financially (or otherwise) harm any of these people or companies. It is simply not financially possible for us to obtain permission to legally distribute this game with all its features, and we opted for English and Russian versions of Umineko PS3 to exist in this state instead of not at all.

@@ -11,6 +11,8 @@ comments: true
 ???+ note "Steam Hakkında"
 	Herkesin Umineko'yu en iyi şekilde deneyimleyebilmesini dilediğimiz için oyunun steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
 
+***
+
 ## Türkçe Dosyaların İndirmesi
 
 Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve ikisini de **Umineko Project**'in kurulu olduğu klasörünüze çıkartın.

@@ -10,16 +10,20 @@ edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 # navigation
 nav:
   - index.md
-  - Umineko:
+  - <b>Umineko</b>:
     - umineko/index.md
     - Kurulum:
       - umineko/installation.md
       - umineko/tr-installation.md
-  - Higurashi:
+    - Katkıda Bulunmak:
+      - umineko/contributing/info.md
+      - umineko/contributing/rules.md
+  - <b>Higurashi</b>:
     - higurashi/installation.md
   - Diğer:
     - donation.md
     - "Site'ye dön": https://witch-love.github.io/
+  - contact.md
 
 # extra
 extra:
@@ -42,7 +46,7 @@ plugins:
       enable_creation_date: true
       type: timeago
   - git-committers:
-      enabled: true
+      enabled: !ENV [CI, false]
       repository: Witch-Love/witch-love.github.io
       docs_path: mkdocs/docs/
       branch: main
@@ -58,8 +62,8 @@ theme:
     edit: material/pencil 
     view: material/eye
   features:
+    - navigation.indexes
     - navigation.footer
-    - navigation.sections
     - navigation.top
     - content.tabs.link
     - content.code.copy
@@ -74,7 +78,7 @@ theme:
         icon: material/weather-sunny
         name: Aydınlık temaya geç
     - scheme: default
-      accent: amber
+      accent: yellow
       toggle:
         icon: material/weather-night
         name: Karanlık temaya geç
