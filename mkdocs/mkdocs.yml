@@ -5,6 +5,8 @@ repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
 copyright: '&copy; All nipahs reserved'
 site_dir: wiki
+extra_javascript:
+  - js/version.js
 
 # navigation
 nav:
@@ -13,6 +15,9 @@ nav:
     - Kurulum:
       - umineko/installation.md
       - umineko/tr-installation.md
+  - <b>Higurashi</b>:
+    - Kurulum:
+      - higurashi/tr-installation.md
   - Website: 'https://witch-love.github.io/'
   - Bağış: 'donation.md'
 
@@ -50,7 +55,7 @@ theme:
       accent: amber
       toggle:
         icon: material/weather-night
-        name: Karaklık temaya geç
+        name: Karanlık temaya geç
 
 markdown_extensions:
   - admonition
