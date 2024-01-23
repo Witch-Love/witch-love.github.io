@@ -8,5 +8,6 @@
 * :octicons-mail-24: singulariity yandex com
 
 ## Folivore
-
+* :fontawesome-brands-discord: folivore
+* :octicons-mail-24: nexustritech outlook com
 ***
