@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
           .then(response => response.json())
           .then(data => {
             const latestVersion = data.tag_name;
-            u_sc.innerHTML = u_sc.innerHTML + " (<b>" + latestVersion + "</b>)";
+            u_sc.innerHTML = u_sc.innerHTML + " (" + latestVersion + ")";
           })
           .catch(error => console.error("Error fetching Umineko script data:", error));
       }
@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function() {
           .then(response => response.json())
           .then(data => {
             const latestVersion = data.tag_name;
-            u_fi.innerHTML = u_fi.innerHTML + " (<b>" + latestVersion + "</b>)";
+            u_fi.innerHTML = u_fi.innerHTML + " (" + latestVersion + ")";
           })
           .catch(error => console.error("Error fetching Umineko graphics data:", error));
       }
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
           .then(response => response.json())
           .then(data => {
             const latestVersion = data.tag_name;
-            h_sc.innerHTML = h_sc.innerHTML + " (<b>" + latestVersion + "</b>)";
+            h_sc.innerHTML = h_sc.innerHTML + " (" + latestVersion + ")";
           })
           .catch(error => console.error("Error fetching Higurashi script data:", error));
       }
