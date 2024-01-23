@@ -19,6 +19,7 @@ nav:
       - umineko/contributing/info.md
       - umineko/contributing/rules.md
   - <b>Higurashi</b>:
+    - higurashi/index.md
     - higurashi/installation.md
   - Diğer:
     - donation.md
