@@ -10,3 +10,4 @@
     ### [Discord](https://discord.gg/jyD5jn9Vpd)'da bize katılın
 
     Destek almak, sohbet etmek ve diğer takipçilerimizle vakit geçirmek için sunucumuza katılın!
+

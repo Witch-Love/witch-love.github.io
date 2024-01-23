@@ -52,6 +52,8 @@ Her şeyden önce bilgisayarınızın herhangi bir yerinde yeni bir klasör olu�
 
 Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işlemlerine başlamak için Umineko Project'in sitesinde bulunan [Downloads](https://umineko-project.org/en/downloads/) sayfasını açalım ve her adımın resimlerinde gösterilen şekilde dosyaları indirelim.
 
+***
+
 ## 1. Resources İndirmeleri
 
 Şimdi burada önemli bir kısım var. Burada indireceğiniz 12 dosyanın hepsi aslında tek bir dosyanın bölünmüş hali. Yani, buradaki tüm dosyaları indirene kadar bu dosyaları `(yani dosyayı)` açamazsınız.
@@ -91,6 +93,8 @@ Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indir
 
 ???+ note "Windows hakkında"
 	Windows kullananlar ==Windows XP 32-bit== yazdığına aldırış etmesinler. Bunu indirmeniz gerekiyor.
+
+***
 
 ## 4. Kurulum Tamamlandı
 

@@ -27,6 +27,8 @@ Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyunu
 !!! info "Bilgi"
 	Oyunda herhangi bir sorunla karşılaşmanız halinde yönetici olarak çalıştırmayı deneyin. Sorununuz muhtemelen çözülecektir.
 
+***
+
 ## Türkçe Patch Güncellemesi
 
 Çeviri çalışması devam ettiği için scriptlerinizin ve dosyalarınızın güncel olduğundan emin olup oynamanız daha iyi olacaktır. Genellikle yeni bir chapter çevirisi tamamlandığında veya önemli bir güncelleme yaptığımızda yeni bir sürüm yayınlıyoruz.
