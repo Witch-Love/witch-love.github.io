@@ -31,6 +31,8 @@ extra:
       link: https://www.youtube.com/@Singularityy
 extra_javascript:
   - js/version.js
+extra_css:
+  - css/admonitions.css
 
 # plugins
 plugins:
@@ -51,8 +53,9 @@ theme:
   name: material
   language: tr
   favicon: img/favicon.ico
+  icon:
+    logo: material/book
   features:
-    - navigation.path
     - navigation.footer
     - navigation.sections
     - navigation.top
