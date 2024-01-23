@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "MkDocs Serve",
+			"type": "shell",
+			"command": "mkdocs serve -f mkdocs/mkdocs.yml",
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
