@@ -1,3 +1,15 @@
+[data-md-color-scheme="slate"] {
+    --md-code-fg-color: #d4c166
+}
+
+[data-md-color-scheme="default"] {
+    --md-code-fg-color: #000000
+}
+
+table {
+    border-collapse: separate !important;
+}
+
 .md-typeset {
     --md-typeset-table-color: var(--md-primary-fg-color);
 }

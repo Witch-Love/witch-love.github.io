@@ -3,7 +3,7 @@
 !!! tip "İpucu"
     Sol menüden ilgili içeriğe tıklayarak hakkında detaylı bilgi alabilirsiniz.
 
-!!! taslak "[23-01-2024] Duyuru"
+!!! draft "[23-01-2024] Duyuru"
     *Sitemiz hâlâ yapım aşamasındadır. Her içerik şu an için mevcut olmayabilir.*
 
 ***

@@ -4,13 +4,9 @@ comments: true
 
 # Higurashi
 
-<!-- draft message -->
-!!! taslak
-	*Bu sayfada eksiklikler bulunuyor. Çok geçmeden dolduracağız!  
-	Eğer bu sayfanın çok uzun süredir taslak olarak kaldığını ve eksik şeyler olduğunu düşünüyorsanız bizimle iletişime geçin.*
+{!draft.md!}
 
 ***
-<!-- draft message -->
 
 !!! info "Kurulum"
 	Sol menüden Türkçe patch'in kurulumuna ulaşabilirsiniz.
@@ -37,3 +33,5 @@ Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediğ
 - [ ] Chapter 8 (Matsuribayashi)
 - [ ] Chapter 9 (Rei)
 - [ ] Chapter 10 (Hou+)
+
+{!draft.md!}
