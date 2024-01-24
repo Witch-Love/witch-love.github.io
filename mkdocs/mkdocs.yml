@@ -50,6 +50,7 @@ plugins:
       enabled: true
       enable_creation_date: true
       type: timeago
+      locale: tr
   - git-committers:
       enabled: !ENV [CI, false]
       repository: Witch-Love/witch-love.github.io
