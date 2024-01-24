@@ -12,9 +12,9 @@
 
 1.  =="sen" ve "siz" hitapları hakkında==  
     Sen ve siz hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
-    * Battler'ın okuyuculara hitap ettiği cümleler "-siz" olmalı.
-    * Anlatı genel olarak okuyuculara hitap ettiğinden "-siz" olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
-    * Hizmetkârların Ushiromiya aile bireylerine hitapları "-siz" olmalı. Bunda da bazı istisnalar var.
+    * Battler'ın okuyuculara hitap ettiği cümleler `-siz` olmalı.
+    * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
+    * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Bunda da bazı istisnalar var.
 2.  ==İngilizce kelimeler==  
     Karakterlerin ingilizce olarak söyledikleri kelimeler bazı istisnalar hariç ingilizce olarak kalıyor.  
 	İngilizce kelimeler (istisnalar var) `<>` arasına yazılır. Örneğin: `<Good>`  
@@ -26,8 +26,8 @@
     * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
-        * "Aaaahh", "Oooooohh!", ""KyAAAAAAAAAAAAAA"
-        * \*giggle\* ve \*cackle\*
+        * `Aaaahh`, `Oooooohh!`, `KyAAAAAAAAAAAAAA`
+        * `*giggle*` ve `*cackle*`
         * Madam
         * GHQ
 
@@ -126,8 +126,11 @@
 
 ### Diğer
 
-* Old Testament's Book of Psalms, Psalm x, verses y and z `->` Eski Ahit'in Mezmurlar Kitabı, x. Mezmur, ayet y ve z
-* Come, arise, forgive the sin, one of the seven stakes of Purgatory, lust!!! `->` Gel, yüksel, günahları affet, Araf'ın Yedi Kazığı'ndan, şehvet!!!
-* All it takes is the presence of x, and a deduction like this becomes trivial for Furudo Erika. Your thoughts, ladies and gentlemen? `->` Sadece x'in varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?
-* I am one yet many `->` Ben biriyim ve de birçoğuyum
-* It's no good, it's no goddamn good `->` Bu hiç iyi değil, hiç de iyi değil
+|İngilizcesi|Türkçe çevirisi|
+|:---:|:---:|
+|Old Testament's Book of Psalms, Psalm x, verses y and z|Eski Ahit'in Mezmurlar Kitabı, x. Mezmur, ayet y ve z|
+|Come, arise, forgive the sin, one of the seven stakes of Purgatory, lust!!!|Gel, yüksel, günahları affet, Araf'ın Yedi Kazığı'ndan, şehvet!!!|
+|Come, try closing your eyes. And try to remember. What form did you have? It was surely a very, very beautiful form. Please, show me that form one more time...|Gel, gözlerini kapatmayı dene. Ve hatırlamaya çalış. Senin nasıl bir formun vardı? Eminim çok, çok güzel bir formdu. Lütfen bana o formu bir kez daha göster...|
+|All it takes is the presence of x, and a deduction like this becomes trivial for Furudo Erika. Your thoughts, ladies and gentlemen?|Sadece x'in varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?|
+|I am one yet many|Ben biriyim ve de birçoğuyum|
+|It's no good, it's no goddamn good|Bu hiç iyi değil, hiç de iyi değil|

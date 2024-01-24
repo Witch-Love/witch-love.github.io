@@ -13,7 +13,7 @@ comments: true
 <!-- draft message -->
 
 !!! info "Kurulum"
-	Sol menüden oyunun kurulumuna ulaşabilirsiniz.
+	Sol menüden Türkçe patch'in kurulumuna ulaşabilirsiniz.
 
 !!! tip "Bilgi"
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](contributing/info.md) göz atabilirsiniz.

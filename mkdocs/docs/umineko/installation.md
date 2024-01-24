@@ -49,9 +49,9 @@ Windows kurulumu haricinde bir rehberimiz bulunmuyor fakat göz atmak isterseniz
 
 ## Başlangıç
 
-Her şeyden önce bilgisayarınızın herhangi bir yerinde yeni bir klasör oluşturun. İsmi önemli değil, istediğiniz ismi koyabilirsiniz. İndirdiğiniz dosyaları bu klasörde toplayacak ve oyunu bu klasörden başlatacaksınız.
+Her şeyden önce bilgisayarınızın herhangi bir yerinde yeni bir klasör oluşturun. İsmi önemli değil, istediğiniz ismi koyabilirsiniz. İndirdiğiniz dosyaların içeriklerini bu klasörde toplayacak ve oyunu bu klasörden başlatacaksınız.
 
-Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işlemlerine başlamak için Umineko Project'in sitesinde bulunan [Downloads](https://umineko-project.org/en/downloads/) sayfasını açalım ve her adımın resimlerinde gösterilen şekilde dosyaları indirelim.
+Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işlemlerine başlamak için Umineko Project'in sitesinde bulunan [Downloads](https://umineko-project.org/en/downloads/) sayfasını açalım ve her adımın resimlerinde gösterilen şekilde dosyaları indirelim. Hangi klasöre indirdiğiniz önemli değil, varsayılan `İndirilenler` klasörünüzde bulunabilirler.
 
 ***
 

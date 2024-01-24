@@ -9,7 +9,7 @@ comments: true
 	[Umineko Project](https://umineko-project.org/en/)'i henüz kurmadıysanız lütfen [1. adıma](installation.md) dönüp kurunuz.
 
 ???+ note "Steam Hakkında"
-	Herkesin Umineko'yu en iyi şekilde deneyimleyebilmesini dilediğimiz için oyunun steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
+	Herkesin Umineko'yu en iyi şekilde deneyimleyebilmesini dilediğimiz için oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
 
 ***
 
@@ -28,8 +28,11 @@ Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz a�
 
 ![Folder](https://i.imgur.com/DNmYRcC.png)
 
-Artık klasörünüzün içindeki `onscripter-ru.exe` dosyasından oyununuzu başlatabilirsiniz.  
-Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
+!!! success "Her şey tamam!"
+	Artık klasörünüzün içindeki `onscripter-ru.exe` dosyasından oyununuzu başlatabilirsiniz.  
+	Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
+
+***
 
 !!! note "Not"
 	Oyunda herhangi bir sorunla karşılaşmanız halinde yönetici olarak çalıştırmayı deneyin. Sorununuz muhtemelen çözülecektir.

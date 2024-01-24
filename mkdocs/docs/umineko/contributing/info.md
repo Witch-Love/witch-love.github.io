@@ -16,4 +16,4 @@ Dışarıdan gelen tüm katkılara tamamen açık olsak da geliştirdiğimiz bir
 
 Gerçekten katkıda bulunmak ve bizimle çeviri yapmak istiyorsanız kapımız her zaman açık! Lütfen bizimle [iletişim](../../contact.md)e geçin.
 
-İhtiyacınız olan tüm materyalleri ve çeviri araçlarımızı sizinle paylaşarak çeviriyi en efektif bir şekilde nasıl yapabileceğinizi açıklayacağız.
+İhtiyacınız olan tüm materyalleri ve çeviri araçlarımızı sizinle paylaşarak çeviriyi en etkili bir şekilde nasıl yapabileceğinizi açıklayacağız.

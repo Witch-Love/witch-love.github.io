@@ -23,17 +23,19 @@ document.addEventListener('DOMContentLoaded', function() {
           })
           .catch(error => console.error("Error fetching Umineko graphics data:", error));
       }
-    }/* else if (window.location.href.includes("higurashi")) {
-      var h_sc = document.querySelector("a[href^='https://github.com/Witch-Love/higurashi-scripting-tr/releases/']");
+    } else if (window.location.href.includes("higurashi")) {
+      var h_scAll = document.querySelectorAll("a[href^='https://github.com/Witch-Love/higurashi-scripting-tr/releases/']");
   
-      if (h_sc) {
-        fetch('https://api.github.com/repos/Witch-Love/higurashi-scripting-tr/releases/latest')
+      h_scAll.forEach(h_sc => {
+        if (h_sc){
+          fetch('https://api.github.com/repos/Witch-Love/higurashi-scripting-tr/releases/latest')
           .then(response => response.json())
           .then(data => {
             const latestVersion = data.tag_name;
             h_sc.innerHTML = h_sc.innerHTML + " (" + latestVersion + ")";
           })
           .catch(error => console.error("Error fetching Higurashi script data:", error));
-      }
-    }*/
+        }
+      });
+    }
   });

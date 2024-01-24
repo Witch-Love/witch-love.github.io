@@ -41,6 +41,7 @@ extra_javascript:
   - js/version.js
 extra_css:
   - css/admonitions.css
+  - css/custom.css
 
 # plugins
 plugins:
@@ -89,6 +90,7 @@ theme:
 
 markdown_extensions:
   - admonition
+  - tables
   - pymdownx.critic
   - pymdownx.caret
   - pymdownx.keys
