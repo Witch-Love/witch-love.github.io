@@ -22,6 +22,8 @@ Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediğ
 
 ***
 
+## Genel Çeviri İlerlemesi
+
 ???+ abstract "Not"
 	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
 
