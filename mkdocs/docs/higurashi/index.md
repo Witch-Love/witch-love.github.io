@@ -33,5 +33,3 @@ Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediğ
 - [ ] Chapter 8 (Matsuribayashi)
 - [ ] Chapter 9 (Rei)
 - [ ] Chapter 10 (Hou+)
-
-{!draft.md!}
