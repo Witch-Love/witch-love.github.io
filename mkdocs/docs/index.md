@@ -1,10 +1,12 @@
 # Ana Sayfa
 
+!!! announcement "Duyuru — 23/01/2024"
+    *Wiki henüz yapım aşamasındadır. Ulaşmaya çalıştığınız her içerik şu an için mevcut olmayabilir.*
+
+***
+
 !!! tip "İpucu"
     Sol menüden ilgili içeriğe tıklayarak hakkında detaylı bilgi alabilirsiniz.
-
-!!! draft "[23-01-2024] Duyuru"
-    *Sitemiz hâlâ yapım aşamasındadır. Her içerik şu an için mevcut olmayabilir.*
 
 ***
 
