@@ -4,10 +4,6 @@ comments: true
 
 # Umineko
 
-{!draft.md!}
-
-***
-
 !!! info "Kurulum"
 	Sol menüden Umineko Project ve Türkçe patch'in kurulumuna ulaşabilirsiniz.
 
@@ -21,7 +17,7 @@ Umineko Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği 
 ## Genel Çeviri İlerlemesi
 
 ???+ abstract "Not"
-	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek için [buraya](https://github.com/Witch-Love/umineko-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
+	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek istiyorsanız [buraya](https://github.com/Witch-Love/umineko-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
 
 - [x] Episode 1
 - [x] Episode 2

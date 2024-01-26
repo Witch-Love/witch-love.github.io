@@ -1,9 +1,9 @@
 # settings
 site_name: Witch Love Wiki
-site_url: https://witch-love.github.io/
+site_url: https://witch-love.github.io/wiki
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
-copyright: '&copy; All nipahs reserved'
+copyright: '&copy; 2024 All nipahs reserved'
 site_dir: wiki
 edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 
@@ -24,9 +24,7 @@ nav:
     - Katkıda Bulunmak:
       - higurashi/contributing/info.md
       - higurashi/contributing/rules.md
-  - Diğer:
-    - donation.md
-    - "Site'ye dön": https://witch-love.github.io/
+  - donation.md
   - contact.md
 
 # extra

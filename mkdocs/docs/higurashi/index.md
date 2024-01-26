@@ -4,10 +4,6 @@ comments: true
 
 # Higurashi
 
-{!draft.md!}
-
-***
-
 !!! info "Kurulum"
 	Sol menüden Türkçe patch'in kurulumuna ulaşabilirsiniz.
 
@@ -21,15 +17,17 @@ Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediğ
 ## Genel Çeviri İlerlemesi
 
 ???+ abstract "Not"
-	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek için [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
+	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek istiyorsanız [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
 
-- [ ] Chapter 1 (Onikakushi)
-- [ ] Chapter 2 (Watanagashi)
-- [ ] Chapter 3 (Tatarigoroshi)
-- [ ] Chapter 4 (Himatsubushi)
-- [ ] Chapter 5 (Meakashi)
-- [ ] Chapter 6 (Tsumihoroboshi)
-- [ ] Chapter 7 (Minagoroshi)
-- [ ] Chapter 8 (Matsuribayashi)
-- [ ] Chapter 9 (Rei)
-- [ ] Chapter 10 (Hou+)
+- Ana Hikaye
+    - [ ] Chapter 1 (Onikakushi)
+    - [ ] Chapter 2 (Watanagashi)
+    - [ ] Chapter 3 (Tatarigoroshi)
+    - [ ] Chapter 4 (Himatsubushi)
+    - [ ] Chapter 5 (Meakashi)
+    - [ ] Chapter 6 (Tsumihoroboshi)
+    - [ ] Chapter 7 (Minagoroshi)
+    - [ ] Chapter 8 (Matsuribayashi)
+- Bonus
+    - [ ] Chapter 9 (Rei)
+    - [ ] Chapter 10 (Hou+)
