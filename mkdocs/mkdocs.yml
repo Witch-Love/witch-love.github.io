@@ -35,10 +35,15 @@ extra:
       link: https://discord.gg/jyD5jn9Vpd
     - icon: fontawesome/brands/youtube 
       link: https://www.youtube.com/@Singularityy
+  status:
+    new: Yeni
+    deprecated: Yakında kaldırılacak
+    draft: Taslak sayfa
 extra_javascript:
   - js/version.js
 extra_css:
   - css/admonitions.css
+  - css/status.css
   - css/custom.css
 
 # plugins
@@ -62,7 +67,9 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   icon:
-    logo: material/book
+    admonition:
+      note: octicons/bookmark-24
+    logo: fontawesome/solid/book-open
     edit: material/pencil 
     view: material/eye
   features:

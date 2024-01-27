@@ -1,9 +1,10 @@
 ---
 icon: material/download
 comments: true
+title: 1. Umineko Project
 ---
 
-# 1. Umineko Project
+# Umineko Project Kurulumu
 
 !!! abstract "Not"
 	Bu sayfa [Umineko Project](https://umineko-project.org/en/)'in kurulumu içermektedir.  

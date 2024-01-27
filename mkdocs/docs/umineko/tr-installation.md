@@ -1,9 +1,10 @@
 ---
 icon: material/download
 comments: true
+title: 2. Türkçe Patch
 ---
 
-# 2. Türkçe Patch
+# Türkçe Patch Kurulumu
 	
 !!! info "Bilgi"
 	[Umineko Project](https://umineko-project.org/en/)'i henüz kurmadıysanız lütfen [1. adıma](installation.md) dönüp kurunuz.

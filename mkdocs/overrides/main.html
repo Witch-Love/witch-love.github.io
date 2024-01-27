@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
+  {% if page and page.meta and page.meta.status and page.meta.status == 'draft' %}
+    <div class="admonition draft">
+      <p class="admonition-title">Taslak</p>
+      <p><i>Bu sayfada eksiklikler bulunuyor. Çok geçmeden dolduracağız!<br>
+      Sayfanın çok uzun zamandır taslak olarak durduğunu ve eksik şeyler olduğunu düşünüyorsanız bizimle iletişime geçin.</i></p>
+    </div>
+    <hr />
+  {% endif %}
   {{ super() }}
   <!-- bonus content -->
 {% endblock %}
