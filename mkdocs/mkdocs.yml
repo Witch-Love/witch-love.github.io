@@ -39,6 +39,9 @@ extra:
     new: Yeni
     deprecated: Yakında kaldırılacak
     draft: Taslak sayfa
+  analytics:
+    provider: google
+    property: G-D9MFM5S3BH
 extra_javascript:
   - js/version.js
 extra_css:
