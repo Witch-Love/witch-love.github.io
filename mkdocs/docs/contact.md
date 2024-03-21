@@ -5,9 +5,9 @@
 
 ## Singularity
 * :fontawesome-brands-discord: singulariity
-* :octicons-mail-24: singulariity yandex com
+* :octicons-mail-24: singularity witch-love com
 
 ## Folivore
 * :fontawesome-brands-discord: folivore
-* :octicons-mail-24: nexustritech outlook com
+* :octicons-mail-24: folivore witch-love com
 ***
