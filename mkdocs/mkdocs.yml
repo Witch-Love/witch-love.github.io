@@ -1,6 +1,6 @@
 # settings
 site_name: Witch Love Wiki
-site_url: https://witch-love.github.io/wiki
+site_url: https://witch-love.com/wiki
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
 copyright: '&copy; 2024 All nipahs reserved'
@@ -29,7 +29,7 @@ nav:
 
 # extra
 extra:
-  homepage: https://witch-love.github.io/
+  homepage: https://witch-love.com/
   social:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/jyD5jn9Vpd
