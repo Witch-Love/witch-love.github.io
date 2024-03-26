@@ -6,6 +6,22 @@
     --md-code-fg-color: #000000
 }
 
+.md-typeset table:not([class]) {
+    border: none;
+    border-top: .05rem solid var(--md-typeset-table-color);
+    border-bottom: .05rem solid var(--md-typeset-table-color);
+    border-right: .05rem solid var(--md-typeset-table-color);
+}
+
+.md-typeset table:not([class]) th {
+    font-size: 0.72rem;
+    color: var(--md-code-fg-color)
+}
+
+th, td {
+    border-inline-start: .05rem solid var(--md-typeset-table-color);
+}
+
 table {
     border-collapse: separate !important;
 }
