@@ -12,6 +12,8 @@ Bize ve projelerimize destek olup moral sağlamak istiyorsanız aşağıdaki se�
 
 Bağışları genellikle GitHub üzerinden alıyoruz. GitHub aracılığıyla bağışta bulunmak için [**buraya**](https://github.com/sponsors/Witch-Love) göz atabilirsiniz.
 
+<iframe src="https://github.com/sponsors/Witch-Love/button" title="Sponsor Witch-Love" height="32" width="120" style="border: 0; border-radius: 6px;"></iframe>
+
 ### 2. Papara
 
 Papara üzerinden bağışta bulunmak için `3621883754` papara numarasını kullanabilirsiniz.
