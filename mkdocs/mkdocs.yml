@@ -10,18 +10,18 @@ edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 # navigation
 nav:
   - index.md
-  - <b>Umineko</b>:
+  - Umineko:
     - umineko/index.md
     - Kurulum:
       - umineko/installation.md
       - umineko/tr-installation.md
-    - Katkıda Bulunmak:
+    - Katkıda Bulunma:
       - umineko/contributing/info.md
       - umineko/contributing/rules.md
-  - <b>Higurashi</b>:
+  - Higurashi:
     - higurashi/index.md
     - higurashi/installation.md
-    - Katkıda Bulunmak:
+    - Katkıda Bulunma:
       - higurashi/contributing/info.md
       - higurashi/contributing/rules.md
   - donation.md
@@ -85,6 +85,9 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -126,7 +129,8 @@ markdown_extensions:
   - md_in_html
   - footnotes
   - toc:
-      permalink: true
+      title: İçindekiler
+      permalink: ⚓︎
       permalink_title: Bağlantıyı kopyala
       toc_depth: 5
   - markdown_include.include:

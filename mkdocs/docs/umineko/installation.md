@@ -1,5 +1,4 @@
 ---
-icon: material/download
 comments: true
 title: 1. Umineko Project
 ---

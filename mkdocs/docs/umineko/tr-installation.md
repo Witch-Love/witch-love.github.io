@@ -1,5 +1,4 @@
 ---
-icon: material/download
 comments: true
 title: 2. Türkçe Patch
 ---
