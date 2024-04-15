@@ -133,5 +133,3 @@ markdown_extensions:
       permalink: ⚓︎
       permalink_title: Bağlantıyı kopyala
       toc_depth: 5
-  - markdown_include.include:
-      base_path: snippets
