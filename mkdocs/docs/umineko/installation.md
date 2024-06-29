@@ -80,13 +80,21 @@ Arşiv dosyasını açtıktan sonra içindeki tüm dosyaları önceden oluşturm
 
 ## 2. Scripts İndirmesi
 
-Bu adım oldukça basit. Hemen alttaki linkten oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
+Bu adım oldukça basit. Hemen alttaki butondan oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
 
 [:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip){ .md-button .md-button--primary }
 
 ***
 
-## 3. Game Engine İndirmesi
+## 3. Güncelleme İndirmesi
+
+Üstteki adımla aynı. Umineko Project tamamlandıktan sonra yapılan güncelleme dosyalarını içerir.
+
+[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4053/extra_02.03.24.zip){ .md-button .md-button--primary }
+
+***
+
+## 4. Game Engine İndirmesi
 
 ![Game Engines](https://i.imgur.com/F35o4lp.png)
 
@@ -97,7 +105,7 @@ Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indir
 
 ***
 
-## 4. Kurulum Tamamlandı
+## 5. Kurulum Tamamlandı
 
 !!! success "Her şey tamam!"
 	Bu adımla beraber Umineko Project kurulumu tamamlandı. `onscripter-ru.exe` dosyasından oyunu başlatabilirsiniz.  
