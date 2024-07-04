@@ -6153,6 +6153,10 @@ section:not(#nav, #home) {
 	to {margin-left: 0%; opacity: 1;}
 }
 
+#home {
+	box-shadow: 45px -12px 75px 15px black inset;
+}
+
   .bg-umineko {
 	background-color: #000000;
 	background-image: url("../img/umineko.webp") !important;
