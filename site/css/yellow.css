@@ -6142,17 +6142,15 @@
 	transform: translate(-50%, -50%);
   }
 
-@media (prefers-reduced-motion: no-preference) {
-	section:not(#nav, #home) {
-		margin-left: 5%;
-		opacity: 0;
-		animation: fade-in linear forwards;
-		animation-timeline: view(100% 40%);
-	}
-	
-	@keyframes fade-in {
-		to {margin-left: 0%; opacity: 1;}
-	}
+section:not(#nav, #home) {
+	margin-left: 5%;
+	opacity: 0;
+	animation: fade-in linear forwards;
+	animation-timeline: view(100% 40%);
+}
+
+@keyframes fade-in {
+	to {margin-left: 0%; opacity: 1;}
 }
 
   .bg-umineko {
