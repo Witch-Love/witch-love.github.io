@@ -4,7 +4,7 @@
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.
 
 ???+ danger "!! SPOILER UYARISI !!"
-	**Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikaye üzerindeki muhakemenizi (akıl yürütmenizi) muhtemelen etkileyecek. Bu nedenle buraya yalnızca Umineko'ya hakimseniz bakmanızı öneriyoruz.**
+	**Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir. Bu nedenle buraya yalnızca Umineko'ya hakimseniz bakmanızı öneriyoruz. Lütfen spoilerlar konusunda dikkatli olun.**
 
 ***
 
@@ -13,6 +13,7 @@
 1.  =="sen" ve "siz" hitapları hakkında==  
     Sen ve siz hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
     * Battler'ın okuyuculara hitap ettiği cümleler `-siz` olmalı.
+    * Ronove'nin Battler'a hitap ettiği cümleler `-siz` olmalı.
     * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
     * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Bunda da bazı istisnalar var.
 2.  ==İngilizce kelimeler==  
