@@ -25,6 +25,12 @@
     * <Good\>
 3.  ==Özel durumlar ve diğer==
     * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
+    * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok kullandığımz bazı kelimeler:
+        * Hâlâ/Hâlen
+        * Hizmetkâr
+        * İmkân/İmkânsız
+        * İnkâr
+        * Rüzgâr
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
         * `Aaaahh`, `Oooooohh!`, `KyAAAAAAAAAAAAAA`
