@@ -30,6 +30,7 @@
         * Hizmetkâr
         * İmkân/İmkânsız
         * İnkâr
+        * Malikâne
         * Rüzgâr
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
@@ -89,13 +90,13 @@
 * Lounge `->` Bekleme Salonu
 * Love `->` Aşk *`(büyüye yönelik söylenmiyorsa duruma bağlı)`*
 * Magic `->` Büyü
-* Mansion `->` Malikane
+* Mansion `->` Malikâne / Köşk *`(Kuwadorian'a yönelik ise)`*
 * Master `->` Efendi *`(Kinzo için)`* - Usta *`(Virgilia için)`*
 * Master Key `->` Master Anahtar
 * Milady `->` Leydim
 * Mistress `->` Metres
 * Narrative `->` Anlatı
-* North Wind and the Sun `->` Güneş ve Kuzey Rüzgarı
+* North Wind and the Sun `->` Güneş ve Kuzey Rüzgârı
 * Objection `->` İtiraz
 * Old Testament `->` Eski Ahit
 * Parlor `->` Salon
