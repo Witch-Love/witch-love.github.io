@@ -27,10 +27,12 @@
     * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
     * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok kullandığımz bazı kelimeler:
         * Hâlâ/Hâlen
+        * Hikâye
         * Hizmetkâr
         * İmkân/İmkânsız
         * İnkâr
         * Malikâne
+        * Pekâlâ
         * Rüzgâr
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
