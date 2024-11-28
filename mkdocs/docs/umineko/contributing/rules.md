@@ -117,6 +117,7 @@
 * Servants' Quarters `->` Hizmetkâr Koğuşu
 * Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * Shutter `->` Kepenk
+* Stalemate `->` Pat
 * Storehouse `->` Ambar
 * Study `->` Çalışma Odası
 * Successor `->` Halef
