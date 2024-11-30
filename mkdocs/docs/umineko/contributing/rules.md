@@ -4,7 +4,7 @@
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.
 
 ???+ danger "!! SPOILER UYARISI !!"
-	**Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir. Bu nedenle buraya yalnızca Umineko'ya hakimseniz bakmanızı öneriyoruz. Lütfen spoilerlar konusunda dikkatli olun.**
+	Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir. Bu nedenle buraya yalnızca Umineko'ya gerçekten hakimseniz bakmanızı öneriyoruz. Spoilerlar konusunda lütfen dikkatli olun.
 
 ***
 
@@ -57,6 +57,7 @@
 * Chapel `->` Kilise
 * Circumstantial Evidence `->` Dolaylı Kanıt
 * Conference `->` Konferans
+* Contract `->` Sözleşme
 * Courtroom `->` Mahkeme Salonu
 * Culprit `->` Suçlu
 * Crest `->` Arma
