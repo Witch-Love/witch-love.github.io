@@ -2,21 +2,22 @@
 
 {% block content %}
   {% if page and page.meta and page.meta.status and page.meta.status == 'draft' %}
-    <div class="admonition draft">
-      <p class="admonition-title">Taslak</p>
-      <p><i>Bu sayfada eksiklikler bulunuyor. Çok geçmeden dolduracağız!<br>
-      Sayfanın çok uzun zamandır taslak olarak durduğunu ve eksik şeyler olduğunu düşünüyorsanız bizimle iletişime geçin.</i></p>
-    </div>
+    <details class="draft" open="open">
+      <summary>Taslak</summary>
+      <p>Bu sayfa, içeriği henüz tamamlanmamış olduğundan taslak bir sayfadır.<br />
+      Buranın gereğinden uzun bir süredir taslak olarak kaldığını düşünüyorsanız bizimle iletişime geçebilirsiniz.</p>
+    </details>
     <hr />
   {% endif %}
   {{ super() }}
   <!-- bonus content -->
 {% endblock %}
 
-{% block extrahead %}
-  <meta content="Witch Love Wiki" property="og:title" />
-  <meta content="Sevgiyle çeviri" property="og:description" />
-  <meta content="https://witch-love.com" property="og:url" />
-  <meta content="https://witch-love.com/img/embedimage.jpg" property="og:image" />
-  <meta content="#ECD246" data-react-helmet="true" name="theme-color" />
+{% block meta %}
+  {{ super() }}
+  <meta property="og:title" content="Witch Love Wiki | {{ page.title | e }}" />
+  <meta property="og:description" content="{{ page.meta.description | default('Sevgiyle çeviri') | e }}" />
+  <meta property="og:url" content="{{ base_url | e }}{{ page.url | e }}" />
+  <meta property="og:image" content="{{ page.meta.image | default('https://witch-love.com/img/embedimage.jpg') | e }}" />
+  <meta content="#ecd246" data-react-helmet="true" name="theme-color" />
 {% endblock %}
