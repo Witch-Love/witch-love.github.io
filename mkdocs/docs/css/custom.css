@@ -1,11 +1,19 @@
 [data-md-color-scheme="slate"] {
-    --md-code-fg-color: #d4c166;
+    /* --md-code-fg-color: #d4c166; */
     --md-typeset-mark-color: #f155a3;
+    --md-code-hl-color: #34ce497b;
+    --md-code-hl-color--light: #2fad462d;
+
+    --md-codeblock-name-color: #82b0ff;
 }
 
 [data-md-color-scheme="default"] {
-    --md-code-fg-color: #d31775;
+    /* --md-code-fg-color: #d31775; */
     --md-typeset-mark-color: #145fe1;
+    --md-code-hl-color: #28a2387b;
+    --md-code-hl-color--light: #2fad4634;
+
+    --md-codeblock-name-color: #3638c3;
 }
 
 .md-typeset table:not([class]) {
@@ -20,7 +28,7 @@
     color: var(--md-code-fg-color)
 }
 
-th, td {
+th:not(.filename), td:not(.linenos, .code) {
     border-inline-start: .05rem solid var(--md-typeset-table-color);
 }
 

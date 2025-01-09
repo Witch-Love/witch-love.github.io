@@ -13,11 +13,16 @@
   <!-- bonus content -->
 {% endblock %}
 
-{% block meta %}
+{% block extrahead %}
   {{ super() }}
-  <meta property="og:title" content="Witch Love Wiki | {{ page.title | e }}" />
-  <meta property="og:description" content="{{ page.meta.description | default('Sevgiyle çeviri') | e }}" />
-  <meta property="og:url" content="{{ base_url | e }}{{ page.url | e }}" />
-  <meta property="og:image" content="{{ page.meta.image | default('https://witch-love.com/img/embedimage.jpg') | e }}" />
-  <meta content="#ecd246" data-react-helmet="true" name="theme-color" />
+  {% if page %}
+    <meta property="og:title" content="Witch Love Wiki | {{ page.title | e }}" />
+    <meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
+    <meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="{{ page.meta.image | default('https://witch-love.com/img/embedimage.jpg') | e }}" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="theme-color" content="{{ page.meta.color | default('#ecd246') | e }}" />
+  {% endif %}
 {% endblock %}

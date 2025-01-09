@@ -1,5 +1,6 @@
 # settings
 site_name: Witch Love Wiki
+site_description: Umineko başta olmak üzere, sevgi ve saygı duyduğumuz Türkçe olmayan eserleri büyük bir özenle Türkçe'ye çevirerek daha fazla insana ulaştırabilmeyi amaçlıyoruz.
 site_url: https://witch-love.com/wiki
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
@@ -24,6 +25,9 @@ nav:
     - Katkıda Bulunma:
       - higurashi/contributing/info.md
       - higurashi/contributing/rules.md
+  - For Developers:
+    - Umineko Project:
+      - umineko/creating-translations.md
   - donation.md
   - contact.md
 
@@ -70,10 +74,8 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   icon:
-    admonition:
-      note: octicons/bookmark-24
     logo: fontawesome/solid/book-open
-    edit: material/pencil 
+    edit: material/pencil
     view: material/eye
   features:
     - navigation.indexes
@@ -133,3 +135,6 @@ markdown_extensions:
       permalink: ⚓︎
       permalink_title: Bağlantıyı kopyala
       toc_depth: 5
+
+watch:
+  - overrides
