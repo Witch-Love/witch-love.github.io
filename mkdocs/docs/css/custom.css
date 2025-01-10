@@ -5,7 +5,8 @@
     --md-code-hl-color--light: #2fad462d;
 
     --md-primary-fg-color: hsla(var(--md-hue),15%,8%,1);
-    --md-accent-fg-color: #cc990e;
+    --md-accent-fg-color: #d7c416;
+    --md-typeset-a-color: hsl(191, 56%, 58%) !important;
 
     --md-codeblock-name-color: #82b0ff;
     --background-image: url("../img/background.png")
@@ -17,34 +18,11 @@
     --md-code-hl-color: #28a2387b;
     --md-code-hl-color--light: #2fad4634;
 
-    --md-accent-fg-color: #cc990e;
-    
+    --md-accent-fg-color: #f7c641;
+    --md-typeset-a-color: hsl(191, 81%, 49%) !important;
+        
     --md-codeblock-name-color: #3638c3;
     --background-image: url("../img/background-white.png")
-}
-
-.md-typeset table:not([class]) {
-    border: none;
-    border-top: .05rem solid var(--md-typeset-table-color);
-    border-bottom: .05rem solid var(--md-typeset-table-color);
-    border-right: .05rem solid var(--md-typeset-table-color);
-}
-
-.md-typeset table:not([class]) th {
-    font-size: 0.72rem;
-    color: var(--md-code-fg-color)
-}
-
-th:not(.filename), td:not(.linenos, .code) {
-    border-inline-start: .05rem solid var(--md-typeset-table-color);
-}
-
-table {
-    border-collapse: separate !important;
-}
-
-.md-typeset {
-    --md-typeset-table-color: var(--md-primary-fg-color);
 }
 
 @keyframes heart {
@@ -90,7 +68,7 @@ mark {
         background-attachment: fixed;
         background-size: auto 70vh;
     }
-    
+        
     body::before {
         position: fixed;
         z-index: -100;
@@ -99,10 +77,29 @@ mark {
         content: "";
         background: var(--md-default-bg-color);
         opacity: 0.5;
-    
+        
     }
 }
 
 [dir=ltr] .md-header__title {
     margin-left: 0.2rem;
+}
+
+.md-typeset table:not([class]) {
+    border: none;
+    box-shadow: var(--md-shadow-z2);
+
+    tr:hover {
+        background-color: rgba(0,0,0,.08);
+    }
+
+    th {
+        color: var(--md-primary-bg-color);
+        background-color: var(--md-primary-fg-color);
+        border-bottom: .06rem solid var(--md-accent-fg-color);
+    }
+
+    td {
+        border-top: .06rem solid var(--md-default-fg-color--lighter);
+    }
 }

@@ -4,7 +4,7 @@
 		{
 			"label": "MkDocs Serve",
 			"type": "shell",
-			"command": "cd mkdocs;mkdocs serve --watch snippets",
+			"command": "cd mkdocs;mkdocs serve",
 			"problemMatcher": [],
 			"group": {
 				"kind": "build",

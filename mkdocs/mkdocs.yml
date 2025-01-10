@@ -52,11 +52,11 @@ extra_css:
   - css/admonitions.css
   - css/status.css
   - css/custom.css
-  - css/image_modals.css
 
 # plugins
 plugins:
   - search
+  - glightbox
   - git-revision-date-localized:
       enabled: true
       enable_creation_date: true
