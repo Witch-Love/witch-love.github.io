@@ -1,15 +1,15 @@
 ---
 comments: true
-title: 2. Türkçe Patch
 ---
 
 # Türkçe Patch Kurulumu
 	
 !!! info "Bilgi"
-	[Umineko Project](https://umineko-project.org/en/)'i henüz kurmadıysanız lütfen [1. adıma](installation.md) dönüp kurunuz.
+	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız öncelikle [1. adıma](installation.md) dönüp kurunuz.
 
 ???+ question "Steam desteği neden yok?"
-	Umineko'yu okuyan herkesin eseri en iyi şekilde deneyimlemesini dilediğimiz için oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
+	**Umineko Project**'in, oyunun en iyi ve deneyimlenmesi gereken versiyonu olduğunu savunuyor, Umineko'yu okuyan herkesin de eseri en iyi şekilde tecrübe etmesini istiyoruz.  
+	Bu sebeple oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
 
 ***
 
@@ -26,11 +26,11 @@ Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve 
 
 Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz aşağıdaki şekilde görünmeli. Eğer ekstra bir klasör bulunuyorsa ya da eksik varsa bir şeyleri yanlış yapmış olma ihtimaliniz yüksek. Bir hata almanız durumunda adımları yeniden kontrol etmenizi öneririz.
 
-![Folder](https://i.imgur.com/DNmYRcC.png)
+![Umineko Project klasörü](../img/umineko_folder.png){ modal=true }
 
 !!! success "Her şey tamam!"
-	Artık klasörünüzün içindeki `onscripter-ru.exe` dosyasından oyununuzu başlatabilirsiniz.  
-	Oyunu açtıktan sonra oyun dilini `Witch Love` olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
+	Artık klasörünüzün içindeki ==onscripter-ru.exe== dosyasından oyununuzu başlatabilirsiniz.  
+	Oyunu açtıktan sonra oyun dilini ==Witch Love== olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
 
 ***
 

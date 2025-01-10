@@ -5,7 +5,7 @@ comments: true
 # Higurashi
 
 !!! info "Kurulum"
-	Sol menüden Türkçe patch'in kurulumuna ulaşabilirsiniz.
+	Sol menüden Türkçe patch kurulumuna ulaşabilirsiniz.
 
 !!! tip "Bilgi"
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](contributing/info.md) göz atabilirsiniz.
@@ -16,7 +16,7 @@ Higurashi Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediğ
 
 ## Genel Çeviri İlerlemesi
 
-???+ abstract "Not"
+???+ note "Not"
 	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek istiyorsanız [buraya](https://github.com/Witch-Love/higurashi-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
 
 - Ana Hikaye

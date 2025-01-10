@@ -4,7 +4,7 @@ site_description: Umineko başta olmak üzere, sevgi ve saygı duyduğumuz Türk
 site_url: https://witch-love.com/wiki
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
-copyright: '&copy; 2024 All nipahs reserved'
+copyright: '&copy; 2025 All nipahs reserved'
 site_dir: wiki
 edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 
@@ -14,8 +14,8 @@ nav:
   - Umineko:
     - umineko/index.md
     - Kurulum:
-      - umineko/installation.md
-      - umineko/tr-installation.md
+      - 1. Umineko Project: umineko/installation.md
+      - 2. Türkçe Patch: umineko/tr-installation.md
     - Katkıda Bulunma:
       - umineko/contributing/info.md
       - umineko/contributing/rules.md

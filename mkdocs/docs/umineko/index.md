@@ -5,7 +5,7 @@ comments: true
 # Umineko
 
 !!! info "Kurulum"
-	Sol menüden Umineko Project ve Türkçe patch'in kurulumuna ulaşabilirsiniz.
+	Sol menüden Umineko Project ve Türkçe patch kurulumlarına ulaşabilirsiniz.
 
 !!! tip "Bilgi"
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](contributing/info.md) göz atabilirsiniz.
@@ -16,7 +16,7 @@ Umineko Türkçe çeviri projemiz açık kaynaktır ve isteyen herkes istediği 
 
 ## Genel Çeviri İlerlemesi
 
-???+ abstract "Not"
+???+ note "Not"
 	Çevirinin ilerlemesini buraya düzenli ve detaylı olarak yansıtmıyoruz. Çevirinin ilerlemesini detaylı olarak incelemek istiyorsanız [buraya](https://github.com/Witch-Love/umineko-scripting-tr#i%CC%87lerleme) göz atabilirsiniz.
 
 - [x] Episode 1

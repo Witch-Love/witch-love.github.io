@@ -4,7 +4,9 @@
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.
 
 ???+ danger "!! SPOILER UYARISI !!"
-	Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir. Bu nedenle buraya yalnızca Umineko'ya gerçekten hakimseniz bakmanızı öneriyoruz. Spoilerlar konusunda lütfen dikkatli olun.
+	Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir.  
+    Bu nedenle buraya yalnızca Umineko'ya gerçekten hakimseniz bakmanızı öneriyoruz.  
+    ^^Spoilerlar konusunda lütfen dikkatli olun.^^
 
 ***
 

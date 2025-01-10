@@ -18,7 +18,8 @@ function externalLinkIcons() {
 			if (link.className != "") return;
 
 			for (node of link.childNodes) {
-				if (node.constructor.name == 'Text') {
+				console.log(node.nodeName)
+				if (node.constructor.name == 'Text' /* || node.nodeName == 'ABBR' */) {
 					link.innerHTML = link.innerHTML + link_icon;
 					break;
 				}

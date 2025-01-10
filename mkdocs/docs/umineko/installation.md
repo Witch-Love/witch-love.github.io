@@ -1,6 +1,5 @@
 ---
 comments: true
-title: 1. Umineko Project
 ---
 
 # Umineko Project Kurulumu
@@ -108,7 +107,7 @@ Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indir
 ## 5. Kurulum Tamamlandı
 
 !!! success "Her şey tamam!"
-	Bu adımla beraber Umineko Project kurulumu tamamlandı. `onscripter-ru.exe` dosyasından oyunu başlatabilirsiniz.  
+	Bu adımla beraber Umineko Project kurulumu tamamlandı. ==onscripter-ru.exe== dosyasından oyunu başlatabilirsiniz.  
 	Bazı bilgisayarlarda kayıt ederken sorun oluşabildiği için yönetici olarak çalıştırmanızı öneririz.
 
-	Türkçe Patch kurulumu için sonraki sayfaya ilerleyin.
+	Türkçe Patch kurulumu için [2. adıma](tr-installation.md) geçebilirsiniz.
