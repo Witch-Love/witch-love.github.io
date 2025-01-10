@@ -1,12 +1,12 @@
 /* Style the Image Used to Trigger the Modal */
 img[modal="true"] {
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 img[modal="true"]:hover {
   border-radius: 5px;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .no-scroll {

@@ -1,7 +1,7 @@
 # İletişim
 
 !!! info "Bilgi"
-	Bize ulaşmanızın en hızlı yolu **[Discord sunucumuz](https://discord.gg/jyD5jn9Vpd)**a katılmak! :handshake:
+	Bize ulaşmanızın en hızlı yolu **[Discord](https://discord.gg/jyD5jn9Vpd)** sunucumuza katılmak! :handshake:
 
 ## Singularity
 * :fontawesome-brands-discord: singulariity
