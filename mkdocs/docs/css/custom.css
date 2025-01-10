@@ -74,3 +74,15 @@ mark {
     font-feature-settings: "kern";
     font-family: var(--md-code-font-family);
 }
+
+body {
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-attachment: fixed;
+    background-size: 26vw 80vh;
+}
+
+[dir=ltr] .md-header__title {
+    margin-left: 0rem;
+}

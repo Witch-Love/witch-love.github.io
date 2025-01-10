@@ -41,17 +41,18 @@ extra:
       link: https://www.youtube.com/@Singularityy
   status:
     new: Yeni
-    deprecated: Yakında kaldırılacak
-    draft: Taslak sayfa
+    deprecated: Kullanım dışı
+    draft: Taslak
   analytics:
     provider: google
     property: G-D9MFM5S3BH
 extra_javascript:
-  - js/version.js
+  - js/custom.js
 extra_css:
   - css/admonitions.css
   - css/status.css
   - css/custom.css
+  - css/image_modals.css
 
 # plugins
 plugins:
@@ -74,13 +75,13 @@ theme:
   custom_dir: overrides
   favicon: img/favicon.ico
   icon:
-    logo: fontawesome/solid/book-open
+    logo: butterfly
     edit: material/pencil
-    view: material/eye
   features:
     - navigation.indexes
     - navigation.footer
     - navigation.top
+    - content.tooltips
     - content.tabs.link
     - content.code.copy
     - content.action.edit
@@ -125,6 +126,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list

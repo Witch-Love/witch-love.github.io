@@ -6,7 +6,7 @@ title: 1. Umineko Project
 # Umineko Project Kurulumu
 
 !!! abstract "Not"
-	Bu sayfa [Umineko Project](https://umineko-project.org/en/)'in kurulumu içermektedir.  
+	Bu sayfa [Umineko Project](https://umineko-project.org/en/) kurulumunu içermektedir.  
 	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](tr-installation.md) geçebilirsiniz.
 
 ???+ warning "Umineko Project: Önemli Telif Hakkı Uyarısı"
@@ -59,7 +59,7 @@ Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işle
 
 Şimdi burada önemli bir kısım var. Burada indireceğiniz 12 dosyanın hepsi aslında tek bir dosyanın bölünmüş hali. Yani, buradaki tüm dosyaları indirene kadar bu dosyaları `(yani dosyayı)` açamazsınız.
 
-![Resources](https://i.imgur.com/0a5u0Or.png)
+![Resources](../img/umineko_resources.png){ modal=true }
 
 ^^SADECE AMA SADECE^^ bu 12 dosyanın hepsinin indirmesi tamamlandıktan ve hepsini aynı klasörde topladıktan sonra `umiproj_31.12.19.7z.001` adlı dosyayı açabileceksiniz.
 
@@ -82,7 +82,7 @@ Arşiv dosyasını açtıktan sonra içindeki tüm dosyaları önceden oluşturm
 
 Bu adım oldukça basit. Hemen alttaki butondan oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
 
-[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4050/umineko-main-scripts_r4050.zip){ .md-button .md-button--primary }
+[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4058/umineko-main-scripts_r4058.zip){ .md-button .md-button--primary }
 
 ***
 
@@ -90,13 +90,13 @@ Bu adım oldukça basit. Hemen alttaki butondan oyunun scriptlerinin bulunduğu 
 
 Üstteki adımla aynı. Umineko Project tamamlandıktan sonra yapılan güncelleme dosyalarını içerir.
 
-[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4053/extra_02.03.24.zip){ .md-button .md-button--primary }
+[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4058/extra_04.01.25.zip){ .md-button .md-button--primary }
 
 ***
 
 ## 4. Game Engine İndirmesi
 
-![Game Engines](https://i.imgur.com/F35o4lp.png)
+![Game Engines](../img/umineko_gameengines.png){ modal=true }
 
 Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indirin ve klasörünüze çıkartın.
 

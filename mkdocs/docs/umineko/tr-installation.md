@@ -8,8 +8,8 @@ title: 2. Türkçe Patch
 !!! info "Bilgi"
 	[Umineko Project](https://umineko-project.org/en/)'i henüz kurmadıysanız lütfen [1. adıma](installation.md) dönüp kurunuz.
 
-???+ note "Steam Hakkında"
-	Herkesin Umineko'yu en iyi şekilde deneyimleyebilmesini dilediğimiz için oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
+???+ question "Steam desteği neden yok?"
+	Umineko'yu okuyan herkesin eseri en iyi şekilde deneyimlemesini dilediğimiz için oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
 
 ***
 
