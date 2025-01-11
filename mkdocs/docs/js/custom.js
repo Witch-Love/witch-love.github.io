@@ -16,7 +16,6 @@ function externalLinkIcons() {
 			if (link.className != "") return;
 
 			for (node of link.childNodes) {
-				console.log(node.nodeName)
 				if (node.constructor.name == 'Text' || node.nodeName != 'IMG') {
 					link.innerHTML = link.innerHTML + link_icon;
 					break;

@@ -2,18 +2,18 @@
 comments: true
 ---
 
-# Türkçe Patch Kurulumu
+# Türkçe Yama Kurulumu
 	
 !!! info "Bilgi"
 	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız öncelikle [1. adıma](installation.md) dönüp kurunuz.
 
-???+ question "Steam desteği neden yok?"
-	**Umineko Project**'in, oyunun en iyi ve deneyimlenmesi gereken versiyonu olduğunu savunuyor, Umineko'yu okuyan herkesin de eseri en iyi şekilde tecrübe etmesini istiyoruz.  
-	Bu sebeple oyunun Steam versiyonuna ve **07th-mod**'a desteğimiz yoktur ve gelecekte de olmayacaktır.
+--8<-- "faq/steam_support.md"
+
+--8<-- "faq/tr_patch_update.md"
 
 ***
 
-## Türkçe Dosyaların İndirmesi
+## Türkçe Dosyalar
 
 Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve ikisini de **Umineko Project**'in kurulu olduğu klasörünüze çıkartın.
 
@@ -22,25 +22,10 @@ Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve 
 
 ***
 
-## Kurulum Tamamlandı
+!!! success "Kurulum tamamlandı!"
+	Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz resimdekine benzer görünmeli. Eğer ekstra bir klasör bulunuyorsa ya da eksiklikler varsa kurulum esnasında bir şeyleri hatalı yapmış olma ihtimaliniz yüksek. Bir hata almanız durumunda kurulum adımlarını tekrar gözden geçirmenizi öneririz.
 
-Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz aşağıdaki şekilde görünmeli. Eğer ekstra bir klasör bulunuyorsa ya da eksik varsa bir şeyleri yanlış yapmış olma ihtimaliniz yüksek. Bir hata almanız durumunda adımları yeniden kontrol etmenizi öneririz.
+	Oyunu açtıktan sonra oyun dilini ==Witch Love== olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır.  
+	İyi okumalar!
 
-![Umineko Project klasörü](../img/umineko_folder.png){ modal=true }
-
-!!! success "Her şey tamam!"
-	Artık klasörünüzün içindeki ==onscripter-ru.exe== dosyasından oyununuzu başlatabilirsiniz.  
-	Oyunu açtıktan sonra oyun dilini ==Witch Love== olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır. İyi okumalar!
-
-***
-
-!!! note "Not"
-	Oyunda herhangi bir sorunla karşılaşmanız halinde yönetici olarak çalıştırmayı deneyin. Sorununuz muhtemelen çözülecektir.
-
-***
-
-## Türkçe Patch Güncellemesi
-
-Çeviri çalışması devam ettiği için scriptlerinizin ve dosyalarınızın güncel olduğundan emin olup oynamanız daha iyi olacaktır. Genellikle yeni bir chapter çevirisi tamamlandığında veya önemli bir güncelleme yaptığımızda yeni bir sürüm yayınlıyoruz.
-
-Türkçe yamayı güncellemek için sayfadaki ilk adımı tekrarlamanız yeterlidir.
+![Umineko Project Klasörü](../img/umineko-install/umineko_folder.png)

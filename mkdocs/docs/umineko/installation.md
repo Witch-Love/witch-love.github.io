@@ -4,7 +4,7 @@ comments: true
 
 # Umineko Project Kurulumu
 
-!!! abstract "Not"
+!!! info "Bilgi"
 	Bu sayfa [Umineko Project](https://umineko-project.org/en/) kurulumunu içermektedir.  
 	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](tr-installation.md) geçebilirsiniz.
 
@@ -38,11 +38,11 @@ comments: true
 	```
 
 !!! info "Kurulum hakkında"
-	Kurulum işlemleri karışık görünüyor olsa da aslında oldukça basittir. Adımların tamamı yalnızca indirmiş olduğunuz arşiv dosyalarını çıkartıp tek bir klasöre toplamaktan ibaret.
+	Kurulum işlemleri kafa karıştırıcı görünüyor olsa da aslında oldukça basit. Adımların tamamı yalnızca indirmiş olduğunuz arşiv dosyalarını çıkartıp tek bir klasöre toplamaktan ibaret.
 
 	Tüm adımları dikkatlice takip etmeye özen gösterirseniz bir sorun yaşamadan kurulumu tamamlayabileceksiniz.
 
-Windows kurulumu haricinde bir rehberimiz bulunmuyor fakat göz atmak isterseniz bizim rehberimiz olmayan [Android kurulum](https://uminekoprojectandroid.neocities.org) rehberine bakabilirsiniz.
+Windows kurulumu haricinde bir rehberimiz bulunmuyor fakat android için bizim rehberimiz olmayan [Android kurulum](https://uminekoprojectandroid.neocities.org) rehberine göz atabilirsiniz.
 
 ***
 
@@ -50,64 +50,92 @@ Windows kurulumu haricinde bir rehberimiz bulunmuyor fakat göz atmak isterseniz
 
 Her şeyden önce bilgisayarınızın herhangi bir yerinde yeni bir klasör oluşturun. İsmi önemli değil, istediğiniz ismi koyabilirsiniz. İndirdiğiniz dosyaların içeriklerini bu klasörde toplayacak ve oyunu bu klasörden başlatacaksınız.
 
-Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işlemlerine başlamak için Umineko Project'in sitesinde bulunan [Downloads](https://umineko-project.org/en/downloads/) sayfasını açalım ve her adımın resimlerinde gösterilen şekilde dosyaları indirelim. Hangi klasöre indirdiğiniz önemli değil, varsayılan `İndirilenler` klasörünüzde bulunabilirler.
+Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işlemlerine başlamak için Umineko Project'in sitesinde bulunan [Downloads](https://umineko-project.org/en/downloads/) sayfasını açalım ve her adımın resimlerinde gösterilen şekilde dosyaları indirelim. Hangi klasöre indirdiğiniz önemli değil, varsayılan `#!css İndirilenler` klasörünüzde bulunabilirler.
 
 ***
 
-## 1. Resources İndirmeleri
+## 1. Resources Dosyaları
 
 Şimdi burada önemli bir kısım var. Burada indireceğiniz 12 dosyanın hepsi aslında tek bir dosyanın bölünmüş hali. Yani, buradaki tüm dosyaları indirene kadar bu dosyaları `(yani dosyayı)` açamazsınız.
 
-![Resources](../img/umineko_resources.png){ modal=true }
+![Resources](../img/umineko-install/resources.png)
 
-^^SADECE AMA SADECE^^ bu 12 dosyanın hepsinin indirmesi tamamlandıktan ve hepsini aynı klasörde topladıktan sonra `umiproj_31.12.19.7z.001` adlı dosyayı açabileceksiniz.
+???+ announcement "İndirme alternatifleri hakkında (mirrors)"
+	Umineko Project yakın zamana kadar 3 farklı indirme bağlantısı sunuyorken, sitede şu an yalnızca Mega bulunuyor. Mega pek kullanışlı olmadığı için sorun yaşamamanız adına ekstra indirme seçenekleri oluşturduk.  
+	Bu bağlantılar Umineko Project'in indirmeler sayfasına eklenene dek burada paylaşıyor olacağız.
 
-On iki dosyanın tamamı indirildikten sonra yapmanız gereken şey WinRAR gibi bir arşiv programı kullanarak `umiproj_31.12.19.7z.001` adlı dosyayı açmaktır.
+	Dosyalar Umineko Project dosyalarının birebir aynılarıdır.  
+	İndirdikten sonra [bu siteden](https://emn178.github.io/online-tools/md5_checksum.html) **MD5** kontrolü yapabilirsiniz.
+
+	| Dosya | Pixeldrain | Google Drive | MD5 |
+	| ----- | ---------- | ------------ | --- |
+	| ==umiproj_31.12.19.7z.001== | [mirror 2](https://pixeldrain.com/u/Des9bpAG) | [mirror 3](https://drive.google.com/file/d/107Y1NVZJCv6BaEmKc6lZTRJhpUhiqhG9) | `#!yaml ee509ae7accb9200fa8e05f7ccaf8ad7` |
+	| ==umiproj_31.12.19.7z.002== | [mirror 2](https://pixeldrain.com/u/2tFZ7LDQ) | [mirror 3](https://drive.google.com/file/d/1PhEGXzdqVJSnHNhp3CWN7wympnM-Yf_g) | `#!yaml 5d51b485e669bc9bcb54023d46412c7a` |
+	| ==umiproj_31.12.19.7z.003== | [mirror 2](https://pixeldrain.com/u/vsiuq4wZ) | [mirror 3](https://drive.google.com/file/d/1wW1CHqQE65MoqHJ2DEkAUkb_1cALWvX9) | `#!yaml d01860084ca2a6d0b32da22fad507ca5` |
+	| ==umiproj_31.12.19.7z.004== | [mirror 2](https://pixeldrain.com/u/2ko6GwZu) | [mirror 3](https://drive.google.com/file/d/1X9kqaM5wbMtecdDqz1H_COLCsGCUuEUE) | `#!yaml bf3432625ad807355982c746d91fe56d` |
+	| ==umiproj_31.12.19.7z.005== | [mirror 2](https://pixeldrain.com/u/fHeFsXcF) | [mirror 3](https://drive.google.com/file/d/1GyJKuK_CpmTTrMFQ0UAdsooU0VNI67Yx) | `#!yaml cbe8887d73957dfb9c07a191a68124ab` |
+	| ==umiproj_31.12.19.7z.006== | [mirror 2](https://pixeldrain.com/u/gcaytyoP) | [mirror 3](https://drive.google.com/file/d/1HUFVC-P3SuMtrd10oDWGGnTOrx9wFqv0) | `#!yaml 7e6f40a61fef8684b0ceb786fb5c8110` |
+	| ==umiproj_31.12.19.7z.007== | [mirror 2](https://pixeldrain.com/u/xh5m7f16) | [mirror 3](https://drive.google.com/file/d/1BOZ5GI-_nL68g92KnDkYU-t5Jn9FfIBV) | `#!yaml b2cdb923b453e25166435c91ac8c7422` |
+	| ==umiproj_31.12.19.7z.008== | [mirror 2](https://pixeldrain.com/u/8x2b8p5c) | [mirror 3](https://drive.google.com/file/d/1zxvUfpJBWB8zeE8TLV2KIPHIb0en9XKY) | `#!yaml b6ad89658d14efc09221171cf6c05667` |
+	| ==umiproj_31.12.19.7z.009== | [mirror 2](https://pixeldrain.com/u/v44MZRAx) | [mirror 3](https://drive.google.com/file/d/1ZFYh7Je2geRa8pl8TBfD4RtzPm48puyS) | `#!yaml 1e04017084052253f9efaec3fd848bba` |
+	| ==umiproj_31.12.19.7z.010== | [mirror 2](https://pixeldrain.com/u/UF16f9nY) | [mirror 3](https://drive.google.com/file/d/1zD9CkaBegaXmVr-x0A-BoaFJBaRfFGjd) | `#!yaml 42c9c1e99afadac9fc5e996162865a2c` |
+	| ==umiproj_31.12.19.7z.011== | [mirror 2](https://pixeldrain.com/u/7JvADGPr) | [mirror 3](https://drive.google.com/file/d/1sqnUwn9sKI6FxYIypksGQm0mWwn1hehc) | `#!yaml 995db43143f19b8d2502d9462322e542` |
+	| ==umiproj_31.12.19.7z.012== | [mirror 2](https://pixeldrain.com/u/KMc6ckxz) | [mirror 3](https://drive.google.com/file/d/1zQQtbqzTgdoQ1CKpG615CV6ldqQxilRW) | `#!yaml 9ea50f9c4a9dbc120c32ec25ad392f60` |
+
+^^SADECE AMA SADECE^^ bu 12 dosyanın hepsinin indirmesi tamamlandıktan ve hepsini aynı klasörde topladıktan sonra ==umiproj_31.12.19.7z.001== adlı dosyayı açabileceksiniz.
+
+Bu 12 dosyanın tamamı indirildikten sonra yapmanız gereken şey [WinRAR](https://www.win-rar.com/download.html) gibi bir arşiv programı kullanarak ==umiproj_31.12.19.7z.001== adlı dosyayı açmaktır.
 
 Arşiv dosyasını açtıktan sonra içindeki tüm dosyaları önceden oluşturmuş olduğunuz klasöre çıkartın. Bu adım neredeyse oyunun tüm dosyalarını içerdiğinden bilgisayarınızın hızına bağlı olarak biraz zaman alacaktır.
 
 ??? warning "Arşiv Şifresi"
 	Sayfanın başında bulunan telif hakkı uyarısını kabul ettiğinizi varsayıyoruz.
 
-	```
+	```sh
 	035646750436634546568555050
 	```
 
-Çıkarma işlemi tamamlandıktan sonra sonraki adıma geçebilirsiniz.
+Çıkarma işlemi tamamlandıktan sonra sıradaki adıma geçebilirsiniz.
 
 ***
 
-## 2. Scripts İndirmesi
+## 2. Güncelleme ve Script Dosyaları
 
-Bu adım oldukça basit. Hemen alttaki butondan oyunun scriptlerinin bulunduğu dosyayı indirin ve aynı şekilde klasörünüze çıkartın.
+Bu adım oldukça basit. Güncelleme ve script dosyalarının ikisini de indirin ve arşivleri aynı şekilde klasörünüze çıkartın.
 
-[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4058/umineko-main-scripts_r4058.zip){ .md-button .md-button--primary }
-
-***
-
-## 3. Güncelleme İndirmesi
-
-Üstteki adımla aynı. Umineko Project tamamlandıktan sonra yapılan güncelleme dosyalarını içerir.
-
-[:fontawesome-solid-download: İndir](https://github.com/umineko-project/umineko-scripting/releases/download/z4058/extra_04.01.25.zip){ .md-button .md-button--primary }
+![Updates & Scripts](../img/umineko-install/updates_and_scripts.png)
 
 ***
 
-## 4. Game Engine İndirmesi
-
-![Game Engines](../img/umineko_gameengines.png){ modal=true }
+## 3. Oyun Motoru Seçimi
 
 Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indirin ve klasörünüze çıkartın.
 
-???+ note "Windows hakkında"
+!!! note "Windows"
 	Windows kullananlar ==Windows XP 32-bit== yazdığına aldırış etmesinler. Bunu indirmeniz gerekiyor.
+
+![Game Engines](../img/umineko-install/game_engine.png)
 
 ***
 
-## 5. Kurulum Tamamlandı
+## 4. Witch-Hunt İngilizce Çevirisi (Opsiyonel)
 
-!!! success "Her şey tamam!"
-	Bu adımla beraber Umineko Project kurulumu tamamlandı. ==onscripter-ru.exe== dosyasından oyunu başlatabilirsiniz.  
-	Bazı bilgisayarlarda kayıt ederken sorun oluşabildiği için yönetici olarak çalıştırmanızı öneririz.
+Bu adım oyunu İngilizce oynamayı düşünenler içindir. İngilizce oynamayı düşünmüyorsanız bu adımı atlayın.
 
-	Türkçe Patch kurulumu için [2. adıma](tr-installation.md) geçebilirsiniz.
+İngilizce oynamak isteyip "acaba tamamen anlar mıyım", "ya anlamazsam?" şeklinde düşünceleriniz var ise, Witch-Hunt ekibinin İngilizce çevirisini deneyebilirsiniz. Basitçe özetlemek gerekirse, metinlerin anlamını bozmadan daha sade bir İngilizce kullanılmış bir çeviridir.
+
+Önceki adımlarla aynı şekilde indirin ve klasörünüze çıkartın.
+
+!!! note "Not"
+	Oyunu açtıktan sonra dili ==Witch-Hunt== olarak ayarlamayı unutmayın. Oyuna farklı bir dil seçeneği olarak ekleniyor.
+
+![Witch-Hunt](../img/umineko-install/witch_hunt.png)
+
+***
+
+!!! success "Kurulum tamamlandı!"
+	Bu kadar basit.  
+	Son adımla beraber Umineko Project kurulumu tamamlandı. ==onscripter-ru.exe== dosyasından oyunu açabilirsiniz.  
+	Bazı bilgisayarlarda sorun yaşandığı için ^^yönetici olarak^^ çalıştırmanızı öneririz.
+
+	Türkçe yamayı kurmak için [2. adıma](tr-installation.md) geçebilirsiniz.

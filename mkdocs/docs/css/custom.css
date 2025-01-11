@@ -85,6 +85,10 @@ mark {
     margin-left: 0.2rem;
 }
 
+.md-typeset mark {
+    padding: 0 0;
+}
+
 .md-typeset table:not([class]) {
     border: none;
     box-shadow: var(--md-shadow-z2);

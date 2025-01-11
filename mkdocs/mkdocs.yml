@@ -11,11 +11,12 @@ edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 # navigation
 nav:
   - index.md
+  - faq.md
   - Umineko:
     - umineko/index.md
     - Kurulum:
       - 1. Umineko Project: umineko/installation.md
-      - 2. Türkçe Patch: umineko/tr-installation.md
+      - 2. Türkçe Yama: umineko/tr-installation.md
     - Katkıda Bulunma:
       - umineko/contributing/info.md
       - umineko/contributing/rules.md
@@ -62,6 +63,7 @@ plugins:
       enable_creation_date: true
       type: timeago
       locale: tr
+      exclude: []
   - git-committers:
       enabled: !ENV [CI, false]
       repository: Witch-Love/witch-love.github.io
@@ -121,7 +123,8 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.inlinehilite
-  - pymdownx.snippets
+  - pymdownx.snippets:
+      base_path: ['snippets', 'docs']
   - pymdownx.superfences
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
@@ -139,6 +142,10 @@ markdown_extensions:
       permalink: ⚓︎
       permalink_title: Bağlantıyı kopyala
       toc_depth: 5
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower-ascii
 
 watch:
   - overrides
+  - snippets
