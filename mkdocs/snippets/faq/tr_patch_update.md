@@ -1,2 +1,2 @@
 ??? question "Türkçe yamayı nasıl güncellerim?"
-	Basitçe Türkçe yamayı tekrar kurmalısınız. Dosyaları yeniden indirin ve oyun klasörünüze çıkartın. Bunun dışında yapmanız gereken ekstra bir şey gerek yoktur.
+	Basitçe Türkçe yamayı tekrar kurmalısınız. Dosyaları yeniden indirin ve oyun klasörünüze çıkartın. Bunun dışında yapmanız gereken ekstra bir şey yoktur.

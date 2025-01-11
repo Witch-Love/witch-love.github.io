@@ -5,7 +5,7 @@ comments: true
 # Umineko Project Kurulumu
 
 !!! info "Bilgi"
-	Bu sayfa [Umineko Project](https://umineko-project.org/en/) kurulumunu içermektedir.  
+	Bu sayfa [Umineko Project](https://umineko-project.org/) kurulumunu içermektedir.  
 	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](tr-installation.md) geçebilirsiniz.
 
 ???+ warning "Umineko Project: Önemli Telif Hakkı Uyarısı"
