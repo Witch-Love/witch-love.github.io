@@ -2,7 +2,7 @@
 title: Ana Sayfa
 ---
 
-Wiki sayfamıza hoş geldiniz! Menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
+Sitemize hoş geldiniz! Menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
 
 Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katılabilir veya bizimle doğrudan [iletişim](contact.md)e geçebilirsiniz.
 

@@ -33,7 +33,7 @@
 {% block extrahead %}
   {{ super() }}
   {% if page %}
-    <meta property="og:title" content="Witch Love Wiki | {{ page.title | e }}" />
+    <meta property="og:title" content="Witch Love | {{ page.title | e }}" />
     <meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
     <meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />
     <meta property="og:type" content="website" />
