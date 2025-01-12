@@ -5,7 +5,7 @@ site_url: https://witch-love.com
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
 copyright: >
-  &copy; 2025 All nipahs reserved — <a href="#__consent">Çerez ayarları</a>
+  &copy; 2025 Tüm nipahları saklıdır
 site_dir: site
 edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 
@@ -51,13 +51,6 @@ extra:
   analytics:
     provider: google
     property: G-D9MFM5S3BH
-  consent:
-    title: Çerezler
-    description: >-
-      Sitemizden en iyi şekilde faydalanabilmeniz için çerezler kullanılmaktadır. Sitemize giriş yaparak çerez kullanımını kabul etmiş sayılıyorsunuz.
-    actions:
-      - manage
-      - accept
 extra_javascript:
   - js/custom.js
 extra_css:
