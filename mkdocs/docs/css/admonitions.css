@@ -23,7 +23,7 @@
 .md-typeset {
 	summary {
 		position: sticky;
-		top: 47px;
+		top: 95px;
 		z-index: 2;
 		backdrop-filter: blur(10px);
 	}

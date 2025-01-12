@@ -3,16 +3,20 @@
 {% block content %}
   {% if page %}
     {% set split_content = super().split('</h1>', 1) %}
-    {{ split_content[0] + '</h1>' }}
+    {{ split_content[0] }}
+    {% if page.meta and page.meta.status and page.meta.status == 'new' %}
+      <span class="twemoji pulse" title="Yeni"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68zm-10 5h-2v-2h2zm0-4h-2V7h2z"></path></svg></span>
+    {% endif %}
+    </h1>
     <pagecontent>
     {% if page.meta and page.meta.status and page.meta.status == 'draft' %}
-      <details class="draft" style="margin: -2em 0 4em;">
+      <details class="draft" style="margin: -2em 0 4em;" open="">
         <summary>Taslak Sayfa</summary>
         <p style="font-family: monospace;">Bu sayfanın içeriği henüz tamamlanmamıştır ve içerik düzenlemeleri devam etmektedir.<br />
         Buranın gereğinden uzun taslak olarak kaldığını düşünüyorsanız bizimle <a href="{{ config.site_url | e }}contact/">iletişime</a> geçin.</p>
       </details>
     {% elif page.meta and page.meta.status and page.meta.status == 'deprecated' %}
-      <details class="danger" open="open" style="margin: -2em 0 4em;">
+      <details class="danger" open="" style="margin: -2em 0 4em;">
         <summary>Kullanım Dışı Sayfa</summary>
         <p><b>Bu sayfa kullanımdan kaldırılmıştır ve burada yazanlar muhtemelen doğru veya güncel değildir!</b></p>
       </details>

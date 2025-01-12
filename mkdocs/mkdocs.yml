@@ -4,14 +4,14 @@ site_description: Umineko başta olmak üzere, sevgi ve saygı duyduğumuz Türk
 site_url: https://witch-love.com/wiki
 repo_url: https://github.com/Witch-Love
 repo_name: Witch Love (GitHub)
-copyright: '&copy; 2025 All nipahs reserved'
+copyright: >
+  &copy; 2025 All nipahs reserved — <a href="#__consent">Çerez ayarları</a>
 site_dir: wiki
 edit_uri: witch-love.github.io/edit/main/mkdocs/docs
 
 # navigation
 nav:
   - index.md
-  - faq.md
   - Umineko:
     - umineko/index.md
     - Kurulum:
@@ -22,15 +22,17 @@ nav:
       - umineko/contributing/rules.md
   - Higurashi:
     - higurashi/index.md
-    - higurashi/installation.md
+    - Kurulum:
+      - higurashi/installation.md
     - Katkıda Bulunma:
       - higurashi/contributing/info.md
       - higurashi/contributing/rules.md
+  - faq.md
+  - donation.md
+  - contact.md
   - For Developers:
     - Umineko Project:
       - umineko/creating-translations.md
-  - donation.md
-  - contact.md
 
 # extra
 extra:
@@ -40,6 +42,8 @@ extra:
       link: https://discord.gg/jyD5jn9Vpd
     - icon: fontawesome/brands/youtube 
       link: https://www.youtube.com/@Singularityy
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:admin@witch-love.com
   status:
     new: Yeni
     deprecated: Kullanım dışı
@@ -47,6 +51,13 @@ extra:
   analytics:
     provider: google
     property: G-D9MFM5S3BH
+  consent:
+    title: Çerezler
+    description: >-
+      Sitemizden en iyi şekilde faydalanabilmeniz için çerezler kullanılmaktadır. Sitemize giriş yaparak çerez kullanımını kabul etmiş sayılıyorsunuz.
+    actions:
+      - manage
+      - accept
 extra_javascript:
   - js/custom.js
 extra_css:
@@ -79,10 +90,15 @@ theme:
   icon:
     logo: butterfly
     edit: material/pencil
+    repo: fontawesome/brands/github
   features:
-    - navigation.indexes
     - navigation.footer
     - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
     - content.tooltips
     - content.tabs.link
     - content.code.copy
@@ -90,9 +106,6 @@ theme:
     - content.action.view
     - search.suggest
     - search.highlight
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.sections
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: slate

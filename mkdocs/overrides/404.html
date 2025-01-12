@@ -1,0 +1,12 @@
+{% extends "main.html" %}
+
+{% block content %}
+	<h1>404 - Sayfa Bulunamadı</h1>
+	<hr style="margin: -2em 0 3em;">
+	<div class="admonition warning" style="margin: -2em 0 2em;">
+		<p class="admonition-title">Oops!</p>
+		<p>Sitemizde böyle bir sayfa yok. Sayfa bağlantısının doğru olup olmadığını kontrol edin.</p>
+	</div>
+	Sadece bu sayfanın varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?
+	<img src="{{ config.site_url | e }}img/404.png" style="display: block; margin-left: auto; margin-right: auto;" />
+{% endblock %}

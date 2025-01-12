@@ -34,17 +34,35 @@
     }
 }
 
+@keyframes pulse {
+    0%,to {
+        transform: scale(1) rotate(0deg)
+    }
+
+    50% {
+        transform: scale(1.15) rotate(10deg)
+    }
+}
+
 .heart {
     color: #e92063;
     animation: heart 1000ms infinite;
+}
+
+.pulse {
+    animation: pulse 2s infinite;
+}
+
+.md-typeset .pulse svg {
+    fill: var(--md-accent-fg-color)
 }
 
 .md-nav__title, .md-nav__container .md-nav__link {
     font-size: 0.75rem;
 }
 
-.md-nav {
-    padding-left: 0.6rem;
+li.md-nav__item > a {
+    padding-left: 0.7rem;
 }
 
 .md-typeset mark {
@@ -106,4 +124,8 @@ mark {
     td {
         border-top: .06rem solid var(--md-default-fg-color--lighter);
     }
+}
+
+.gslide-image img {
+    background: #000 !important;
 }

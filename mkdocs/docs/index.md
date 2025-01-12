@@ -1,6 +1,9 @@
-# Ana Sayfa
+---
+title: Ana Sayfa
+template: home.html
+---
 
-Wiki sayfamıza hoş geldiniz! Sol menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
+Wiki sayfamıza hoş geldiniz! Menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
 
 Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katılabilir veya bizimle doğrudan [iletişim](contact.md)e geçebilirsiniz.
 
