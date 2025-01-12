@@ -79,9 +79,9 @@ theme:
   name: material
   language: tr
   custom_dir: overrides
-  favicon: img/favicon.ico
+  favicon: img/butterfly.png
+  logo: img/logo.png
   icon:
-    logo: butterfly
     edit: material/pencil
     repo: fontawesome/brands/github
   features:

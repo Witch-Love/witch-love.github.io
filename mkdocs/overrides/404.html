@@ -1,18 +1,14 @@
 {% extends "main.html" %}
 
 {% block content %}
-	<style>
-		.md-grid {
-			max-width: 1440px; 
-		}
-	</style>
-
 	<h1>404 - Sayfa Bulunamadı</h1>
 	<hr style="margin: -2em 0 3em;">
 	<div class="admonition warning" style="margin: -2em 0 2em;">
 		<p class="admonition-title">Oops!</p>
-		<p>Sitemizde böyle bir sayfa yok. Sayfa bağlantısının doğru olup olmadığını kontrol edin.</p>
+		<p>Sitemizde böyle bir sayfa yok. Sayfa kaldırılmış veya adresi değiştirilmiş olabilir.<br>
+		Sayfa bağlantısının doğru olup olmadığını kontrol edin.</p>
 	</div>
-	Sadece bu sayfanın varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?
-	<img src="{{ config.site_url | e }}img/404.png" style="display: block; margin-left: auto; margin-right: auto;" />
+	<span style="text-align: center; display: block;">Sadece 404 sayfasının varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?<br>
+		<img src="{{ config.site_url | e }}img/404.png" draggable="false" />
+	</span>
 {% endblock %}
