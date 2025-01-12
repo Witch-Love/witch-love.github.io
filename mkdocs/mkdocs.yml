@@ -71,7 +71,7 @@ plugins:
   - git-committers:
       enabled: !ENV [CI, false]
       repository: Witch-Love/witch-love.github.io
-      docs_path: docs/
+      docs_path: mkdocs/docs/
       branch: main
 
 # theme
