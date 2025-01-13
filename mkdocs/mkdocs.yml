@@ -36,7 +36,6 @@ nav:
 
 # extra
 extra:
-  homepage: https://witch-love.com/
   social:
     - icon: fontawesome/brands/discord 
       link: https://discord.gg/jyD5jn9Vpd
@@ -53,10 +52,12 @@ extra:
     property: G-D9MFM5S3BH
 extra_javascript:
   - js/custom.js
+  - js/overlayscrollbars.js
 extra_css:
   - css/admonitions.css
   - css/status.css
   - css/custom.css
+  - css/overlayscrollbars.css
 
 # plugins
 plugins:
@@ -114,6 +115,7 @@ theme:
         name: Karanlık temaya geç
 
 markdown_extensions:
+  - abbr
   - admonition
   - tables
   - pymdownx.critic

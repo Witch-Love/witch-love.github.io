@@ -6,7 +6,7 @@ status: new
 ---
 
 !!! info "Kurulum"
-	Kuruluma geçmeden önce bu sayfada yazanları okumanızı öneririz.
+	Kuruluma geçmeden önce bu sayfayı okumanızı öneririz.
 
 	Sol menüden Umineko Project ve Türkçe yama kurulumlarına ulaşabilirsiniz.
 

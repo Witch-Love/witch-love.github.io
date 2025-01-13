@@ -1,9 +1,8 @@
 ---
+title: Higurashi no Naku Koro ni
 comments: true
 status: draft
 ---
-
-# Higurashi no Naku Koro ni
 
 !!! info "Kurulum"
 	Sol menüden Türkçe patch kurulumuna ulaşabilirsiniz.

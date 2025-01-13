@@ -25,6 +25,10 @@
     --background-image: url("../img/background-white.png")
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 @keyframes heart {
     0%, 40%, 80%, 100% {
       transform: scale(1);
@@ -42,6 +46,20 @@
     50% {
         transform: scale(1.15) rotate(10deg)
     }
+}
+
+@keyframes beating {
+    0%,to {
+        transform: scale(1) rotate(0deg)
+    }
+
+    50% {
+        transform: scale(1.1) rotate(-5deg)
+    }
+}
+
+.beating {
+    animation: beating 2s infinite;
 }
 
 .heart {

@@ -67,5 +67,19 @@ function versionLinks() {
 	}
 }
 
+document.addEventListener('DOMContentLoaded', () => {
+	var { 
+		OverlayScrollbars, 
+		ScrollbarsHidingPlugin, 
+		SizeObserverPlugin, 
+		ClickScrollPlugin  
+	  } = OverlayScrollbarsGlobal;
+
+	  const osInstance = OverlayScrollbars(document.body, {
+		scrollbars: {
+			theme: 'os-theme-light'
+		}
+	  });
+})
 document$.subscribe(externalLinkIcons);
 document$.subscribe(versionLinks);

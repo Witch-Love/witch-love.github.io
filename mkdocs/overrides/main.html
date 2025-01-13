@@ -1,45 +1,57 @@
 {% extends "base.html" %}
 
 {% block content %}
-  {% if page %}
-    {% set split_content = super().split('</h1>', 1) %}
-    {{ split_content[0] }}
-    {% if page.meta and page.meta.status and page.meta.status == 'new' %}
-      <span class="twemoji pulse" title="Yeni"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68zm-10 5h-2v-2h2zm0-4h-2V7h2z"></path></svg></span>
-    {% endif %}
-    </h1>
-    <pagecontent>
-    {% if page.meta and page.meta.status and page.meta.status == 'draft' %}
-      <details class="draft" style="margin: -2em 0 4em;" open="">
-        <summary>Taslak Sayfa</summary>
-        <p style="font-family: monospace;">Bu sayfanın içeriği henüz tamamlanmamıştır ve içerik düzenlemeleri devam etmektedir.<br />
-        Buranın gereğinden uzun taslak olarak kaldığını düşünüyorsanız bizimle <a href="{{ config.site_url | e }}contact/">iletişime</a> geçin.</p>
-      </details>
-    {% elif page.meta and page.meta.status and page.meta.status == 'deprecated' %}
-      <details class="danger" open="" style="margin: -2em 0 4em;">
-        <summary>Kullanım Dışı Sayfa</summary>
-        <p><b>Bu sayfa kullanımdan kaldırılmıştır ve burada yazanlar muhtemelen doğru veya güncel değildir!</b></p>
-      </details>
-    {% endif %}
-    <hr style="margin: -2em 0 2em;">
-    {{ split_content[1] }}
-    </pagecontent>
-  {% else %}
-    {{ super() }}
-  {% endif %}
-  <!-- bonus content -->
+	{% if page %}
+		{% set split_content = super().split('<h1') %}
+		{{ split_content[0] }}
+		{% set new_content = split_content[1].split('</h1>') %}
+		{% set heading = new_content[0].split('<') %}
+		{% set heading = heading[0].split('>') %}
+
+		<h1>
+		{{ heading[1] }}
+		{% if page.meta and page.meta.status %}
+			{% if page.meta.status == 'new' %}
+				<span class="twemoji pulse" title="Yeni"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m23 12-2.44-2.78.34-3.68-3.61-.82-1.89-3.18L12 3 8.6 1.54 6.71 4.72l-3.61.81.34 3.68L1 12l2.44 2.78-.34 3.69 3.61.82 1.89 3.18L12 21l3.4 1.46 1.89-3.18 3.61-.82-.34-3.68zm-10 5h-2v-2h2zm0-4h-2V7h2z"></path></svg></span>
+			{% elif page.meta.status == 'draft' %}
+				<span class="twemoji beating" style="margin-left: .2rem;" title="Taslak"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path d="M208 64a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zM9.8 214.8c5.1-12.2 19.1-18 31.4-12.9L60.7 210l22.9-38.1C99.9 144.6 129.3 128 161 128c51.4 0 97 32.9 113.3 81.7l34.6 103.7 79.3 33.1 34.2-45.6c6.4-8.5 16.6-13.3 27.2-12.8s20.3 6.4 25.8 15.5l96 160c5.9 9.9 6.1 22.2 .4 32.2s-16.3 16.2-27.8 16.2H288c-11.1 0-21.4-5.7-27.2-15.2s-6.4-21.2-1.4-31.1l16-32c5.4-10.8 16.5-17.7 28.6-17.7h32l22.5-30L22.8 246.2c-12.2-5.1-18-19.1-12.9-31.4zm82.8 91.8l112 48c11.8 5 19.4 16.6 19.4 29.4v96c0 17.7-14.3 32-32 32s-32-14.3-32-32V405.1l-60.6-26-37 111c-5.6 16.8-23.7 25.8-40.5 20.2S-3.9 486.6 1.6 469.9l48-144 11-33 32 13.7z"/></svg></span>
+			{% endif %}
+		{% endif %}
+		</h1>
+		
+		<pagecontent>
+		{% if page.meta and page.meta.status %}
+			{% if page.meta.status == 'draft' %}
+				<details class="draft" style="margin: -2em 0 4em;" open>
+					<summary>Taslak Sayfa</summary>
+					<p style="font-family: monospace;"><b>Bu sayfanın içeriği henüz tamamlanmamıştır ve düzenlemeleri devam etmektedir.</b>
+				</details>
+			{% elif page.meta.status == 'deprecated' %}
+				<details class="danger" style="margin: -2em 0 4em;" open>
+					<summary>Kullanım Dışı Sayfa</summary>
+					<p><b>Bu sayfa kullanımdan kaldırılmıştır. Sayfada bulunan bilgiler doğru ve güncel olmayabilir!</b></p>
+				</details>
+			{% endif %}
+		{% endif %}
+		<hr style="margin: -2em 0 1.5em;">
+		{{ new_content[1] }}
+		</pagecontent>
+	{% else %}
+		{{ super() }}
+	{% endif %}
+	<!-- bonus content -->
 {% endblock %}
 
 {% block extrahead %}
-  {{ super() }}
-  {% if page %}
-    <meta property="og:title" content="Witch Love | {{ page.title | e }}" />
-    <meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
-    <meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="{{ page.meta.image | default('https://witch-love.com/img/logo.png') | e }}" />
-    <meta property="og:locale" content="tr_TR" />
-    <meta property="og:locale:alternate" content="en_US" />
-    <meta name="theme-color" content="{{ page.meta.color | default('#ecd246') | e }}" />
-  {% endif %}
+	{{ super() }}
+	{% if page %}
+		<meta property="og:title" content="{{ page.title | e }} - {{ config.site_name | e }}" />
+		<meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
+		<meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image" content="{% if page.meta.image %}{{ page.meta.image | e }}{% else %}{{ config.site_url | e }}{{ config.theme.logo | e }}{% endif %}" />
+		<meta property="og:locale" content="tr_TR" />
+		<meta property="og:locale:alternate" content="en_US" />
+		<meta name="theme-color" content="{{ page.meta.color | default('#ecd246') | e }}" />
+	{% endif %}
 {% endblock %}

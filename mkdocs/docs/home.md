@@ -1,5 +1,6 @@
 ---
 title: Ana Sayfa
+icon: material/home
 ---
 
 Sitemize hoş geldiniz! Menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
@@ -10,7 +11,7 @@ Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katı
 
 ## Duyurular
 
---8<-- "announcements.md:4:20"
+--8<-- "announcements.md:6:20"
 
 <span style="text-align: right; width: 100%; display: block">~[Tümünü görüntüle :octicons-arrow-right-16:](announcements.md)~</span>
 

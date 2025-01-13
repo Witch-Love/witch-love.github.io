@@ -1,6 +1,8 @@
-# Duyurular
+---
+title: Duyurular
+---
+<!-- lines 6-20 are displayed in the home page -->
 
-<!-- lines 4-20 are displayed in the main page -->
 ???+ announcement "<div style="position: relative;">Duyuru<span style="position: absolute; right: 0;">11/01/2025</span></div>"
     Çevirilerimizi daha da iyileştirebilmemiz adına bize çevirileri revize etmemizde yardımcı olabilecek gönüllüler arıyoruz. Umineko'yu tamamen bitirmiş olmanız tercihimiz olsa da revize yapacaklar için bu koşulu esnetiyoruz. Üzerinde çalışmayı dilediğiniz kısma kadar okumayı bitirdiyseniz bu bizim için fazlasıyla yeterlidir.
 
