@@ -10,5 +10,5 @@ Burada bulamadığınız bir sorunuz veya önemli bir sorununuz varsa bizimle [i
 
 
 --8<-- "faq/steam_support.md"
-
 --8<-- "faq/tr_patch_update.md"
+--8<-- "faq/complete_time.md"

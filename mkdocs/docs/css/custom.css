@@ -1,6 +1,6 @@
 [data-md-color-scheme="slate"] {
     /* --md-code-fg-color: #d4c166; */
-    --md-typeset-mark-color: #f155a3;
+    /* --md-typeset-mark-color: #f155a3; */
     --md-code-hl-color: #34ce497b;
     --md-code-hl-color--light: #2fad462d;
 
@@ -14,7 +14,7 @@
 
 [data-md-color-scheme="default"] {
     /* --md-code-fg-color: #d31775; */
-    --md-typeset-mark-color: #145fe1;
+    /* --md-typeset-mark-color: #145fe1; */
     --md-code-hl-color: #28a2387b;
     --md-code-hl-color--light: #2fad4634;
 
@@ -81,19 +81,6 @@ html {
 
 li.md-nav__item > a {
     padding-left: 0.7rem;
-}
-
-.md-typeset mark {
-    background-color: var(--md-code-bg-color);
-    border-radius: .1rem;
-    font-size: .85em;
-    padding: 0 .2941176471em;
-    color: var(--md-typeset-mark-color)
-}
-
-mark {
-    font-feature-settings: "kern";
-    font-family: var(--md-code-font-family);
 }
 
 @media only screen and (min-device-width: 1024px) {

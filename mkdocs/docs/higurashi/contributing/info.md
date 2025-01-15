@@ -1,8 +1,8 @@
 ---
+title: Başlangıç
 comments: true
+status: draft
 ---
-
-# Başlangıç
 
 Dışarıdan gelen tüm katkılara tamamen açık olsak da geliştirdiğimiz birçok çeviri destek aracı ve materyallerimiz olduğu için bizimle beraber çeviri yapmanızı çok isteriz. Süre sınırı gibi kısıtlamalarımız bulunmadığı için zaman buldukça rahat bir şekilde çevirizi yapabilirsiniz. Çekinmenize kesinlikle gerek yok.
 

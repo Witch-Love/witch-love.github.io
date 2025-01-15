@@ -1,3 +1,8 @@
+---
+title: Çeviri Kuralları
+status: draft
+---
+
 # Çeviri Kuralları
 
 !!! tip "Bilgi"

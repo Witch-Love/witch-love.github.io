@@ -12,20 +12,20 @@
 
 ## Genel Kurallar
 
-1.  =="sen" ve "siz" hitapları hakkında==  
+1.  **`#!yaml "sen" ve "siz" hitapları hakkında`**  
     Sen ve siz hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
     * Battler'ın okuyuculara hitap ettiği cümleler `-siz` olmalı.
     * Ronove'nin Battler'a hitap ettiği cümleler `-siz` olmalı.
     * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
     * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Bunda da bazı istisnalar var.
-2.  ==İngilizce kelimeler==  
+2.  **`#!yaml İngilizce kelimeler`**  
     Karakterlerin ingilizce olarak söyledikleri kelimeler bazı istisnalar hariç ingilizce olarak kalıyor.  
 	İngilizce kelimeler (istisnalar var) `<>` arasına yazılır. Örneğin: `<Good>`  
 	Bazı örnekler:
     * <Happy Halloween\>
     * <Trick-or-treat\>
     * <Good\>
-3.  ==Özel durumlar ve diğer==
+3.  **`#!yaml Özel durumlar ve diğer`**
     * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
     * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok kullandığımz bazı kelimeler:
         * Hâlâ/Hâlen

@@ -25,7 +25,7 @@ Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve 
 !!! success "Kurulum tamamlandı!"
 	Türkçe kurulumu bu kadar basit. Kurulum tamamlandıktan sonra klasörünüz resimdekine benzer görünmeli. Eğer ekstra bir klasör bulunuyorsa ya da eksiklikler varsa kurulum esnasında bir şeyleri hatalı yapmış olma ihtimaliniz yüksek. Bir hata almanız durumunda kurulum adımlarını tekrar gözden geçirmenizi öneririz.
 
-	Oyunu açtıktan sonra oyun dilini ==Witch Love== olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır.  
+	Oyunu açtıktan sonra oyun dilini `#!yaml Witch Love` olarak ayarladığınızda oyununuz Türkçe diline geçiş yapacaktır.  
 	İyi okumalar!
 
 ![Umineko Project Klasörü](../img/umineko-install/umineko_folder.png)
