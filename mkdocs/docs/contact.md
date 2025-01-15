@@ -1,5 +1,6 @@
 ---
 title: İletişim
+description: Bize ulaşabileceğiniz yollar
 ---
 
 !!! info "Bilgi"

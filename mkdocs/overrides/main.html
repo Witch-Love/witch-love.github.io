@@ -1,5 +1,49 @@
 {% extends "base.html" %}
 
+{% macro get_top_section(page) -%}
+	{% if page.parent -%}
+		{{ get_top_section(page.parent) }}
+	{%- else -%}
+		{{ page.title }}
+	{%- endif %}
+{%- endmacro %}
+
+{% macro get_title(page) -%}
+	{%- set title = None -%}
+	{%- set parent = None -%}
+	{%- set top_section = get_top_section(page) -%}
+	{%- if page.meta and page.meta.title -%}
+		{%- set title = page.meta.title -%}
+	{%- elif page.title and not page.is_homepage -%}
+		{%- set title = page.title|striptags -%}
+	{%- else -%}
+		{%- set title = None -%}
+	{%- endif -%}
+	{%- if page.parent and page.parent.title != title -%}
+		{%- set parent = page.parent.title -%}
+	{%- endif -%}
+	{%- if top_section == parent or top_section == title -%}
+		{%- set top_section = None -%}
+	{%- endif -%}
+	{%- if title and not page.is_homepage -%}
+		{%- if top_section -%}
+			{%- set title = title ~ " - " ~ top_section -%}
+		{%- else -%}
+			{%- set title = title ~ " - " ~ config.site_name -%}
+		{%- endif -%}
+		{%- if parent -%}
+			{%- set title = parent ~ ": " ~ title -%}
+		{%- endif -%}
+		{{ title }}
+	{%- else -%}
+		{{ config.site_name }}
+	{%- endif -%}
+{%- endmacro %}
+
+{% block htmltitle %}
+	<title>{{ get_title(page) }}</title>
+{% endblock %}
+
 {% block content %}
 	{% if page %}
 		{% set split_content = super().split('<h1') %}
@@ -45,7 +89,7 @@
 {% block extrahead %}
 	{{ super() }}
 	{% if page %}
-		<meta property="og:title" content="{{ page.title | e }} - {{ config.site_name | e }}" />
+		<meta property="og:title" content="{{ get_title(page) }}" />
 		<meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
 		<meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />
 		<meta property="og:type" content="website" />

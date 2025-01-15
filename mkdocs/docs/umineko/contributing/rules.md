@@ -1,4 +1,6 @@
-# Çeviri Kuralları
+---
+title: Çeviri Kuralları
+---
 
 !!! tip "Bilgi"
 	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.

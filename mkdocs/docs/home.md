@@ -1,5 +1,5 @@
 ---
-title: Ana Sayfa
+title: Başlangıç
 icon: material/home
 ---
 

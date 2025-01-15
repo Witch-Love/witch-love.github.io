@@ -1,14 +1,14 @@
 ---
+title: Creating Translations
+description: Create a new language support for Umineko Project
 comments: true
 status: draft
 ---
 
-# Creating Translations
-
 In this tutorial, we will be talking about how you can create a new language setting for Umineko Project.
 
 ???+ info "Use your own language code!"
-	In the tutorial, we used our own language code ==tr==, which is for Turkish. Don't forget to ^^use your own language code^^ instead.
+	In the tutorial, we used our own language code `#!yaml tr`, which is for Turkish. Don't forget to ^^use your own language code^^ instead.
 
 	You can check [language codes](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) page for other codes.
 

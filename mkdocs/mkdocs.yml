@@ -15,8 +15,8 @@ nav:
   - Umineko:
     - umineko/index.md
     - Kurulum:
-      - 1. Umineko Project: umineko/installation.md
-      - 2. Türkçe Yama: umineko/tr-installation.md
+      - Umineko Project: umineko/installation.md
+      - Türkçe Yama: umineko/tr-installation.md
     - Katkıda Bulunma:
       - umineko/contributing/info.md
       - umineko/contributing/rules.md
@@ -30,7 +30,7 @@ nav:
   - faq.md
   - donation.md
   - contact.md
-  - For Developers:
+  - Development:
     - Umineko Project:
       - umineko/creating-translations.md
 

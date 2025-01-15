@@ -1,5 +1,6 @@
 ---
 title: Bağış
+description: Bizlerin kâr amacı gütmeyerek yaptığı bu işi beğeniyor ve bizi ekstra olarak destekleyip, moral sağlamak istiyorsanız...
 ---
 
 Bize bağışta bulunmanız halinde bizim saygımız ve teşekkürlerimiz dışında maalesef başka bir şey elde etmeyeceğinizin bilincinde olunuz. Bağışta bulunanlar için ekstra bir özellik ya da Discord üzerinde bir ayrıcalık sağlamıyoruz. Yine de yüksek miktarlı bağışları kredilere[^1] eklemeyi değerlendiriyoruz.

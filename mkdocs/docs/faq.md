@@ -1,5 +1,6 @@
 ---
 title: Sıkça Sorulan Sorular
+description: Sıkça sorulan sorular ve cevapları
 status: new
 ---
 

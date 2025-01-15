@@ -1,6 +1,6 @@
 ---
 title: Higurashi no Naku Koro ni
-description: Lorem ipsum
+description: Keiichi Maebara 1983 yazında sessiz sakin bir köy olan Hinamizawa'ya yeni taşınmıştır ve kısa sürede okul arkadaşları Rena Ryuuguu, Mion Sonozaki, Satoko Houjou ve Rika Furude ile...
 comments: true
 status: draft
 ---

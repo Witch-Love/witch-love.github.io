@@ -1,9 +1,8 @@
 ---
+title: Kurulum
 comments: true
 status: draft
 ---
-
-# Kurulum
 
 ## 1. 07th-mod
 
