@@ -4,7 +4,7 @@ description: Bize ulaşabileceğiniz yollar
 ---
 
 !!! info "Bilgi"
-	Bize ulaşmanızın en hızlı yolu **[Discord](https://discord.gg/jyD5jn9Vpd)** sunucumuza katılmak.
+	Bize ulaşmanızın en hızlı yolu **[Discord](discord.md){ target=_blank }** sunucumuza katılmak.
 
 ### :octicons-person-fill-16: Singularity
 * :fontawesome-brands-discord: singulariity

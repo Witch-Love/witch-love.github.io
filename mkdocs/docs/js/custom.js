@@ -10,7 +10,7 @@ function externalLinkIcons() {
 	page_content.querySelectorAll("a[href]").forEach(link => {
 		const href = link.getAttribute('href');
 
-		if (href.startsWith("http") && !href.startsWith(site_url)) {
+		if (href.startsWith("http") && (!href.startsWith(site_url) || link.getAttribute('target') == '_blank')) {
 			link.setAttribute("target", "_blank");
 
 			if (link.className != "") return;
