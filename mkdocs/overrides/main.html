@@ -89,6 +89,7 @@
 {% block extrahead %}
 	{{ super() }}
 	{% if page %}
+		{% if page.meta and page.meta.index == false %}<meta name="robots" content="noindex" />{% endif %}
 		<meta property="og:title" content="{{ get_title(page) }}" />
 		<meta property="og:description" content="{{ page.meta.description | default(config.site_description) | e }}" />
 		<meta property="og:url" content="{{ config.site_url | e }}{{ page.url | e }}" />

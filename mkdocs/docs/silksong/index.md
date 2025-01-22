@@ -1,6 +1,7 @@
 ---
 title: "Hollow Knight: Silksong"
 status: draft
+index: false
 ---
 
 :thinking::thinking::thinking::thinking:

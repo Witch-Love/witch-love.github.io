@@ -11,7 +11,7 @@ Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katı
 
 ## Duyurular
 
---8<-- "announcements.md:6:20"
+--8<-- "announcements.md:10:30"
 
 <span style="text-align: right; width: 100%; display: block">~[Tümünü görüntüle :octicons-arrow-right-16:](announcements.md)~</span>
 
