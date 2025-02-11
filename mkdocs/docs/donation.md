@@ -11,13 +11,6 @@ Bizlerin kâr amacı gütmeyerek yaptığı bu işi beğeniyor ve bizi ekstra ol
 
 Bize ve projelerimize destek olmak istiyorsanız aşağıdaki seçeneklerden birini kullanabilirsiniz.
 
-!!! info "Bilgi"
-	^^13 Ocak 2025^^ tarihinden itibaren yalnızca GitHub sponsorluğu seçeneği olacaktır.
-
-### :material-github: GitHub
-
-GitHub aracılığıyla bağışta bulunmak için [**buraya**](https://github.com/sponsors/Witch-Love) göz atabilirsiniz.
-
-<iframe src="https://github.com/sponsors/Witch-Love/button" title="Sponsor Ol" height="32" width="120" style="border: 0; border-radius: 6px;"></iframe>
+<a href="https://www.buymeacoffee.com/witchlove" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" title="Bir kahve ısmarla!" style="height: 32px; width: 120px; border: 0; border-radius: 6px;" draggable="false"></a> <iframe src="https://github.com/sponsors/Witch-Love/button" title="GitHub sponsorumuz ol" height="32" width="120" style="border: 0; border-radius: 6px;"></iframe>
 
 [^1]: [Kapanış kredileri](https://tr.wikipedia.org/wiki/Kapan%C4%B1%C5%9F_jeneri%C4%9Fi)
