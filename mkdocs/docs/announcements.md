@@ -1,6 +1,6 @@
 ---
 title: Duyurular
-description: Websitemize duyuruları
+description: Website duyuruları
 ---
 <!-- lines 10-30 are displayed in the home page -->
 
