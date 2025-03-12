@@ -15,7 +15,8 @@ title: Çeviri Kuralları
 ## Genel Kurallar
 
 1.  **`#!yaml Hitaplar`**  
-    * [**Akraba hitapları (hala/teyze/amca...)**](../../img/tree.png){ target="_blank" }
+    * ??? info "Akraba hitapları"
+        ![Family tree translation](../../img/tree.png)
     * **Sen ve siz** hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
         * Battler'ın okuyuculara hitabı `-siz` olmalı.
             * Tüm karakterlere hitabı `-sen` olmalı. *(Episode 2 sonunda pes ettiği kısım hariç)*
