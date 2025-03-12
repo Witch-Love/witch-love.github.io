@@ -14,36 +14,41 @@ title: Çeviri Kuralları
 
 ## Genel Kurallar
 
-1.  **`#!yaml "sen" ve "siz" hitapları hakkında`**  
-    Sen ve siz hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
-    * Battler'ın okuyuculara hitap ettiği cümleler `-siz` olmalı.
-    * Ronove'nin Battler'a hitap ettiği cümleler `-siz` olmalı.
-    * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
-    * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Bunda da bazı istisnalar var.
-2.  **`#!yaml İngilizce kelimeler`**  
-    Karakterlerin ingilizce olarak söyledikleri kelimeler bazı istisnalar hariç ingilizce olarak kalıyor.  
-	İngilizce kelimeler (istisnalar var) `<>` arasına yazılır. Örneğin: `<Good>`  
+1.  **`#!yaml Hitaplar`**  
+    * [**Akraba hitapları (hala/teyze/amca...)**](../../img/tree.png){ target="_blank" }
+    * **Sen ve siz** hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
+        * Battler'ın okuyuculara hitabı `-siz` olmalı.
+            * Tüm karakterlere hitabı `-sen` olmalı. *(Episode 2 sonunda pes ettiği kısım hariç)*
+        * Ronove'nin Battler'a hitabı `-siz` olmalı.
+        * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
+        * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Sık olmasa da bazı istisnalar var.
+        * Nanjo'nun Kinzo'ya hitabı `-sen` olmalı.
+2.  **`#!yaml İngilizce sözler`**  
+    Karakterlerin ingilizce olarak söyledikleri sözler bazı istisnalar hariç ingilizce olarak kalıyor.  
+	İngilizce sözler `<>` arasına yazılır. Örneğin: `<Good>`  
 	Bazı örnekler:
     * <Happy Halloween\>
     * <Trick-or-treat\>
     * <Good\>
 3.  **`#!yaml Özel durumlar ve diğer`**
-    * Noktalama işaretlerini tamamen aynı bırakmaya özen gösteriyoruz.
-    * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok kullandığımz bazı kelimeler:
-        * Hâlâ/Hâlen
-        * Hikâye
-        * Hizmetkâr
-        * İmkân/İmkânsız
-        * İnkâr
-        * Malikâne
-        * Pekâlâ
-        * Rüzgâr
+    * Noktalama işaretlerini çok büyük oranda aynı bırakmaya özen gösteriyoruz.
+    * Grandfather, Mom, Father ve benzerlerinin çevirilerinin de baş harfleri büyük olmalı.
+    * Tekrarlanan kelime cümle başındaysa, kelime büyük harf ile devam etmeli.  
+        Örneğin `N-neden...` yerine `N-Neden...` olmalı.
+    * Çok önemli değil fakat Battler'ın gülüşlerinin baş harfini düzeltebilirsiniz.  
+    `Ihihihihi` yerine `İhihihihi`.
+    * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok karşımıza çıkan bazı kelimeler:
+        * Hâlâ/Hâlen, Hikâye, Hizmetkâr, İmkân/İmkânsız, İnkâr, Malikâne, Pekâlâ, Rüzgâr
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
-        * `Aaaahh`, `Oooooohh!`, `KyAAAAAAAAAAAAAA`
-        * `*giggle*` ve `*cackle*`
         * Madam
-        * GHQ
+4. **`#!yaml Ses efektleri`**  
+    Ses efektlerini çevirme işi biraz zorlu. Karşılaştığınız ses efektlerini komik durmayacak şekilde çevirmeye çalışın. Aklınıza bir şey gelmiyorsa bize danışabilir ya da İngilizce olarak bırakabilir ve atlayabilirsiniz.
+    * `*giggle*`  
+        Bir tane ise `*kıkırdar*`, çoklu ise `*kıkırkıkırkıkırkıkır*` şeklinde çeviriyoruz.
+    * `*cackle*`  
+        Bir tane ise `*kIKır*`, çoklu ise `*kIkIrKıKIrKıkIrKIkıR*` şeklinde çeviriyoruz.
+
 
 ***
 
@@ -53,7 +58,7 @@ title: Çeviri Kuralları
 
 * Alibi `->` Mazeret
 * As you command `->` Emredersiniz
-* Aunt `->` Teyze
+* Aunt `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
 * Blue Truth `->` Mavi Gerçek
 * Boiler Room `->` Kazan Dairesi
 * Book of Psalms `->` Mezmurlar Kitabı
@@ -82,6 +87,7 @@ title: Çeviri Kuralları
 * Fragment `->` Kakera *`(kakera olan için)`*
 * Furniture `->` Mobilya
 * Game Master `->` Oyun Yöneticisi
+* GHQ `->` GHQ
 * Goat Attendant `->` Keçi Uşağı
 * Golden Land `->` Altın Diyar
 * Great Demon `->` Yüce İblis
@@ -128,6 +134,7 @@ title: Çeviri Kuralları
 * Successor `->` Halef
 * Trick `->` Numara / Yöntem *`(kullanımına bağlı olarak farklılık var)`*
 * Trick or Treat `->` Şaka mı Şeker mi
+* Uncle `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
 * Ushiromiya Head Family `->` Ushiromiya Baş Ailesi
 * Voyager `->` Gezgin
 * Western Envelope `->` Batı Tarzı Zarf
