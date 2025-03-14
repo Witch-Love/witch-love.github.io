@@ -46,9 +46,9 @@ title: Çeviri Kuralları
 4. **`#!yaml Ses efektleri`**  
     Ses efektlerini çevirme işi biraz zorlu. Karşılaştığınız ses efektlerini komik durmayacak şekilde çevirmeye çalışın. Aklınıza bir şey gelmiyorsa bize danışabilir ya da İngilizce olarak bırakabilir ve atlayabilirsiniz.
     * `*giggle*`  
-        Bir tane ise `*kıkırdar*`, çoklu ise `*kıkırkıkırkıkırkıkır*` şeklinde çeviriyoruz.
+        Bir tane ise `*kıkırdar*`, çoklu ise `*kıkır*kıkır*kıkır*` şeklinde çeviriyoruz.
     * `*cackle*`  
-        Bir tane ise `*kIKır*`, çoklu ise `*kIkIrKıKIrKıkIrKIkıR*` şeklinde çeviriyoruz.
+        Bir tane ise `*kıKIr*`, çoklu ise `*kıKIr*kıKIr*kıKIr*` şeklinde çeviriyoruz. Büyük harfler aynı olmalı, rastgele değil.
 
 
 ***
