@@ -1,7 +1,6 @@
 ---
 title: Sıkça Sorulan Sorular
 description: Sıkça sorulan sorular ve cevapları
-status: new
 ---
 
 Burada bulamadığınız bir sorunuz veya önemli bir sorununuz varsa bizimle [iletişim](contact.md)e geçebilirsiniz.

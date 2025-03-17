@@ -2,7 +2,6 @@
 title: Umineko no Naku Koro ni
 description: Umineko no Naku Koro ni, absürt derecede zengin olan Ushiromiya ailesinin sahip olduğu Rokkenjima adlı adada geçiyor. Tüm aile, her yıl geleneksel olarak her bireyin mevcut mali durumlarının...
 comments: true
-status: new
 ---
 
 !!! info "Kurulum"

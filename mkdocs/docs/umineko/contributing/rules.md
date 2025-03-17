@@ -19,7 +19,7 @@ title: Çeviri Kuralları
         ![Family tree translation](../../img/tree.png)
     * **Sen ve siz** hitapları biraz kafa karıştırıcı olabiliyor. Akışı bozmamaya özen göstererek alttaki kurallara uymaya çaba sarf edelim.
         * Battler'ın okuyuculara hitabı `-siz` olmalı.
-            * Tüm karakterlere hitabı `-sen` olmalı. *(Episode 2 sonunda pes ettiği kısım hariç)*
+            * Tüm karakterlere hitabı `-sen` olmalı.
         * Ronove'nin Battler'a hitabı `-siz` olmalı.
         * Anlatı genel olarak okuyuculara hitap ettiğinden `-siz` olmalı. Fakat bazı istisnalar var o yüzden akışı bozmamaya özen gösterin.
         * Hizmetkârların Ushiromiya aile bireylerine hitapları `-siz` olmalı. Sık olmasa da bazı istisnalar var.
@@ -31,7 +31,13 @@ title: Çeviri Kuralları
     * <Happy Halloween\>
     * <Trick-or-treat\>
     * <Good\>
-3.  **`#!yaml Özel durumlar ve diğer`**
+3. **`#!yaml Ses efektleri`**  
+    Ses efektlerini çevirme işi biraz zorlu. Karşılaştığınız ses efektlerini komik durmayacak şekilde çevirmeye çalışın. Aklınıza bir şey gelmiyorsa bize danışabilir ya da İngilizce olarak bırakabilir ve atlayabilirsiniz.
+    * `*giggle*`  
+        Bir tane ise `*kıkırdar*`, çoklu ise `*kıkır*kıkır*kıkır*` şeklinde çeviriyoruz.
+    * `*cackle*`  
+        Bir tane ise `*kıKIr*`, çoklu ise `*kıKIr*kıKIr*kıKIr*` şeklinde çeviriyoruz. Büyük harfler aynı olmalı, rastgele değil.
+4.  **`#!yaml Özel durumlar ve diğer`**
     * Noktalama işaretlerini çok büyük oranda aynı bırakmaya özen gösteriyoruz.
     * Grandfather, Mom, Father ve benzerlerinin çevirilerinin de baş harfleri büyük olmalı.
     * Tekrarlanan kelime cümle başındaysa, kelime büyük harf ile devam etmeli.  
@@ -43,12 +49,6 @@ title: Çeviri Kuralları
     * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
         * Kyrie-san, George-aniki gibi saygı ekleri
         * Madam
-4. **`#!yaml Ses efektleri`**  
-    Ses efektlerini çevirme işi biraz zorlu. Karşılaştığınız ses efektlerini komik durmayacak şekilde çevirmeye çalışın. Aklınıza bir şey gelmiyorsa bize danışabilir ya da İngilizce olarak bırakabilir ve atlayabilirsiniz.
-    * `*giggle*`  
-        Bir tane ise `*kıkırdar*`, çoklu ise `*kıkır*kıkır*kıkır*` şeklinde çeviriyoruz.
-    * `*cackle*`  
-        Bir tane ise `*kıKIr*`, çoklu ise `*kıKIr*kıKIr*kıKIr*` şeklinde çeviriyoruz. Büyük harfler aynı olmalı, rastgele değil.
 
 
 ***
