@@ -60,28 +60,6 @@ Klasörü oluşturduktan sonra indirme kısımlarına geçiyoruz. İndirme işle
 
 ![Resources](../img/umineko-install/resources.png)
 
-???+ announcement "İndirme alternatifleri hakkında (mirrors)"
-	Umineko Project yakın zamana kadar 3 farklı indirme bağlantısı sunuyorken, sitede şu an yalnızca Mega bulunuyor. Mega pek kullanışlı olmadığı için sorun yaşamamanız adına ekstra indirme seçenekleri oluşturduk.  
-	Bu bağlantılar Umineko Project'in indirmeler sayfasına eklenene dek burada paylaşıyor olacağız.
-
-	Dosyalar Umineko Project dosyalarının birebir aynılarıdır.  
-	İndirdikten sonra [bu siteden](https://emn178.github.io/online-tools/md5_checksum.html) **MD5** kontrolü yapabilirsiniz.
-
-	| Dosya | Pixeldrain | Google Drive | MD5 |
-	| ----- | ---------- | ------------ | --- |
-	| `umiproj_31.12.19.7z.001` | [mirror 2](https://pixeldrain.com/u/Des9bpAG) | [mirror 3](https://drive.google.com/file/d/107Y1NVZJCv6BaEmKc6lZTRJhpUhiqhG9) | `#!css ee509ae7accb9200fa8e05f7ccaf8ad7` |
-	| `umiproj_31.12.19.7z.002` | [mirror 2](https://pixeldrain.com/u/2tFZ7LDQ) | [mirror 3](https://drive.google.com/file/d/1PhEGXzdqVJSnHNhp3CWN7wympnM-Yf_g) | `#!css 5d51b485e669bc9bcb54023d46412c7a` |
-	| `umiproj_31.12.19.7z.003` | [mirror 2](https://pixeldrain.com/u/vsiuq4wZ) | [mirror 3](https://drive.google.com/file/d/1wW1CHqQE65MoqHJ2DEkAUkb_1cALWvX9) | `#!css d01860084ca2a6d0b32da22fad507ca5` |
-	| `umiproj_31.12.19.7z.004` | [mirror 2](https://pixeldrain.com/u/2ko6GwZu) | [mirror 3](https://drive.google.com/file/d/1X9kqaM5wbMtecdDqz1H_COLCsGCUuEUE) | `#!css bf3432625ad807355982c746d91fe56d` |
-	| `umiproj_31.12.19.7z.005` | [mirror 2](https://pixeldrain.com/u/fHeFsXcF) | [mirror 3](https://drive.google.com/file/d/1GyJKuK_CpmTTrMFQ0UAdsooU0VNI67Yx) | `#!css cbe8887d73957dfb9c07a191a68124ab` |
-	| `umiproj_31.12.19.7z.006` | [mirror 2](https://pixeldrain.com/u/gcaytyoP) | [mirror 3](https://drive.google.com/file/d/1HUFVC-P3SuMtrd10oDWGGnTOrx9wFqv0) | `#!css 7e6f40a61fef8684b0ceb786fb5c8110` |
-	| `umiproj_31.12.19.7z.007` | [mirror 2](https://pixeldrain.com/u/xh5m7f16) | [mirror 3](https://drive.google.com/file/d/1BOZ5GI-_nL68g92KnDkYU-t5Jn9FfIBV) | `#!css b2cdb923b453e25166435c91ac8c7422` |
-	| `umiproj_31.12.19.7z.008` | [mirror 2](https://pixeldrain.com/u/8x2b8p5c) | [mirror 3](https://drive.google.com/file/d/1zxvUfpJBWB8zeE8TLV2KIPHIb0en9XKY) | `#!css b6ad89658d14efc09221171cf6c05667` |
-	| `umiproj_31.12.19.7z.009` | [mirror 2](https://pixeldrain.com/u/v44MZRAx) | [mirror 3](https://drive.google.com/file/d/1ZFYh7Je2geRa8pl8TBfD4RtzPm48puyS) | `#!css 1e04017084052253f9efaec3fd848bba` |
-	| `umiproj_31.12.19.7z.010` | [mirror 2](https://pixeldrain.com/u/UF16f9nY) | [mirror 3](https://drive.google.com/file/d/1zD9CkaBegaXmVr-x0A-BoaFJBaRfFGjd) | `#!css 42c9c1e99afadac9fc5e996162865a2c` |
-	| `umiproj_31.12.19.7z.011` | [mirror 2](https://pixeldrain.com/u/7JvADGPr) | [mirror 3](https://drive.google.com/file/d/1sqnUwn9sKI6FxYIypksGQm0mWwn1hehc) | `#!css 995db43143f19b8d2502d9462322e542` |
-	| `umiproj_31.12.19.7z.012` | [mirror 2](https://pixeldrain.com/u/KMc6ckxz) | [mirror 3](https://drive.google.com/file/d/1zQQtbqzTgdoQ1CKpG615CV6ldqQxilRW) | `#!css 9ea50f9c4a9dbc120c32ec25ad392f60` |
-
 ^^SADECE AMA SADECE^^ bu 12 dosyanın hepsinin indirmesi tamamlandıktan ve hepsini aynı klasörde topladıktan sonra `umiproj_31.12.19.7z.001` adlı dosyayı açabileceksiniz.
 
 Bu 12 dosyanın tamamı indirildikten sonra yapmanız gereken şey [WinRAR](https://www.win-rar.com/download.html) gibi bir arşiv programı kullanarak `umiproj_31.12.19.7z.001` adlı dosyayı açmaktır.

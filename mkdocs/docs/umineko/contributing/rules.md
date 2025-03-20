@@ -1,5 +1,6 @@
 ---
 title: Çeviri Kuralları
+description: Çeviri kurallarımız
 ---
 
 !!! tip "Bilgi"
