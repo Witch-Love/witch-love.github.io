@@ -27,6 +27,8 @@ nav:
     - Katkıda Bulunma:
       - higurashi/contributing/info.md
       - higurashi/contributing/rules.md
+  - Silksong:
+    - silksong/index.md
   - faq.md
   - donation.md
   - contact.md

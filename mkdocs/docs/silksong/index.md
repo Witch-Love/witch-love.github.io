@@ -1,11 +1,10 @@
 ---
 title: "Hollow Knight: Silksong"
-status: draft
-index: false
+description: Hollow Knight Silksong Türkçe çeviri
+comments: true
 ---
 
-:thinking::thinking::thinking::thinking:
+!!! quote "Nerede kaldı bu oyun?"
+	Silksong, Nintendo Switch 2 sunumunda *(2 Nisan 2025)* kısa bir süre gösterildi ve 2025 bitmeden piyasaya sürüleceği açıklandı.
 
-<div class="video">
-	<iframe src="https://www.youtube.com/embed/FA9H3snFrSQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
+![Banner](../img/silksong/banner.webp)
