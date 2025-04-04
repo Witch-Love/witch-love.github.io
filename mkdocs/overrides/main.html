@@ -27,13 +27,13 @@
 	{%- endif -%}
 	{%- if title and not page.is_homepage -%}
 		{%- if top_section -%}
-			{%- set title = title ~ " - " ~ top_section -%}
+			{%- set title = title ~ " - " ~ top_section ~ " | " ~ config.site_name -%}
 		{%- else -%}
-			{%- set title = title ~ " - " ~ config.site_name -%}
+			{%- set title = title ~ " | " ~ config.site_name -%}
 		{%- endif -%}
-		{%- if parent -%}
-			{%- set title = parent ~ ": " ~ title -%}
-		{%- endif -%}
+		{# {%- if parent -%}
+			{%- set title = title ~ " | " ~ config.site_name -%}
+		{%- endif -%} #}
 		{{ title }}
 	{%- else -%}
 		{{ config.site_name }}

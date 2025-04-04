@@ -1,4 +1,5 @@
 ---
+description: Umineko Project kurulum rehberi.
 comments: true
 ---
 
