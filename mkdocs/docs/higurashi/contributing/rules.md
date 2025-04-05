@@ -6,7 +6,7 @@ status: draft
 # Çeviri Kuralları
 
 !!! tip "Bilgi"
-	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.
+	Çeviriye katkıda bulunmak, bizimle beraber çeviri yapmak isterseniz bizimle [iletişime](../../contact.md) geçebilirsiniz.
 
 ???+ danger "!! SPOILER UYARISI !!"
 	**Higurashi'yi tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikaye üzerindeki muhakemenizi (akıl yürütmenizi) muhtemelen etkileyecek. Bu nedenle buraya yalnızca Higurashi'ye hakimseniz bakmanızı öneriyoruz.**

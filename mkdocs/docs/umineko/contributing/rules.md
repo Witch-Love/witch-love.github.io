@@ -4,7 +4,7 @@ description: Çeviri kurallarımız
 ---
 
 !!! tip "Bilgi"
-	Çeviriye katkıda bulunmak, bizimle birlikte çeviri yapmak istiyorsanız [buraya](info.md) göz atabilirsiniz.
+	Çeviriye katkıda bulunmak, bizimle beraber çeviri yapmak isterseniz bizimle [iletişime](../../contact.md) geçebilirsiniz.
 
 ???+ danger "!! SPOILER UYARISI !!"
 	Umineko'yu tamamen bitirmediyseniz aşağıdaki terimlerden bazılarını görmeniz (dolaylı olarak varlığını öğrenmiş oluyorsunuz) hikâye üzerindeki muhakemenizi (akıl yürütmenizi) ve tecrübenizi olumsuz olarak etkileyecektir.  
