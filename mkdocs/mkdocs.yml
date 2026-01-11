@@ -43,7 +43,7 @@ extra:
     - icon: fontawesome/brands/youtube 
       link: https://www.youtube.com/@Singularityy
     - icon: fontawesome/solid/paper-plane
-      link: mailto:admin@witch-love.com
+      link: mailto:contact@witch-love.com
   status:
     new: Yeni
     deprecated: Kullanım dışı

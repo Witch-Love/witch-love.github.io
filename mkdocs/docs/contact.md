@@ -14,7 +14,12 @@ Katkıda bulunmak ve bizimle beraber çeviri yapmak istiyorsanız kapımız her 
 
 İhtiyacınız olan tüm materyalleri ve çeviri araçlarımızı sizinle paylaşarak çeviriyi en etkili bir şekilde nasıl yapabileceğinizi açıklayacağımızdan emin olabilirsiniz.
 
-## Yetkili Ekip
+## İletişim
+
+* :fontawesome-brands-discord: [Discord Sunucusu](discord.md){ target=_blank }
+* :octicons-mail-16: [contact@witch-love.com](mailto:contact@witch-love.com)
+
+## Yetkililer
 
 #### :octicons-person-fill-16: Singularity
 * :fontawesome-brands-discord: singulariity
