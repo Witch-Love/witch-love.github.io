@@ -118,11 +118,13 @@ description: Çeviri kurallarımız
 * Piece `->` Taş *`(satranç taşı olan için)`*
 * Portrait `->` Portre
 * Predecessor `->` Selef
+* Puzzle `->` Bilmece
 * Reasoning `->` Muhakeme
 * Red Truth `->` Kırmızı Gerçek
 * Register `->` Nüfus
 * Repetition Request `->` Tekrarla
 * Resign `->` Pes Etmek
+* Rifle `->` Tüfek
 * Ritual `->` Ritüel
 * Rose Garden `->` Gül Bahçesi
 * Servant `->` Hizmetkâr
