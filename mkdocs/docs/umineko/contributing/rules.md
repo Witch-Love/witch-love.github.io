@@ -106,7 +106,7 @@ description: Çeviri kurallarımız
 * Love `->` Aşk *`(büyüye yönelik söylenmiyorsa duruma bağlı)`*
 * Magic `->` Büyü
 * Mansion `->` Malikâne / Köşk *`(Kuwadorian'a yönelik ise)`*
-* Master `->` Efendi *`(Kinzo için)`* - Usta *`(Virgilia için)`*
+* Master `->` Efendi / Usta *`(Kinzo / Virgilia)`*
 * Master Key `->` Master Anahtar
 * Milady `->` Leydim
 * Mistress `->` Metres
