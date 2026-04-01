@@ -5,13 +5,8 @@ comments: true
 status: draft
 ---
 
-!!! info "Kurulum"
-	Kuruluma geçmeden önce bu sayfayı okumanızı öneririz.
-
-	Sol menüden Türkçe yama kurulumuna ulaşabilirsiniz.
-
-!!! info "Türkçe çeviri projesi hakkında"
-	Önceliğimiz [Umineko](../umineko/index.md) çevirisini tamamlamak olduğu için Higurashi çevirimiz çok yavaş ilerlemektedir.
+!!! warning "Higurashi çevirisi hakkında"
+	Önceliğimiz [Umineko](../umineko/index.md) çevirisini tamamlamak olduğu için Higurashi çevirisi süresiz olarak askıya alınmıştır.
 
 ![Higurashi Logo](../img/higurashi-logo.png)
 
