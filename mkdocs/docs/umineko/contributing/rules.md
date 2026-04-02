@@ -60,6 +60,7 @@ description: Çeviri kurallarımız
 
 * Alibi `->` Mazeret
 * As you command `->` Emredersiniz
+* Apprentice `->` Çırak
 * Aunt `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
 * Blue Truth `->` Mavi Gerçek
 * Boiler Room `->` Kazan Dairesi
@@ -93,6 +94,7 @@ description: Çeviri kurallarımız
 * Goat Attendant `->` Keçi Uşağı
 * Golden Land `->` Altın Diyar
 * Great Demon `->` Yüce İblis
+* Grimoire `->` Grimoire *`(aynı)`*
 * Gruesome `->` Dehşet verici
 * Guesthouse `->` Konukevi
 * Guest room `->` Misafir odası
@@ -104,7 +106,9 @@ description: Çeviri kurallarımız
 * Logic Error `->` Mantık Hatası
 * Lounge `->` Bekleme Salonu
 * Love `->` Aşk *`(büyüye yönelik söylenmiyorsa duruma bağlı)`*
+* Madam `->` Madam *`(aynı)`*
 * Magic `->` Büyü
+* Manifest `->` Tezahür Etmek
 * Mansion `->` Malikâne / Köşk *`(Kuwadorian'a yönelik ise)`*
 * Master `->` Efendi / Usta *`(Kinzo / Virgilia)`*
 * Master Key `->` Master Anahtar
@@ -128,8 +132,8 @@ description: Çeviri kurallarımız
 * Ritual `->` Ritüel
 * Rose Garden `->` Gül Bahçesi
 * Servant `->` Hizmetkâr
-* Servant Room `->` Hizmetkâr Odası
-* Servants' Quarters `->` Hizmetkâr Koğuşu
+* Servant Room `->` Hizmetkâr Odası *`(Malikâne içi)`*
+* Servants' Quarters `->` Hizmetkâr Koğuşu *`(Konukevi içi)`*
 * Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * Shutter `->` Kepenk
 * Stalemate `->` Pat
@@ -140,6 +144,7 @@ description: Çeviri kurallarımız
 * Trick or Treat `->` Şaka mı Şeker mi
 * Uncle `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
 * Ushiromiya Head Family `->` Ushiromiya Baş Ailesi
+* Vessel `->` Beden
 * Voyager `->` Gezgin
 * Western Envelope `->` Batı Tarzı Zarf
 * Witch Legend Serial Murder Case `->` Cadı'nın Seri Cinayet Efsanesi
@@ -149,6 +154,7 @@ description: Çeviri kurallarımız
 
 * Witch of Certainty `->` Kesinliğin Cadısı
 * Witch of Miracles `->` Mucizelerin Cadısı
+* Witch of Origins `->` Kökenlerin Cadısı
 * Endless Witch `->` Sonsuz Cadı
 
 ### Diğer
