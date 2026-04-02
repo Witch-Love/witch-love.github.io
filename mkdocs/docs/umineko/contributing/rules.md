@@ -47,9 +47,8 @@ description: Çeviri kurallarımız
     `Ihihihihi` yerine `İhihihihi`.
     * Şapkalı a `(â)` yazımlarına dikkat ediyoruz. En çok karşımıza çıkan bazı kelimeler:
         * Hâlâ/Hâlen, Hikâye, Hizmetkâr, İmkân/İmkânsız, İnkâr, Malikâne, Pekâlâ, Rüzgâr
-    * Bunlar ve benzerleri olduğu gibi kalıyor, çevirmiyoruz:
-        * Kyrie-san, George-aniki gibi saygı ekleri
-        * Madam
+    * Saygı ekleri (ifadeleri) olduğu gibi kalıyor, çevirmiyoruz:
+        * Kyrie-san, George-aniki vb.
 
 
 ***
@@ -152,10 +151,15 @@ description: Çeviri kurallarımız
 
 ### Cadıların Ünvanları
 
+* Endless Witch `->` Sonsuz Cadı
+* Golden Witch `->` Altın Cadı
 * Witch of Certainty `->` Kesinliğin Cadısı
 * Witch of Miracles `->` Mucizelerin Cadısı
 * Witch of Origins `->` Kökenlerin Cadısı
-* Endless Witch `->` Sonsuz Cadı
+* Witch of Resurrection `->` Dirilişin Cadısı
+* Witch of Theatergoing, Drama, and Spectating `->` Tiyatronun, Dramanın ve Seyirciliğin Cadısı
+* Witch of Theatergoing `->` Tiyatronun Cadısı
+* Witch of Truth `->` Gerçeklerin Cadısı
 
 ### Diğer
 
