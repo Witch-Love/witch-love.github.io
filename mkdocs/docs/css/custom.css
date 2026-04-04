@@ -148,3 +148,21 @@ li.md-nav__item > a {
     width: 100%;
     height: 100%;
 }
+
+@font-face {
+    font-family: "Arno Pro";
+    src: url("../fonts/font1.otf");
+}
+
+@font-face {
+    font-family: "Arno Pro SmallCaps";
+    src: url("../fonts/font5.otf");
+}
+
+.small-caps {
+    font-family: 'Arno Pro SmallCaps', var(--md-text-font), sans-serif;
+}
+
+.arno-pro {
+    font-family: 'Arno Pro', var(--md-text-font), sans-serif;
+}

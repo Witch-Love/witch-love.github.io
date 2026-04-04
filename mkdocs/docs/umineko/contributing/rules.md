@@ -53,11 +53,12 @@ description: Çeviri kurallarımız
 
 ***
 
-## Karşılıklar
+## Sözlük
 
-### Sözlük
+### Terimler
 
 * Alibi `->` Mazeret
+* Anti-magic `->` Büyü-karşıtı
 * As you command `->` Emredersiniz
 * Apprentice `->` Çırak
 * Aunt `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
@@ -107,6 +108,7 @@ description: Çeviri kurallarımız
 * Love `->` Aşk *`(büyüye yönelik söylenmiyorsa duruma bağlı)`*
 * Madam `->` Madam *`(aynı)`*
 * Magic `->` Büyü
+* Magic Defense `->` Büyü Direnci
 * Manifest `->` Tezahür Etmek
 * Mansion `->` Malikâne / Köşk *`(Kuwadorian'a yönelik ise)`*
 * Master `->` Efendi / Usta *`(Kinzo / Virgilia)`*
@@ -139,6 +141,8 @@ description: Çeviri kurallarımız
 * Storehouse `->` Ambar
 * Study `->` Çalışma Odası
 * Successor `->` Halef
+* The Sisters of the Seven Stakes `->` Yedi Kazığın Kız Kardeşleri
+* Toxin `->` Toksin
 * Trick `->` Numara / Yöntem *`(kullanımına bağlı olarak farklılık var)`*
 * Trick or Treat `->` Şaka mı Şeker mi
 * Uncle `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
@@ -148,6 +152,16 @@ description: Çeviri kurallarımız
 * Western Envelope `->` Batı Tarzı Zarf
 * Witch Legend Serial Murder Case `->` Cadı'nın Seri Cinayet Efsanesi
 * Wolves and Sheep Puzzle `->` Kurtlar ve Koyunlar Bulmacası
+
+### Meta
+
+* Asmodeus the Lustful `->` Şehvetin Asmodeus'u
+* Beelzebub the Gluttonous `->` Oburluğun Beelzebub'u
+* Belphegor the Slothful `->` Tembelliğin Belphegor'u
+* Leviathan the Envious `->` Kıskançlığın Leviathan'ı
+* Lucifer the Proud `->` Kibrin Lucifer'ı
+* Mammon the Covetous `->` Açgözlülüğün Mammon'u
+* Satan the Wrathful `->` Öfkenin Satan'ı
 
 ### Cadıların Ünvanları
 
@@ -161,7 +175,38 @@ description: Çeviri kurallarımız
 * Witch of Theatergoing `->` Tiyatronun Cadısı
 * Witch of Truth `->` Gerçeklerin Cadısı
 
-### Diğer
+### Kitabe
+
+???+ quote "Epitaph of the Witch"
+    <center><span class="arno-pro" style="font-size: large;">Tatlı balık nehrine bakın, sevgili memleketimin üzerinden geçen.  
+    Anahtarın arayışında, akıntı yönündeki patikayı takip edeceksiniz, Altın Diyar’ın peşinde olan sizler.
+
+    Bir köy göreceksiniz, patikada ilerlerken.  
+    Sizler, düşün peşine ve ilerleyin, köydeki o ikilinin size bahsettiği kıyıya.  
+    Orada yatmaktadır, Altın Diyar'ın anahtarı.
+
+    Bu kurallara uyarak Altın Diyar'a seyahat etmelidir, anahtarı uyandıran kişi.
+
+    İlk alacakaranlıkta anahtar tarafından seçilen altısı kurban olarak sunulacak.  
+    İkinci alacakaranlıkta, geride kalanlar yakın olan ikisini birbirinden ayıracak.  
+    Üçüncü alacakaranlıkta, hayatta kalanlar asil ismimi yüceltecek.  
+    Dördüncü alacakaranlıkta, kafasını oy ve öldür.  
+    Beşinci alacakaranlıkta, göğsünü oy ve öldür.  
+    Altıncı alacakaranlıkta, karnını oy ve öldür.  
+    Yedinci alacakaranlıkta, dizini oy ve öldür.  
+    Sekizinci alacakaranlıkta, bacağını oy ve öldür.  
+    Dokuzuncu alacakaranlıkta, cadı dirilecek, ve hiçbiri hayatta kalmayacak.  
+    Onuncu alacakaranlıkta, yolculuk sona erecek, ve Altın Vatan'a kavuşacaksın.  
+
+    Cadı bilgeleri övecek ve dört hazine bahşedecek.  
+    Biri Altın Diyar'ın bütün altınları olacak.  
+    Biri tüm ölü ruhların dirilişi olacak.  
+    Biri kaybedilmiş aşkın dirilişi olacak.  
+    Ve birisi de cadıyı sonsuza dek uyutmak olacak.
+
+    Huzur içinde uyu, sevgili cadım, <span class="small-caps">Beatrice</span></span>.</center>
+
+### Diğer Kalıplar
 
 |İngilizcesi|Türkçe çevirisi|
 |:---:|:---:|
