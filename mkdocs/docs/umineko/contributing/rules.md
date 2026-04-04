@@ -135,13 +135,11 @@ description: Çeviri kurallarımız
 * Servant `->` Hizmetkâr
 * Servant Room `->` Hizmetkâr Odası *`(Malikâne içi)`*
 * Servants' Quarters `->` Hizmetkâr Koğuşu *`(Konukevi içi)`*
-* Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * Shutter `->` Kepenk
 * Stalemate `->` Pat
 * Storehouse `->` Ambar
 * Study `->` Çalışma Odası
 * Successor `->` Halef
-* The Sisters of the Seven Stakes `->` Yedi Kazığın Kız Kardeşleri
 * Toxin `->` Toksin
 * Trick `->` Numara / Yöntem *`(kullanımına bağlı olarak farklılık var)`*
 * Trick or Treat `->` Şaka mı Şeker mi
@@ -162,6 +160,9 @@ description: Çeviri kurallarımız
 * Lucifer the Proud `->` Kibrin Lucifer'ı
 * Mammon the Covetous `->` Açgözlülüğün Mammon'u
 * Satan the Wrathful `->` Öfkenin Satan'ı
+* Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
+* The Seven Sisters of Purgatory `->` Araf'ın Yedi Kız Kardeşi
+* The Sisters of the Seven Stakes `->` Yedi Kazığın Kız Kardeşleri
 
 ### Cadıların Ünvanları
 
