@@ -17,7 +17,7 @@ function playClick() {
 	audioClickElement.play();
 }
 
-function playAudio(audio, volume = 0.05) {
+async function playAudio(audio, volume = 0.05) {
 	audioElement.volume = volume;
 	if (lastAudio == audio) return;
 	if ((audioElement.paused || audioElement.ended) && !isAudioAllowed())
@@ -25,9 +25,22 @@ function playAudio(audio, volume = 0.05) {
 
 	audioElement.src = audio;
 	lastAudio = audio;
-	audioElement.play();
+	await audioElement.play();
 	audioButton.innerHTML = ICON.PLAYING;
 	console.log('Background music started');
+
+	if ('mediaSession' in navigator) {
+		navigator.mediaSession.metadata = new MediaMetadata({
+			title: 'Background Music',
+			artist: 'Witch Love',
+			artwork: [
+				{ src: '/img/logo.png', sizes: '575x575', type: 'image/png' },
+			],
+		});
+		navigator.mediaSession.setActionHandler('play', continueAudio);
+		navigator.mediaSession.setActionHandler('pause', pauseAudio);
+		navigator.mediaSession.setActionHandler('stop', pauseAudio);
+	}
 }
 
 function disableAudio() {
@@ -44,7 +57,11 @@ function enableAudio() {
 function pauseAudio() {
 	audioElement.pause();
 	audioButton.innerHTML = ICON.PAUSED;
-	lastAudio = 'notset';
+}
+
+function continueAudio() {
+	audioElement.play();
+	audioButton.innerHTML = ICON.PLAYING;
 }
 
 function audioMain() {
