@@ -53,6 +53,7 @@ function audioMain() {
 	audioElement.autoplay = false;
 	audioElement.hidden = true;
 	audioElement.volume = 0.05;
+	audioElement.preload = 'none';
 	document.body.insertAdjacentElement('afterbegin', audioElement);
 
 	audioClickElement.src = '/sound/click.mp3';
@@ -60,6 +61,7 @@ function audioMain() {
 	audioClickElement.autoplay = false;
 	audioClickElement.hidden = true;
 	audioClickElement.volume = 0.035;
+	audioClickElement.preload = 'auto';
 	document.body.insertAdjacentElement('afterbegin', audioClickElement);
 
 	const header = document.querySelector("div[class^='md-header__title']");
@@ -72,6 +74,13 @@ function audioMain() {
 		header.insertAdjacentElement('afterend', divEl);
 		divEl.appendChild(audioButton);
 
+		document.addEventListener('click', (e) => {
+			const el = e.target?.closest('a');
+			if (!el) return;
+
+			playClick();
+		});
+
 		audioButton.addEventListener('click', () => {
 			playClick();
 			if (isAudioAllowed()) {
@@ -82,21 +91,36 @@ function audioMain() {
 		});
 	}
 
-	document.addEventListener('click', () => {
+	const applyAudio = () => {
 		if (!isAudioAllowed()) return;
 
-		if (window.location.pathname.startsWith('/umineko/')) {
+		if (location.pathname === '/') {
+			playAudio('/sound/rain.mp3', 0.01);
+		} else if (location.pathname.startsWith('/umineko/')) {
 			playAudio('/sound/umineko.mp3', 0.035);
-		} else if (window.location.pathname.startsWith('/higurashi/')) {
+		} else if (location.pathname.startsWith('/higurashi/')) {
 			playAudio('/sound/higurashi.mp3', 0.015);
 		} else {
 			playAudio('/sound/clock.mp3', 0.02);
 		}
-	});
+	};
+
+	document.addEventListener('click', applyAudio);
+	window.addEventListener('locationchange', applyAudio);
 }
 
+const originalPush = history.pushState;
+history.pushState = function (...args) {
+	originalPush.apply(this, args);
+	window.dispatchEvent(new Event('locationchange'));
+};
+
+window.addEventListener('popstate', () =>
+	window.dispatchEvent(new Event('locationchange')),
+);
+
 function putExternalLinkIcons() {
-	const site_url = window.location.origin;
+	const site_url = location.origin;
 
 	const page_content = document.querySelector('pagecontent');
 
@@ -143,7 +167,7 @@ function replaceLastUpdateDate(newDate) {
 }
 
 function versionLinks() {
-	if (window.location.pathname.includes('umineko')) {
+	if (location.pathname.includes('umineko')) {
 		const u_sc = document.querySelector(
 			"a[href^='https://github.com/Witch-Love/umineko-scripting-tr/releases/']",
 		);
@@ -188,7 +212,7 @@ function versionLinks() {
 					),
 				);
 		}
-	} else if (window.location.pathname.includes('higurashi')) {
+	} else if (location.pathname.includes('higurashi')) {
 		const h_scAll = document.querySelectorAll(
 			"a[href^='https://github.com/Witch-Love/higurashi-scripting-tr/releases/']",
 		);
@@ -218,6 +242,11 @@ function versionLinks() {
 		});
 	}
 }
+
+const delay = (millis) =>
+	new Promise((resolve, _) => {
+		setTimeout((_) => resolve(), millis);
+	});
 
 document.addEventListener('DOMContentLoaded', () => {
 	var {

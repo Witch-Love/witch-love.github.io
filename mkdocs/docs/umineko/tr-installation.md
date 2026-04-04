@@ -4,7 +4,7 @@ comments: true
 
 # Türkçe Yama Kurulumu
 	
-!!! info "Bilgi"
+!!! warning "Dikkat"
 	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız ilk olarak [önceki sayfaya](installation.md) dönüp kurunuz.
 
 --8<-- "faq/steam_support.md"

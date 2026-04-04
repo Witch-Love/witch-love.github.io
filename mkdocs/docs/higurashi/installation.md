@@ -10,8 +10,8 @@ Her şeyden önce oyununuza [**07th-mod**](https://07th-mod.com/)'u kurunuz.
 
 ## 2. Türkçe Dosyaların İndirmesi
 
-???+ abstract "Bilgi"
-	Tüm chapterların çevirisi tamamlanmamıştır. Çevirinin ilerlemesini [**bu sayfadan**](index.md) kontrol edebilirsiniz.
+???+ abstract "Çeviri Durumu"
+	Tüm chapterların çevirisi tamamlanmamıştır. İlerlemeyi [**bu sayfadan**](https://github.com/Witch-Love/higurashi-scripting-tr/?tab=readme-ov-file#i%CC%87lerleme) kontrol edebilirsiniz.
 
 **Son Güncelleme:** `<Tarih>`
 

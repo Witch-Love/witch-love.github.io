@@ -3,7 +3,7 @@ title: İletişim
 description: Bize ulaşabileceğiniz yollar
 ---
 
-!!! info "Bilgi"
+!!! info ""
 	Bize ulaşmanızın en hızlı yolu **[Discord](discord.md){ target=_blank }** sunucumuza katılmak.
 
 ## Katkıda bulunma hakkında

@@ -90,7 +90,7 @@ Bu adım oldukça basit. Güncelleme ve script dosyalarının ikisini de indirin
 
 Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indirin ve klasörünüze çıkartın.
 
-!!! note "Windows"
+!!! note "Windows hakkında"
 	Windows kullananlar **Windows XP 32-bit** yazdığına aldırış etmesinler. Bunu indirmeniz gerekiyor.
 
 ![Game Engines](../img/umineko-install/game_engine.png)
@@ -101,7 +101,7 @@ Bu adım da oldukça basit. Kendi işletim sisteminize uygun olanı seçip indir
 
 Bu adım oyunu İngilizce oynamayı düşünenler içindir. İngilizce oynamayı düşünmüyorsanız bu adımı atlayın.
 
-İngilizce oynamak isteyip "acaba tamamen anlar mıyım", "ya anlamazsam?" şeklinde düşünceleriniz var ise, Witch-Hunt ekibinin İngilizce çevirisini deneyebilirsiniz. Basitçe özetlemek gerekirse, metinlerin anlamını bozmadan daha sade bir İngilizce kullanılmış bir çeviridir.
+İngilizce oynamak isteyip "acaba tamamen anlar mıyım", "ya anlamazsam?" şeklinde düşünceleriniz var ise, Witch-Hunt ekibinin İngilizce çevirisini deneyebilirsiniz. Oyunun dilini normale kıyasla çok basitleştirdiği için önerilmese de, metinlerin anlamını bozmadan daha sade bir İngilizce kullanılmış bir çeviridir.
 
 Önceki adımlarla aynı şekilde indirin ve klasörünüze çıkartın.
 
