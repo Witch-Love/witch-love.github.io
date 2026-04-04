@@ -5,7 +5,7 @@ comments: true
 # Türkçe Yama Kurulumu
 	
 !!! info "Bilgi"
-	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız öncelikle [önceki sayfaya](installation.md) dönüp kurunuz.
+	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız ilk olarak [önceki sayfaya](installation.md) dönüp kurunuz.
 
 --8<-- "faq/steam_support.md"
 
@@ -16,6 +16,8 @@ comments: true
 ## Türkçe Dosyalar
 
 Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve ikisini de **Umineko Project**'in kurulu olduğu klasörünüze çıkartın.
+
+**Son Güncelleme:** `<Tarih>`
 
 [:fontawesome-solid-download: Türkçe Script](https://github.com/Witch-Love/umineko-scripting-tr/releases/latest/download/umineko-tr-scripts.zip){ .md-button .md-button--primary }
 [:fontawesome-solid-download: Türkçe Grafikler](https://github.com/Witch-Love/umineko-scripting-tr-files/releases/latest/download/umineko-tr-files.zip){ .md-button .md-button--primary }

@@ -13,6 +13,8 @@ Her şeyden önce oyununuza [**07th-mod**](https://07th-mod.com/)'u kurunuz.
 ???+ abstract "Bilgi"
 	Tüm chapterların çevirisi tamamlanmamıştır. Çevirinin ilerlemesini [**bu sayfadan**](index.md) kontrol edebilirsiniz.
 
+**Son Güncelleme:** `<Tarih>`
+
 === "Chapter 1"
     [:fontawesome-solid-download: Onikakushi Türkçe](https://github.com/Witch-Love/higurashi-scripting-tr/releases/latest/download/01_onikakushi-turkish.zip){ .md-button .md-button--primary }
 
