@@ -8,7 +8,6 @@
 			--background-image: none !important;
 			--md-default-bg-color: #000000 !important;
 		}
-
 		.md-header {
 			background-color: transparent;
 			background: rgb(0, 0, 0);
@@ -21,7 +20,6 @@
 		.md-header--shadow {
 			box-shadow: none;
 		}
-
 		.md-main__inner {
 			margin: 0;
 		}
@@ -64,16 +62,6 @@
 			position: relative;
 			box-shadow: 0 0 70px 20px black inset;
 		}
-		section.crowsworn {
-			background-color: #000000;
-			background-image: url("{{ config.site_url | e }}img/home/crowsworn.webp") !important;
-			background-repeat: no-repeat !important;
-			background-attachment: unset;
-			background-size: cover;
-			background-position: center;
-			position: relative;
-			box-shadow: 0 0 70px 30px black inset;
-		}
 		section.higurashi {
 			background-color: #000000;
 			background-image: url("{{ config.site_url | e }}img/home/higurashi.webp") !important;
@@ -83,16 +71,6 @@
 			background-position: top;
 			position: relative;
 			box-shadow: 0 0 70px 55px black inset;
-		}
-		section.silksong {
-			background-color: #000000;
-			background-image: url("{{ config.site_url | e }}img/home/silksong.webp") !important;
-			background-repeat: no-repeat !important;
-			background-attachment: unset;
-			background-size: cover;
-			background-position: top;
-			position: relative;
-			box-shadow: 0 0 70px 45px black inset;
 		}
 
 		section:before {
@@ -181,6 +159,10 @@
 			line-height: 1.5;
 		}
 
+		.home-button:hover {
+			transform: translateY(-2px);
+		}
+
 		.home-button.gray {
 			color: #ffffff;
 			background-color: #282a38;
@@ -253,7 +235,7 @@
 	<section class="md-typeset umineko">
 		<div class="container">
 			<h2>Umineko Türkçe Çeviri</h2>
-			<p class="text arno-pro" style="font-size: larger;">Cadı bilgeleri övecek ve dört hazine bahşedecek.<br><br>
+			<p class="text arno-pro" style="font-size: larger; line-height: normal;">Cadı bilgeleri övecek ve dört hazine bahşedecek.<br><br>
 			Huzur içinde uyu, sevgili cadım, <span class="small-caps">Beatrice</span>...
 			</p>
 			<div class="row">
@@ -276,17 +258,6 @@
 				</a>
 				<a href="https://youtube.com/playlist?list=PLOxBDkucq83mjDVNjVaUGc_-FjWD4SKAK" class="home-button red" target="_blank">
 					YOUTUBE PLAYLIST <svg style="margin-left: 0.4rem !important;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-youtube ml-2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"></path><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
-				</a>
-			</div>
-		</div>
-	</section>
-	<section class="md-typeset silksong">
-		<div class="container">
-			<h2>Hollow Knight: Silksong Türkçe Çeviri</h2>
-			<p class="text">Oyun 4 Eylül'de çıkıyor!<br>Çeviri detayları için sayfamıza göz atın.</p>
-			<div class="row">
-				<a href="{{ config.site_url | e }}silksong/" class="home-button gray">
-					SAYFAYA GIT <svg style="margin-left: 0.2rem !important;" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right ml-2"><polyline points="9 18 15 12 9 6"></polyline></svg>
 				</a>
 			</div>
 		</div>

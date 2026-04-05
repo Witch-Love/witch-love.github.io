@@ -3,10 +3,12 @@
 	--md-admonition-icon--announcement: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M2.655 15.423c-.835.892-1.542 1.158-2.655.86l2.647 4.585c.257-1.094.815-1.708 2.005-1.985l15.348-3.732-6.335-10.972-11.01 11.244zm11.32 2.707l-.467 2.118c-.094.378-.391.674-.769.771l-2.952.774c-.365.095-.753-.012-1.018-.28l-1.574-1.712 1.605-.395.646.77c.176.177.432.248.674.186l1.598-.425c.252-.064.449-.261.511-.512l.162-.906 1.584-.389zm8.719-11.267l-2.684 1.613-.756-1.262 2.686-1.612.754 1.261zm-4.396-1.161l-1.335-.616 1.342-2.914 1.335.617-1.342 2.913zm5.619 6.157l-3.202-.174.081-1.469 3.204.175-.083 1.468z"/></svg>');
 	--md-admonition-icon--code: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M392.8 1.2c-17-4.9-34.7 5-39.6 22l-128 448c-4.9 17 5 34.7 22 39.6s34.7-5 39.6-22l128-448c4.9-17-5-34.7-22-39.6m80.6 120.1c-12.5 12.5-12.5 32.8 0 45.3l89.3 89.4-89.4 89.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l112-112c12.5-12.5 12.5-32.8 0-45.3l-112-112c-12.5-12.5-32.8-12.5-45.3 0zm-306.7 0c-12.5-12.5-32.8-12.5-45.3 0l-112 112c-12.5 12.5-12.5 32.8 0 45.3l112 112c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256l89.4-89.4c12.5-12.5 12.5-32.8 0-45.3"/></svg>');
 
-	--md-admonition-icon--danger: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>')
+	--md-admonition-icon--danger: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288l111.5 0L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7l-111.5 0L349.4 44.6z"/></svg>');
+
+	--md-admonition-icon--deprecated: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>spider-web</title><path d="M13.62,13.28L15.26,15.54C15.29,15 15.38,14.47 15.56,13.93C15.74,13.37 16,12.86 16.3,12.41L13.62,13.28M17.77,19C17.75,17.68 17.95,16.27 18.41,14.85C18.88,13.42 19.56,12.14 20.36,11.09L18.32,11.75C17.54,12.26 16.87,13.14 16.5,14.23C16.17,15.29 16.18,16.36 16.5,17.22L17.77,19M19.25,21C18.75,21.46 18.21,21.86 17.63,22.2L17.31,21.76C15.9,21 14.04,20.5 12,20.5C9.96,20.5 8.1,21 6.69,21.76L6.37,22.2C5.79,21.86 5.25,21.46 4.75,21L5,20.69C5.33,19.08 5.22,17.12 4.58,15.14C3.94,13.19 2.9,11.56 1.71,10.46L1.27,10.32C1.42,9.66 1.63,9 1.89,8.41L2.29,8.54C3.92,8.37 5.74,7.65 7.43,6.43C9.09,5.22 10.32,3.73 11,2.26V1.79L12,1.75L13,1.79V2.21C13.67,3.71 14.91,5.23 16.6,6.45C18.26,7.66 20.06,8.37 21.67,8.56L22.11,8.41C22.37,9 22.58,9.66 22.73,10.32L22.23,10.5C21.04,11.58 20,13.21 19.37,15.16C18.74,17.09 18.62,19 18.92,20.57L19.25,21M11,11.37V8.5C10.66,8.92 10.26,9.32 9.78,9.67C9.29,10 8.77,10.29 8.25,10.5L11,11.37M11,4.22C10.25,5.31 9.24,6.35 8,7.24C6.78,8.14 5.46,8.78 4.18,9.16L6.15,9.8C7.11,9.88 8.22,9.56 9.19,8.86C10.13,8.18 10.76,7.27 11,6.36V4.22M13,11.37L15.74,10.5C15.23,10.3 14.72,10.03 14.25,9.69C13.76,9.33 13.34,8.92 13,8.5V11.37M19.8,9.16C18.53,8.78 17.23,8.15 16,7.26C14.77,6.36 13.76,5.31 13,4.2V6.27C13.22,7.21 13.86,8.17 14.84,8.88C15.77,9.56 16.83,9.87 17.77,9.82L19.8,9.16M10.38,13.28L7.64,12.39C7.95,12.84 8.2,13.35 8.38,13.91C8.57,14.5 8.66,15.06 8.68,15.62L10.38,13.28M3.58,11.07C4.38,12.12 5.06,13.4 5.53,14.83C6,16.29 6.2,17.74 6.17,19.08L7.38,17.41C7.76,16.5 7.8,15.36 7.43,14.22C7.07,13.12 6.4,12.24 5.61,11.73L3.58,11.07M12,14.45L10.35,16.72C10.87,16.58 11.42,16.5 12,16.5C12.58,16.5 13.13,16.58 13.65,16.72L12,14.45M7.84,20.18C9.08,19.75 10.5,19.5 12,19.5C13.5,19.5 14.92,19.75 16.16,20.18L14.88,18.42C14.16,17.85 13.13,17.5 12,17.5C10.87,17.5 9.84,17.85 9.12,18.42L7.84,20.18Z" /></svg>');
 }
 
-[data-md-color-scheme="slate"] {
+[data-md-color-scheme='slate'] {
 	--md-admonition-color--announcement: hsl(65, 55%, 57%);
 	--md-admonition-bg-color--announcement: var(--md-primary-fg-color);
 
@@ -16,10 +18,9 @@
 	}
 }
 
-[data-md-color-scheme="default"] {
+[data-md-color-scheme='default'] {
 	--md-admonition-color--announcement: #ffd600;
 	--md-admonition-bg-color--announcement: rgba(255, 214, 0, 0.1);
-
 }
 
 .md-typeset {
@@ -34,7 +35,9 @@
 		border-width: 0;
 		border-left-width: 4px;
 		box-shadow: var(--md-shadow-z2) !important;
-		transition: max-height 0.3s ease, opacity 0.3s ease;
+		transition:
+			max-height 0.3s ease,
+			opacity 0.3s ease;
 	}
 }
 
@@ -45,13 +48,13 @@
 	border-left-width: 4px;
 }
 
-.md-typeset .draft >.admonition-title,
-.md-typeset .draft>summary {
+.md-typeset .draft > .admonition-title,
+.md-typeset .draft > summary {
 	background-color: #9e9e9e1a;
 }
 
-.md-typeset .draft>.admonition-title::before,
-.md-typeset .draft>summary::before {
+.md-typeset .draft > .admonition-title::before,
+.md-typeset .draft > summary::before {
 	background-color: #9e9e9e;
 	-webkit-mask-image: var(--md-admonition-icon--draft);
 	mask-image: var(--md-admonition-icon--draft);
@@ -63,28 +66,52 @@
 	border-color: var(--md-admonition-color--announcement);
 }
 
-.md-typeset .announcement>.admonition-title,
-.md-typeset .announcement>summary {
+.md-typeset .announcement > .admonition-title,
+.md-typeset .announcement > summary {
 	background-color: var(--md-admonition-bg-color--announcement);
 }
 
-.md-typeset .announcement>.admonition-title::before,
-.md-typeset .announcement>summary::before {
+.md-typeset .announcement > .admonition-title::before,
+.md-typeset .announcement > summary::before {
 	background-color: var(--md-admonition-color--announcement);
 	-webkit-mask-image: var(--md-admonition-icon--announcement);
 	mask-image: var(--md-admonition-icon--announcement);
 }
 
 /* code */
-.md-typeset .code>.admonition-title::before,
-.md-typeset .code>summary::before {
+.md-typeset .code > .admonition-title::before,
+.md-typeset .code > summary::before {
 	-webkit-mask-image: var(--md-admonition-icon--code);
 	mask-image: var(--md-admonition-icon--code);
 }
 
-.md-typeset .code>.admonition-title::before,
-.md-typeset .code>summary::first-line {
+.md-typeset .code > .admonition-title::before,
+.md-typeset .code > summary::first-line {
 	color: var(--md-codeblock-name-color);
+	font-family: monospace;
+	font-weight: 100;
+}
+
+/* deprecated */
+.md-typeset .admonition.deprecated,
+.md-typeset details.deprecated {
+	border-color: var(--md-admonition-color--draft);
+}
+
+.md-typeset .deprecated > .admonition-title,
+.md-typeset .deprecated > summary {
+	background-color: var(--md-admonition-bg-color--draft);
+}
+
+.md-typeset .deprecated > .admonition-title::before,
+.md-typeset .deprecated > summary::before {
+	background-color: #9e9e9e;
+	-webkit-mask-image: var(--md-admonition-icon--deprecated);
+	mask-image: var(--md-admonition-icon--deprecated);
+}
+
+.md-typeset .deprecated > .admonition-title::before,
+.md-typeset .deprecated > p {
 	font-family: monospace;
 	font-weight: 100;
 }

@@ -44,7 +44,7 @@
 	transform: scale(0.1);
 }
 .os-size-observer::before {
-	content: "";
+	content: '';
 	flex: none;
 	box-sizing: inherit;
 	padding: 10px;
@@ -74,11 +74,12 @@
 	margin-right: 0;
 }
 .os-size-observer-listener:empty::before {
-	content: "";
+	content: '';
 	width: 100%;
 	height: 100%;
 }
-.os-size-observer-listener:empty::before, .os-size-observer-listener > .os-size-observer-listener-item {
+.os-size-observer-listener:empty::before,
+.os-size-observer-listener > .os-size-observer-listener-item {
 	display: block;
 	position: relative;
 	padding: inherit;
@@ -143,16 +144,16 @@
  * changes to this styles need to be reflected in the environment styles to correctly detect scrollbar hiding
  */
 [data-overlayscrollbars-initialize],
-[data-overlayscrollbars-viewport~=scrollbarHidden] {
+[data-overlayscrollbars-viewport~='scrollbarHidden'] {
 	scrollbar-width: none !important;
 }
 
 [data-overlayscrollbars-initialize]::-webkit-scrollbar,
 [data-overlayscrollbars-initialize]::-webkit-scrollbar-corner,
-[data-overlayscrollbars-viewport~=scrollbarHidden]::-webkit-scrollbar,
-[data-overlayscrollbars-viewport~=scrollbarHidden]::-webkit-scrollbar-corner {
+[data-overlayscrollbars-viewport~='scrollbarHidden']::-webkit-scrollbar,
+[data-overlayscrollbars-viewport~='scrollbarHidden']::-webkit-scrollbar-corner {
 	-webkit-appearance: none !important;
-					appearance: none !important;
+	appearance: none !important;
 	display: none !important;
 	width: 0 !important;
 	height: 0 !important;
@@ -161,7 +162,9 @@
 /**
  * elements wont suddenly clip after initialization is done
  */
-[data-overlayscrollbars-initialize]:not([data-overlayscrollbars]):not(html):not(body) {
+[data-overlayscrollbars-initialize]:not([data-overlayscrollbars]):not(html):not(
+		body
+	) {
 	overflow: auto;
 }
 
@@ -191,7 +194,7 @@ html[data-overlayscrollbars-body] > body {
 	position: relative;
 }
 
-[data-overlayscrollbars~=host],
+[data-overlayscrollbars~='host'],
 [data-overlayscrollbars-padding] {
 	display: flex;
 	align-items: stretch !important;
@@ -222,8 +225,8 @@ html[data-overlayscrollbars-body] > body {
 [data-overlayscrollbars-viewport]:not([data-overlayscrollbars]):focus {
 	outline: none;
 }
-[data-overlayscrollbars-viewport][data-overlayscrollbars-viewport~=arrange]::before {
-	content: "";
+[data-overlayscrollbars-viewport][data-overlayscrollbars-viewport~='arrange']::before {
+	content: '';
 	position: absolute;
 	pointer-events: none;
 	z-index: -1;
@@ -239,49 +242,53 @@ html[data-overlayscrollbars-body] > body {
 	overflow: hidden !important;
 }
 
-[data-overlayscrollbars~=noClipping],
-[data-overlayscrollbars-padding~=noClipping] {
+[data-overlayscrollbars~='noClipping'],
+[data-overlayscrollbars-padding~='noClipping'] {
 	overflow: visible !important;
 }
 
-[data-overlayscrollbars-viewport~=measuring] {
+[data-overlayscrollbars-viewport~='measuring'] {
 	overflow: hidden !important;
 	scroll-behavior: auto !important;
 	scroll-snap-type: none !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowXVisible]:not([data-overlayscrollbars-viewport~=measuring]) {
+[data-overlayscrollbars-viewport~='overflowXVisible']:not(
+	[data-overlayscrollbars-viewport~='measuring']
+) {
 	overflow-x: visible !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowXHidden] {
+[data-overlayscrollbars-viewport~='overflowXHidden'] {
 	overflow-x: hidden !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowXScroll] {
+[data-overlayscrollbars-viewport~='overflowXScroll'] {
 	overflow-x: scroll !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowYVisible]:not([data-overlayscrollbars-viewport~=measuring]) {
+[data-overlayscrollbars-viewport~='overflowYVisible']:not(
+	[data-overlayscrollbars-viewport~='measuring']
+) {
 	overflow-y: visible !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowYHidden] {
+[data-overlayscrollbars-viewport~='overflowYHidden'] {
 	overflow-y: hidden !important;
 }
 
-[data-overlayscrollbars-viewport~=overflowYScroll] {
+[data-overlayscrollbars-viewport~='overflowYScroll'] {
 	overflow-y: scroll !important;
 }
 
-[data-overlayscrollbars-viewport~=noContent]:not(#osFakeId) {
+[data-overlayscrollbars-viewport~='noContent']:not(#osFakeId) {
 	font-size: 0 !important;
 	line-height: 0 !important;
 }
 
-[data-overlayscrollbars-viewport~=noContent]:not(#osFakeId)::before,
-[data-overlayscrollbars-viewport~=noContent]:not(#osFakeId)::after,
-[data-overlayscrollbars-viewport~=noContent]:not(#osFakeId) > * {
+[data-overlayscrollbars-viewport~='noContent']:not(#osFakeId)::before,
+[data-overlayscrollbars-viewport~='noContent']:not(#osFakeId)::after,
+[data-overlayscrollbars-viewport~='noContent']:not(#osFakeId) > * {
 	display: none !important;
 	position: absolute !important;
 	width: 1px !important;
@@ -294,7 +301,7 @@ html[data-overlayscrollbars-body] > body {
 	border-width: 0 !important;
 }
 
-[data-overlayscrollbars-viewport~=scrolling] {
+[data-overlayscrollbars-viewport~='scrolling'] {
 	scroll-behavior: auto !important;
 	scroll-snap-type: none !important;
 }
@@ -306,7 +313,11 @@ html[data-overlayscrollbars-body] > body {
 /**
  * Display contents to bridge any flickering during deferred initialization.
  */
-[data-overlayscrollbars-contents]:not(#osFakeId):not([data-overlayscrollbars-padding]):not([data-overlayscrollbars-viewport]):not([data-overlayscrollbars-content]) {
+[data-overlayscrollbars-contents]:not(#osFakeId):not(
+		[data-overlayscrollbars-padding]
+	):not([data-overlayscrollbars-viewport]):not(
+		[data-overlayscrollbars-content]
+	) {
 	display: contents;
 }
 
@@ -321,18 +332,20 @@ html[data-overlayscrollbars-body] > body {
 
 [data-overlayscrollbars-grid] > [data-overlayscrollbars-padding],
 [data-overlayscrollbars-grid] > [data-overlayscrollbars-viewport],
-[data-overlayscrollbars-grid] > [data-overlayscrollbars-padding] > [data-overlayscrollbars-viewport] {
+[data-overlayscrollbars-grid]
+	> [data-overlayscrollbars-padding]
+	> [data-overlayscrollbars-viewport] {
 	height: auto !important;
 	width: auto !important;
 }
 
 @property --os-scroll-percent {
-	syntax: "<number>";
+	syntax: '<number>';
 	inherits: true;
 	initial-value: 0;
 }
 @property --os-viewport-percent {
-	syntax: "<number>";
+	syntax: '<number>';
 	inherits: true;
 	initial-value: 0;
 }
@@ -341,7 +354,8 @@ html[data-overlayscrollbars-body] > body {
 	--os-scroll-percent: 0;
 	--os-scroll-direction: 0;
 	--os-scroll-percent-directional: calc(
-		var(--os-scroll-percent) - (var(--os-scroll-percent) + (1 - var(--os-scroll-percent)) * -1) *
+		var(--os-scroll-percent) -
+			(var(--os-scroll-percent) + (1 - var(--os-scroll-percent)) * -1) *
 			var(--os-scroll-direction)
 	);
 }
@@ -349,7 +363,13 @@ html[data-overlayscrollbars-body] > body {
 .os-scrollbar {
 	contain: size layout;
 	contain: size layout style;
-	transition: opacity 0.15s, visibility 0.15s, top 0.15s, right 0.15s, bottom 0.15s, left 0.15s;
+	transition:
+		opacity 0.15s,
+		visibility 0.15s,
+		top 0.15s,
+		right 0.15s,
+		bottom 0.15s,
+		left 0.15s;
 	pointer-events: none;
 	position: absolute;
 	opacity: 0;
@@ -454,11 +474,21 @@ body > .os-scrollbar {
 	}
 	.os-scrollbar-horizontal .os-scrollbar-handle {
 		left: auto;
-		transform: translateX(calc(var(--os-scroll-percent-directional) * 100cqw + var(--os-scroll-percent-directional) * -100%));
+		transform: translateX(
+			calc(
+				var(--os-scroll-percent-directional) * 100cqw +
+					var(--os-scroll-percent-directional) * -100%
+			)
+		);
 	}
 	.os-scrollbar-vertical .os-scrollbar-handle {
 		top: auto;
-		transform: translateY(calc(var(--os-scroll-percent-directional) * 100cqh + var(--os-scroll-percent-directional) * -100%));
+		transform: translateY(
+			calc(
+				var(--os-scroll-percent-directional) * 100cqh +
+					var(--os-scroll-percent-directional) * -100%
+			)
+		);
 	}
 	.os-scrollbar-rtl.os-scrollbar-horizontal .os-scrollbar-handle {
 		right: auto;
@@ -517,7 +547,10 @@ body > .os-scrollbar {
 	border: var(--os-track-border);
 	border-radius: var(--os-track-border-radius);
 	background: var(--os-track-bg);
-	transition: opacity 0.15s, background-color 0.15s, border-color 0.15s;
+	transition:
+		opacity 0.15s,
+		background-color 0.15s,
+		border-color 0.15s;
 }
 .os-scrollbar-track:hover {
 	border: var(--os-track-border-hover);
@@ -544,7 +577,7 @@ body > .os-scrollbar {
 
 .os-scrollbar-track:before,
 .os-scrollbar-handle:before {
-	content: "";
+	content: '';
 	position: absolute;
 	left: 0;
 	right: 0;
@@ -570,10 +603,20 @@ body > .os-scrollbar {
 	min-width: var(--os-handle-min-size);
 	max-width: var(--os-handle-max-size);
 	height: var(--os-handle-perpendicular-size);
-	transition: opacity 0.15s, background-color 0.15s, border-color 0.15s, height 0.15s;
+	transition:
+		opacity 0.15s,
+		background-color 0.15s,
+		border-color 0.15s,
+		height 0.15s;
 }
 .os-scrollbar-horizontal .os-scrollbar-handle:before {
-	top: calc((var(--os-padding-perpendicular) + var(--os-handle-interactive-area-offset)) * -1);
+	top: calc(
+		(
+				var(--os-padding-perpendicular) +
+					var(--os-handle-interactive-area-offset)
+			) *
+			-1
+	);
 	bottom: calc(var(--os-padding-perpendicular) * -1);
 }
 .os-scrollbar-horizontal:hover .os-scrollbar-handle {
@@ -596,14 +639,30 @@ body > .os-scrollbar {
 	min-height: var(--os-handle-min-size);
 	max-height: var(--os-handle-max-size);
 	width: var(--os-handle-perpendicular-size);
-	transition: opacity 0.15s, background-color 0.15s, border-color 0.15s, width 0.15s;
+	transition:
+		opacity 0.15s,
+		background-color 0.15s,
+		border-color 0.15s,
+		width 0.15s;
 }
 .os-scrollbar-vertical .os-scrollbar-handle:before {
-	left: calc((var(--os-padding-perpendicular) + var(--os-handle-interactive-area-offset)) * -1);
+	left: calc(
+		(
+				var(--os-padding-perpendicular) +
+					var(--os-handle-interactive-area-offset)
+			) *
+			-1
+	);
 	right: calc(var(--os-padding-perpendicular) * -1);
 }
 .os-scrollbar-vertical.os-scrollbar-rtl .os-scrollbar-handle:before {
-	right: calc((var(--os-padding-perpendicular) + var(--os-handle-interactive-area-offset)) * -1);
+	right: calc(
+		(
+				var(--os-padding-perpendicular) +
+					var(--os-handle-interactive-area-offset)
+			) *
+			-1
+	);
 	left: calc(var(--os-padding-perpendicular) * -1);
 }
 .os-scrollbar-vertical:hover .os-scrollbar-handle {
@@ -614,7 +673,7 @@ body > .os-scrollbar {
 }
 
 /* NONE THEME: */
-[data-overlayscrollbars-viewport~=measuring] > .os-scrollbar,
+[data-overlayscrollbars-viewport~='measuring'] > .os-scrollbar,
 .os-theme-none.os-scrollbar {
 	display: none !important;
 }
