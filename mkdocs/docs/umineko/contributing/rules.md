@@ -93,6 +93,7 @@ description: Çeviri kurallarımız
 * GHQ `->` GHQ
 * Goat Attendant `->` Keçi Uşağı
 * Golden Land `->` Altın Diyar
+* Gospel House `->` Fukuin Evi
 * Great Demon `->` Yüce İblis
 * Grimoire `->` Grimoire *`(aynı)`*
 * Gruesome `->` Dehşet verici
@@ -100,7 +101,6 @@ description: Çeviri kurallarımız
 * Guest room `->` Misafir odası
 * Head's Ring `->` Aile Reisi Yüzüğü
 * Hempel's Raven `->` Hempel'in Kuzgunu
-* Horrible `->` Korkunç
 * Incinerator `->` Çöp Fırını
 * Locked Room `->` Kilitli Oda
 * Logic Error `->` Mantık Hatası
