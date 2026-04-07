@@ -282,9 +282,15 @@ function report() {
 	if (form) {
 		form.addEventListener('submit', async (e) => {
 			e.preventDefault();
-			submitBtn.disabled = true;
 
 			const data = Object.fromEntries(new FormData(form));
+
+			if (!data.chapter || !data.message) {
+				alert('Chapter ve mesaj alanları boş bırakılamaz.');
+				return;
+			}
+
+			submitBtn.disabled = true;
 
 			const json = JSON.stringify(data);
 
