@@ -268,12 +268,20 @@ function report() {
 
 	const reportParams = new URL(location.href).searchParams;
 	const chapterEl = document.getElementById('chapter');
+	const versionEl = document.getElementById('version');
 
 	if (chapterEl) {
 		const query = reportParams.get('chapter');
 		if (query) {
 			chapterEl.value = query;
 			chapterEl.readOnly = true;
+		}
+	}
+	if (versionEl) {
+		const query = reportParams.get('version');
+		if (query) {
+			versionEl.value = query;
+			versionEl.readOnly = true;
 		}
 	}
 
@@ -293,8 +301,6 @@ function report() {
 			submitBtn.disabled = true;
 
 			const json = JSON.stringify(data);
-
-			console.log(json);
 
 			try {
 				const res = await fetch('https://api.witch-love.com/report', {
