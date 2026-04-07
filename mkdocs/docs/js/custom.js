@@ -260,6 +260,61 @@ function versionLinks() {
 	}
 }
 
+function report() {
+	if (!location.pathname.startsWith('/umineko/contributing/report')) return;
+
+	const submitBtn = document.getElementById('submit-report');
+	if (!submitBtn) return;
+
+	const reportParams = new URL(location.href).searchParams;
+	const chapterEl = document.getElementById('chapter');
+
+	if (chapterEl) {
+		const query = reportParams.get('chapter');
+		if (query) {
+			chapterEl.value = query;
+			chapterEl.readOnly = true;
+		}
+	}
+
+	const form = document.getElementById('report');
+
+	if (form) {
+		form.addEventListener('submit', async (e) => {
+			e.preventDefault();
+			submitBtn.disabled = true;
+
+			const data = Object.fromEntries(new FormData(form));
+
+			const json = JSON.stringify(data);
+
+			console.log(json);
+
+			try {
+				const res = await fetch('https://api.witch-love.com/report', {
+					method: 'POST',
+					headers: { 'Content-Type': 'application/json' },
+					body: json,
+				});
+				if (res.ok) {
+					alert(
+						'Hata bildirimin gönderildi! Yardımın için çok teşekkürler!',
+					);
+					form.reset();
+				} else {
+					throw new Error();
+				}
+			} catch (error) {
+				alert(
+					'Hata bildirimi gönderilirken bir sorun oluştu! Lütfen daha sonra tekrar dene.',
+				);
+			}
+
+			submitBtn.disabled = false;
+		});
+	}
+}
+
 const delay = (millis) =>
 	new Promise((resolve, _) => {
 		setTimeout((_) => resolve(), millis);
@@ -282,3 +337,4 @@ document.addEventListener('DOMContentLoaded', () => {
 document.addEventListener('DOMContentLoaded', audioMain);
 document$.subscribe(putExternalLinkIcons);
 document$.subscribe(versionLinks);
+document$.subscribe(report);
