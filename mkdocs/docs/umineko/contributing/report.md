@@ -18,18 +18,18 @@ status: new
 <form action="#" method="POST" id="report" class="md-typeset" style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:1rem;">
 
   <div style="display:flex;flex-direction:column;">
-    <label for="chapter" style="font-weight:500;margin-bottom:0.25rem;">Episode ve Chapter<br />(oyun içinden tıklanınca otomatik doldurulur)</label>
-    <input class="md-input" type="text" id="chapter" name="chapter" placeholder="Örnek: Episode: 1, Chapter: Mektup ve Şemsiye" style="padding:0.5rem;border-radius:0.375rem;">
+    <label for="chapter" style="font-weight:500;margin-bottom:0.25rem;">Episode ve Chapter*</label>
+    <input class="md-input" type="text" id="chapter" name="chapter" placeholder="Örnek: Episode: 1, Chapter: Mektup ve Şemsiye" style="padding:0.5rem;border-radius:0.375rem;" required>
   </div>
 
   <div style="display:flex;flex-direction:column;">
-    <label for="version" style="font-weight:500;margin-bottom:0.25rem;">Türkçe Oyun Sürümü<br />(isteğe bağlı & oyun içinden tıklanınca otomatik doldurulur)</label>
+    <label for="version" style="font-weight:500;margin-bottom:0.25rem;">Türkçe Oyun Sürümü (isteğe bağlı)</label>
     <input class="md-input" type="text" id="version" name="version" placeholder="Oyun penceresinde yazan versiyon" style="padding:0.5rem;border-radius:0.375rem;">
   </div>
 
   <div style="display:flex;flex-direction:column;">
-    <label for="message" style="font-weight:500;margin-bottom:0.25rem;">Mesaj</label>
-    <textarea class="md-input" id="message" name="message" placeholder="Hata açıklaması veya hatalı metinden bir kesit" style="padding:0.5rem;border:none;border-radius:0.375rem;resize:none;height:150px;"></textarea>
+    <label for="message" style="font-weight:500;margin-bottom:0.25rem;">Mesaj*</label>
+    <textarea class="md-input" id="message" name="message" placeholder="Hata açıklaması veya hatalı metinden bir kesit" style="padding:0.5rem;border:none;border-radius:0.375rem;resize:none;height:150px;" required></textarea>
   </div>
 
   <div style="display:flex;flex-direction:column;">
