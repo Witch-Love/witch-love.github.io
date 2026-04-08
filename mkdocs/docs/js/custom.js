@@ -269,6 +269,7 @@ function report() {
 	const reportParams = new URL(location.href).searchParams;
 	const chapterEl = document.getElementById('chapter');
 	const versionEl = document.getElementById('version');
+	const messageEl = document.getElementById('message');
 
 	if (chapterEl) {
 		const query = reportParams.get('chapter');
@@ -282,6 +283,12 @@ function report() {
 		if (query) {
 			versionEl.value = query;
 			versionEl.readOnly = true;
+		}
+	}
+	if (messageEl) {
+		const query = reportParams.get('text');
+		if (query) {
+			messageEl.value = query;
 		}
 	}
 

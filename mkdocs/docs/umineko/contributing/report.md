@@ -8,6 +8,11 @@ status: new
 	Basit hataları bildirmek için alttaki formu kullanabilirsiniz.  
 	Daha detaylıca açıklamanız gereken önemli bir hatayı bildirmek için ise [GitHub](https://github.com/Witch-Love/umineko-scripting-tr/issues) sayfamıza uğrayabilirsiniz.
 
+!!! question "Otomatik doldurma hakkında"
+	Bu sayfayı oyun içi menüde bulunan buton aracılığıyla açtığınızda form otomatik olarak doldurulmuş olur.  
+
+	Eklemek istediğiniz bir şey var ise mesaj kutusuna orijinal metni bozmadan, **yeni bir satır olarak** yazabilirsiniz. 
+
 ***
 
 <form action="#" method="POST" id="report" class="md-typeset" style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:1rem;">
