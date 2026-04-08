@@ -260,6 +260,71 @@ function versionLinks() {
 	}
 }
 
+function checkVersion() {
+	if (!location.pathname.startsWith('/umineko/checkversion')) return;
+
+	const submitBtn = document.getElementById('submit-checkversion');
+	if (!submitBtn) return;
+
+	const reportParams = new URL(location.href).searchParams;
+	const currentVersionEl = document.getElementById('currentversion');
+
+	if (currentVersionEl) {
+		const query = reportParams.get('currentversion');
+		if (query) {
+			currentVersionEl.value = query;
+			currentVersionEl.readOnly = true;
+		}
+	}
+
+	const form = document.getElementById('checkversion');
+
+	if (form) {
+		form.addEventListener('submit', async (e) => {
+			e.preventDefault();
+
+			const data = Object.fromEntries(new FormData(form));
+
+			if (!data.currentversion) {
+				alert('Versiyon alanı boş bırakılamaz.');
+				return;
+			}
+
+			submitBtn.disabled = true;
+
+			try {
+				const latest = await getLatestVersion();
+
+				if (data.currentversion.includes(latest)) {
+					alert('Türkçe oyun versiyonu güncel!');
+				} else {
+					alert(
+						'Türkçe oyun versiyonu güncel değil! Lütfen yeni sürümü indir.',
+					);
+				}
+			} catch (error) {
+				alert(
+					'Versiyon kontrolü yapılırken bir hata oluştu! Lütfen daha sonra tekrar dene.',
+				);
+			}
+
+			submitBtn.disabled = false;
+		});
+	}
+}
+
+async function getLatestVersion() {
+	const res = await fetch(
+		'https://api.github.com/repos/Witch-Love/umineko-scripting-tr/releases/latest',
+	);
+
+	const data = await res.json();
+
+	const latestVersion = data.tag_name.replace('z', 'r');
+
+	return latestVersion;
+}
+
 function report() {
 	if (!location.pathname.startsWith('/umineko/contributing/report')) return;
 
@@ -357,3 +422,4 @@ document.addEventListener('DOMContentLoaded', audioMain);
 document$.subscribe(putExternalLinkIcons);
 document$.subscribe(versionLinks);
 document$.subscribe(report);
+document$.subscribe(checkVersion);
