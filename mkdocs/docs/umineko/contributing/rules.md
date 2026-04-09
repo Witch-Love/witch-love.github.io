@@ -58,6 +58,7 @@ description: Çeviri kurallarımız
 ### Terimler
 
 * Alibi `->` Mazeret
+* Alliance `->` İttifak
 * Anti-magic `->` Büyü-karşıtı
 * As you command `->` Emredersiniz
 * Apprentice `->` Çırak
@@ -159,6 +160,7 @@ description: Çeviri kurallarımız
 * Leviathan the Envious `->` Kıskançlığın Leviathan'ı
 * Lucifer the Proud `->` Kibrin Lucifer'ı
 * Mammon the Covetous `->` Açgözlülüğün Mammon'u
+* Mariage Sorcière Alliance of Witches `->` Mariage Sorcière Cadı İttifakı
 * Satan the Wrathful `->` Öfkenin Satan'ı
 * Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * The Seven Sisters of Purgatory `->` Araf'ın Yedi Kız Kardeşi
