@@ -4,6 +4,8 @@ description: Hollow Knight Silksong Türkçe çeviri
 status: deprecated
 index: false
 comments: true
+search:
+  exclude: true
 ---
 
 ???+ question "Çeviri ne zaman?"

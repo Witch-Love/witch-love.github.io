@@ -24,7 +24,7 @@ status: new
 
   <div style="display:flex;flex-direction:column;">
     <label for="version" style="font-weight:500;margin-bottom:0.25rem;">Türkçe Oyun Sürümü (isteğe bağlı)</label>
-    <input class="md-input" type="text" id="version" name="version" placeholder="Oyun penceresinde yazan versiyon" style="padding:0.5rem;border-radius:0.375rem;">
+    <input class="md-input" type="text" id="version" name="version" placeholder="Ana ekranda yazan versiyon" style="padding:0.5rem;border-radius:0.375rem;">
   </div>
 
   <div style="display:flex;flex-direction:column;">
