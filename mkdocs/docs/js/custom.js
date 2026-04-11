@@ -234,55 +234,59 @@ function checkVersion() {
 
 	const form = document.getElementById('checkversion');
 
-	if (form) {
-		form.addEventListener('submit', async (e) => {
-			e.preventDefault();
+	const submitFunction = async () => {
+		const data = Object.fromEntries(new FormData(form));
 
-			const data = Object.fromEntries(new FormData(form));
+		if (!data.currentversion) {
+			openModal('Hata!', 'Versiyon alanı boş bırakılamaz.');
+			return;
+		}
 
-			if (!data.currentversion) {
-				openModal('Hata!', 'Versiyon alanı boş bırakılamaz.');
-				return;
-			}
+		submitBtn.disabled = true;
 
-			submitBtn.disabled = true;
+		try {
+			const latest = await getLatestRelease();
 
-			try {
-				const latest = await getLatestVersion();
-
-				if (data.currentversion.includes(latest)) {
-					openModal(
-						'Türkçe oyun versiyonu güncel!',
-						'Son sürüme sahipsin.',
-					);
-				} else {
-					openModal(
-						'Eski Sürüm',
-						'Türkçe oyun versiyonu güncel değil!<br />Lütfen <a href="/umineko/tr-installation/" onclick="closeModal()">Türkçe Yama</a> sayfasından yeni sürümü yükleyin.',
-					);
-				}
-			} catch (error) {
+			if (data.currentversion.includes(latest.tag_name)) {
+				openModal('Türkçe Yama Sürüm Kontrolü', 'Son sürüme sahipsin.');
+			} else {
 				openModal(
-					'Hata!',
-					'Versiyon kontrolü yapılırken bir hata oluştu!<br />Lütfen daha sonra tekrar dene.',
+					`Türkçe Yama Sürüm Kontrolü`,
+					'Türkçe oyun versiyonunuz güncel değil!<br />Lütfen <a href="/umineko/tr-installation/" onclick="closeModal()">Türkçe Yama</a> sayfasından yeni sürümü yükleyin.<br /><br />' +
+						`Mevcut Sürümün: <code>${currentVersionEl?.value}</code><br />En Güncel Sürüm: <code><a href="${latest.html_url}" target="_blank">${'8.3b ' + latest.tag_name}</a></code>`,
 				);
 			}
+		} catch (error) {
+			openModal(
+				'Türkçe Yama Sürüm Kontrolü',
+				'Sürüm kontrolü yapılırken bir hata oluştu!<br />Lütfen daha sonra tekrar dene.',
+			);
+		}
 
-			submitBtn.disabled = false;
+		submitBtn.disabled = false;
+	};
+
+	if (form) {
+		if (currentVersionEl?.value) {
+			submitFunction();
+		}
+		form.addEventListener('submit', (e) => {
+			e.preventDefault();
+			submitFunction();
 		});
 	}
 }
 
-async function getLatestVersion() {
+async function getLatestRelease() {
 	const res = await fetch(
 		'https://api.github.com/repos/Witch-Love/umineko-scripting-tr/releases/latest',
 	);
 
 	const data = await res.json();
 
-	const latestVersion = data.tag_name.replace('z', 'r');
+	data.tag_name = data.tag_name.replace('z', 'r');
 
-	return latestVersion;
+	return data;
 }
 
 function report() {
