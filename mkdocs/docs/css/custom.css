@@ -182,73 +182,105 @@ input:read-only {
 	color: light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
 }
 
-.md-alert-wrapper {
+.md-modal {
 	position: fixed;
-	top: 20px;
-	right: 20px;
+	inset: 0;
 	z-index: 9999;
-}
 
-.md-alert {
-	min-width: 200px;
-	max-width: 90vw;
-	background: var(--md-default-bg-color, #2b2b2b);
-	color: var(--md-default-fg-color, #fff);
-	border-radius: 8px;
-	box-shadow: 0 4px 14px rgba(0, 0, 0, 0.25);
-	overflow: hidden;
-	font-size: 14px;
+	opacity: 0;
+	visibility: hidden;
+	pointer-events: none;
+
 	transition:
 		opacity 0.2s ease,
-		transform 0.2s ease;
+		visibility 0.2s ease;
 }
 
-#alert-text {
-	max-width: 90vw;
-	padding: 0.5rem;
-	text-align: center;
-	justify-self: center;
-	overflow-wrap: anywhere;
-	word-break: break-all;
-}
-
-.md-alert--hidden {
-	opacity: 0;
-	transform: translateY(10px);
-	pointer-events: none;
-}
-
-.md-alert--show {
+.md-modal--show {
 	opacity: 1;
-	transform: translateY(0);
+	visibility: visible;
+	pointer-events: auto;
 }
 
-.md-alert__content {
-	display: grid;
-	grid-template-columns: 1fr auto;
+.md-modal__overlay {
+	position: absolute;
+	inset: 0;
+	background: rgba(0, 0, 0, 0.4);
+
+	opacity: 0;
+	transition: opacity 0.2s ease;
+}
+
+.md-modal--show .md-modal__overlay {
+	opacity: 1;
+}
+
+.md-modal__dialog {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+
+	transform: translate(-50%, -50%) scale(1);
+	opacity: 0;
+
+	transition:
+		transform 0.2s ease,
+		opacity 0.2s ease;
+
+	width: 500px;
+	max-width: 90vw;
+
+	background: var(--md-default-bg-color);
+	color: var(--md-default-fg-color);
+
+	border-radius: 8px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+
+	display: flex;
+	flex-direction: column;
+}
+
+.md-modal--show .md-modal__dialog {
+	transform: translate(-50%, -50%) scale(1);
+	opacity: 1;
+}
+
+.md-modal__header {
+	display: flex;
 	align-items: center;
-	padding: 10px 12px;
+	justify-content: space-between;
+
+	padding: 12px 16px;
+	border-bottom: 1px solid var(--md-default-fg-color--lightest);
 }
 
-.md-alert__close {
-	justify-self: end;
-	background: none;
-	border: none;
-	color: inherit;
-	font-size: 16px;
-	cursor: pointer;
-	margin-left: 5px;
+.md-modal__header h3 {
+	margin: 0;
+	font-size: 1rem;
 }
 
-.md-alert__progress {
-	height: 3px;
-	background: rgba(255, 255, 255, 0.15);
-	width: 100%;
+.md-modal__body {
+	padding: 16px;
+	line-height: 1.6;
 }
 
-.md-alert__bar {
-	height: 100%;
-	width: 100%;
-	background: var(--md-accent-fg-color);
-	transform-origin: left;
+.md-modal__footer {
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
+
+	padding: 12px 16px;
+	border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+@keyframes modal-bounce {
+	0% {
+		transform: translate(-50%, -50%) scale(1);
+	}
+	50% {
+		transform: translate(-50%, -50%) scale(1.02);
+	}
+	100% {
+		transform: translate(-50%, -50%) scale(1);
+	}
 }

@@ -92,7 +92,7 @@ function audioMain() {
 		divEl.appendChild(audioButton);
 
 		document.addEventListener('click', (e) => {
-			const el = e.target?.closest('a');
+			const el = e.target?.closest('a, button');
 			if (!el) return;
 
 			playClick();
@@ -241,7 +241,7 @@ function checkVersion() {
 			const data = Object.fromEntries(new FormData(form));
 
 			if (!data.currentversion) {
-				alert('Versiyon alanı boş bırakılamaz.');
+				openModal('Hata!', 'Versiyon alanı boş bırakılamaz.');
 				return;
 			}
 
@@ -251,17 +251,17 @@ function checkVersion() {
 				const latest = await getLatestVersion();
 
 				if (data.currentversion.includes(latest)) {
-					showAlert('Türkçe oyun versiyonu güncel!', 10000);
+					openModal('Türkçe oyun versiyonu güncel!');
 				} else {
-					showAlert(
+					openModal(
+						'Bilgi',
 						'Türkçe oyun versiyonu güncel değil!<br />Yeni sürümü yükleyin.',
-						10000,
 					);
 				}
 			} catch (error) {
-				showAlert(
+				openModal(
+					'Hata!',
 					'Versiyon kontrolü yapılırken bir hata oluştu!<br />Lütfen daha sonra tekrar dene.',
-					10000,
 				);
 			}
 
@@ -323,7 +323,10 @@ function report() {
 			const data = Object.fromEntries(new FormData(form));
 
 			if (!data.chapter || !data.message) {
-				showAlert('Chapter ve mesaj alanları boş bırakılamaz.', 10000);
+				openModal(
+					'Uyarı',
+					'Chapter ve mesaj alanları boş bırakılamaz.',
+				);
 				return;
 			}
 
@@ -341,20 +344,20 @@ function report() {
 				const data = await res.json();
 
 				if (res.ok) {
-					showAlert(
-						'Hata bildirimin gönderildi.<br />Yardımın için çok teşekkür ederiz!<br /><br />Bildirim kodun:<br /><strong>' +
+					openModal(
+						'Hata bildirimin gönderildi!',
+						'Yardımın için çok teşekkür ederiz!<br /><br /><strong>Bildirim kodun:</strong><pre><code><span style="color:var(--md-code-hl-number-color);">' +
 							data.id +
-							'</strong><br /><br />Düzeltilen hataların kodları güncelleme notlarına eklenir.',
-						30000,
+							'</span></code></pre>Düzeltilen hataların bildirim kodları bir sonraki güncelleme notlarına eklenir!<br />E-mail adresini paylaşmadıysan hatanı bu kod ile takip edebilirsin.',
 					);
 					form.reset();
 				} else {
 					throw new Error();
 				}
 			} catch (error) {
-				showAlert(
+				openModal(
+					'Hata!',
 					'Hata bildirimi gönderilirken bir sorun oluştu!<br />Lütfen daha sonra tekrar dene.',
-					10000,
 				);
 			}
 
@@ -368,41 +371,51 @@ const delay = (millis) =>
 		setTimeout((_) => resolve(), millis);
 	});
 
-let alertTimeout;
-let alertStart;
-let alertDuration;
+function insertModalElement() {
+	document.body.insertAdjacentHTML(
+		'beforeend',
+		`<div id="modal" class="md-modal md-typeset">
+			<div class="md-modal__overlay" onclick="bounceModal()"></div>
 
-function showAlert(message, duration = 3000) {
-	const el = document.getElementById('alert');
-	const text = document.getElementById('alert-text');
-	const bar = el.querySelector('.md-alert__bar');
+			<div class="md-modal__dialog">
+				<div class="md-modal__header">
+					<h3 id="modal-title">Modal Title</h3>
+				</div>
 
-	text.innerHTML = message;
+				<div id="modal-body" class="md-modal__body">
+					Modal text
+				</div>
 
-	el.classList.remove('md-alert--hidden');
-	el.classList.add('md-alert--show');
-
-	alertStart = Date.now();
-	alertDuration = duration;
-
-	bar.style.transition = 'none';
-	bar.style.transform = 'scaleX(1)';
-
-	requestAnimationFrame(() => {
-		bar.style.transition = `transform ${duration}ms linear`;
-		bar.style.transform = 'scaleX(0)';
-	});
-
-	clearTimeout(alertTimeout);
-	alertTimeout = setTimeout(closeAlert, duration);
+				<div class="md-modal__footer">
+					<button class="md-button md-button--primary" onclick="closeModal()">Kapat</button>
+				</div>
+			</div>
+		</div>`,
+	);
 }
 
-function closeAlert() {
-	const el = document.getElementById('alert');
-	el.classList.remove('md-alert--show');
-	el.classList.add('md-alert--hidden');
+function openModal(title = '', body = '') {
+	const modal = document.getElementById('modal');
 
-	clearTimeout(alertTimeout);
+	document.getElementById('modal-title').innerHTML = title;
+	document.getElementById('modal-body').innerHTML = body;
+
+	modal.classList.add('md-modal--show');
+}
+
+function closeModal() {
+	const modal = document.getElementById('modal');
+
+	modal.classList.remove('md-modal--show');
+}
+
+function bounceModal() {
+	const dialog = document.querySelector('.md-modal__dialog');
+
+	dialog.style.animation = 'none';
+	dialog.offsetHeight;
+
+	dialog.style.animation = 'modal-bounce 200ms ease';
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -420,23 +433,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 document.addEventListener('DOMContentLoaded', audioMain);
-document.addEventListener('DOMContentLoaded', () => {
-	document.body.insertAdjacentHTML(
-		'afterbegin',
-		`<div class="md-alert-wrapper">
-		<div id="alert" class="md-alert md-alert--hidden">
-			<div class="md-alert__content">
-				<span id="alert-text">Mesaj</span>
-				<button class="md-alert__close" onclick="closeAlert()">×</button>
-			</div>
-
-			<div class="md-alert__progress">
-				<div class="md-alert__bar"></div>
-			</div>
-		</div>
-	</div>`,
-	);
-});
+document.addEventListener('DOMContentLoaded', insertModalElement);
 document$.subscribe(putExternalLinkIcons);
 document$.subscribe(versionLinks);
 document$.subscribe(report);
