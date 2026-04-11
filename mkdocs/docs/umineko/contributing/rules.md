@@ -109,6 +109,7 @@ description: Çeviri kurallarımız
 * Love `->` Aşk *`(büyüye yönelik söylenmiyorsa duruma bağlı)`*
 * Madam `->` Madam *`(aynı)`*
 * Magic `->` Büyü
+* Magic Circle `->` Büyülü Çember
 * Magic Defense `->` Büyü Direnci
 * Manifest `->` Tezahür Etmek
 * Mansion `->` Malikâne / Köşk *`(Kuwadorian'a yönelik ise)`*
@@ -116,6 +117,7 @@ description: Çeviri kurallarımız
 * Master Key `->` Master Anahtar
 * Milady `->` Leydim
 * Mistress `->` Metres
+* Motive `->` Motivasyon
 * Narrative `->` Anlatı
 * North Wind and the Sun `->` Güneş ve Kuzey Rüzgârı
 * Objection `->` İtiraz
