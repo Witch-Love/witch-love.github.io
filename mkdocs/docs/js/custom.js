@@ -251,15 +251,17 @@ function checkVersion() {
 				const latest = await getLatestVersion();
 
 				if (data.currentversion.includes(latest)) {
-					alert('Türkçe oyun versiyonu güncel!');
+					showAlert('Türkçe oyun versiyonu güncel!', 10000);
 				} else {
-					alert(
-						'Türkçe oyun versiyonu güncel değil! Lütfen yeni sürümü indir.',
+					showAlert(
+						'Türkçe oyun versiyonu güncel değil!<br />Yeni sürümü yükleyin.',
+						10000,
 					);
 				}
 			} catch (error) {
-				alert(
-					'Versiyon kontrolü yapılırken bir hata oluştu! Lütfen daha sonra tekrar dene.',
+				showAlert(
+					'Versiyon kontrolü yapılırken bir hata oluştu!<br />Lütfen daha sonra tekrar dene.',
+					10000,
 				);
 			}
 
@@ -321,7 +323,7 @@ function report() {
 			const data = Object.fromEntries(new FormData(form));
 
 			if (!data.chapter || !data.message) {
-				alert('Chapter ve mesaj alanları boş bırakılamaz.');
+				showAlert('Chapter ve mesaj alanları boş bırakılamaz.', 10000);
 				return;
 			}
 
@@ -335,17 +337,24 @@ function report() {
 					headers: { 'Content-Type': 'application/json' },
 					body: json,
 				});
+
+				const data = await res.json();
+
 				if (res.ok) {
-					alert(
-						'Hata bildirimin gönderildi! Yardımın için çok teşekkürler!',
+					showAlert(
+						'Hata bildirimin gönderildi.<br />Yardımın için çok teşekkür ederiz!<br /><br />Bildirim kodun:<br /><strong>' +
+							data.id +
+							'</strong><br /><br />Düzeltilen hataların kodları güncelleme notlarına eklenir.',
+						30000,
 					);
 					form.reset();
 				} else {
 					throw new Error();
 				}
 			} catch (error) {
-				alert(
-					'Hata bildirimi gönderilirken bir sorun oluştu! Lütfen daha sonra tekrar dene.',
+				showAlert(
+					'Hata bildirimi gönderilirken bir sorun oluştu!<br />Lütfen daha sonra tekrar dene.',
+					10000,
 				);
 			}
 
@@ -358,6 +367,43 @@ const delay = (millis) =>
 	new Promise((resolve, _) => {
 		setTimeout((_) => resolve(), millis);
 	});
+
+let alertTimeout;
+let alertStart;
+let alertDuration;
+
+function showAlert(message, duration = 3000) {
+	const el = document.getElementById('alert');
+	const text = document.getElementById('alert-text');
+	const bar = el.querySelector('.md-alert__bar');
+
+	text.innerHTML = message;
+
+	el.classList.remove('md-alert--hidden');
+	el.classList.add('md-alert--show');
+
+	alertStart = Date.now();
+	alertDuration = duration;
+
+	bar.style.transition = 'none';
+	bar.style.transform = 'scaleX(1)';
+
+	requestAnimationFrame(() => {
+		bar.style.transition = `transform ${duration}ms linear`;
+		bar.style.transform = 'scaleX(0)';
+	});
+
+	clearTimeout(alertTimeout);
+	alertTimeout = setTimeout(closeAlert, duration);
+}
+
+function closeAlert() {
+	const el = document.getElementById('alert');
+	el.classList.remove('md-alert--show');
+	el.classList.add('md-alert--hidden');
+
+	clearTimeout(alertTimeout);
+}
 
 document.addEventListener('DOMContentLoaded', () => {
 	var {
@@ -374,6 +420,23 @@ document.addEventListener('DOMContentLoaded', () => {
 	});
 });
 document.addEventListener('DOMContentLoaded', audioMain);
+document.addEventListener('DOMContentLoaded', () => {
+	document.body.insertAdjacentHTML(
+		'afterbegin',
+		`<div class="md-alert-wrapper">
+		<div id="alert" class="md-alert md-alert--hidden">
+			<div class="md-alert__content">
+				<span id="alert-text">Mesaj</span>
+				<button class="md-alert__close" onclick="closeAlert()">×</button>
+			</div>
+
+			<div class="md-alert__progress">
+				<div class="md-alert__bar"></div>
+			</div>
+		</div>
+	</div>`,
+	);
+});
 document$.subscribe(putExternalLinkIcons);
 document$.subscribe(versionLinks);
 document$.subscribe(report);
