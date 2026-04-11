@@ -251,11 +251,14 @@ function checkVersion() {
 				const latest = await getLatestVersion();
 
 				if (data.currentversion.includes(latest)) {
-					openModal('Türkçe oyun versiyonu güncel!');
+					openModal(
+						'Türkçe oyun versiyonu güncel!',
+						'Son sürüme sahipsin.',
+					);
 				} else {
 					openModal(
-						'Bilgi',
-						'Türkçe oyun versiyonu güncel değil!<br />Yeni sürümü yükleyin.',
+						'Eski Sürüm',
+						'Türkçe oyun versiyonu güncel değil!<br />Lütfen <a href="/umineko/tr-installation/" onclick="closeModal()">Türkçe Yama</a> sayfasından yeni sürümü yükleyin.',
 					);
 				}
 			} catch (error) {
