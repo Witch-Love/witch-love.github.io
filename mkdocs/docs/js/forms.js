@@ -92,6 +92,82 @@ async function submitVersionCheck(formData) {
 	return false;
 }
 
+async function getLineNumbers(ep, ch, text) {
+	const res = await fetch(
+		`https://raw.githubusercontent.com/Witch-Love/umineko-scripting-tr/master/story/ep${ep}/tr/umi${ep}_${ch}.txt`,
+	);
+
+	if (!res.ok) throw new Error();
+
+	const inputText = text.split('\n')[0];
+	const inputLineCount = text.split('\n').length;
+
+	const data = await res.text();
+	const lines = data.split('\n');
+
+	const foundIndex = lines.findIndex((line) => line == inputText);
+
+	if (foundIndex == -1) return;
+
+	return Array.from({ length: inputLineCount }, (_, i) => foundIndex + i);
+}
+
+async function getTexts(ep, ch, lineNumbers, language) {
+	const res = await fetch(
+		`https://raw.githubusercontent.com/Witch-Love/umineko-scripting-tr/master/story/ep${ep}/${language}/umi${ep}_${ch}.txt`,
+	);
+
+	if (!res.ok) throw new Error();
+
+	const data = await res.text();
+	const lines = data.split('\n');
+
+	const result = lineNumbers
+		.map((n) => lines[n])
+		.filter((v) => v !== undefined);
+
+	return result.join('\n');
+}
+
+async function getAlternativeText(chapterData, text, language) {
+	// chapter -> 1_op, 5_10...
+	const splitted = chapterData.split('_');
+
+	const ep = splitted[0];
+	const ch = splitted[1].replace(/^0+/, '');
+
+	try {
+		const lineNumbers = await getLineNumbers(ep, ch, text);
+
+		if (!lineNumbers) {
+			openModal(
+				'Hata!',
+				'Yazı, script içinde bulunamadı.<br />Burada olduğunu düşündüğün hata çoktan düzeltilmiş olabilir!',
+			);
+			return;
+		}
+
+		const alternativeText = await getTexts(ep, ch, lineNumbers, language);
+
+		showAlternativeText(alternativeText);
+	} catch (error) {
+		console.error(error);
+		openModal(
+			'Hata!',
+			'Yazı alınırken bir hata oluştu!<br />Lütfen Daha sonra tekrar dene!',
+		);
+	}
+}
+
+function showAlternativeText(text) {
+	const inputElement = document.getElementById('show-text');
+
+	if (!inputElement) throw new Error();
+
+	inputElement.classList.remove('hidden');
+	inputElement.value = text;
+}
+
 function initReport() {
 	const form = document.getElementById('report');
 
@@ -99,11 +175,33 @@ function initReport() {
 
 	const urlParams = new URL(location.href).searchParams;
 
-	fillFormValue('chapter', urlParams.get('chapter'), true);
+	const chapterData = urlParams.get('chapter');
+	fillFormValue('chapter', chapterData, true);
 	fillFormValue('version', urlParams.get('version'), true);
-	fillFormValue('message', urlParams.get('text'), false);
+
+	let text = urlParams.get('text');
+	if (text) text = text.replace(/``/g, '`\n`');
+
+	fillFormValue('message', text, false);
 
 	form.addEventListener('submit', async (e) => formHandler(e, submitReport));
+
+	if (chapterData && text) {
+		const buttonDiv = document.getElementById('show-alternatives');
+		if (!buttonDiv) return;
+
+		buttonDiv.classList.remove('hidden');
+
+		const showEn = document.getElementById('show-en');
+		const showJp = document.getElementById('show-jp');
+
+		showEn?.addEventListener('click', () =>
+			getAlternativeText(chapterData, text, 'en'),
+		);
+		showJp?.addEventListener('click', () =>
+			getAlternativeText(chapterData, text, 'jp'),
+		);
+	}
 }
 
 async function submitReport(formData) {

@@ -173,11 +173,19 @@ li.md-nav__item > a {
 	font-family: 'Arno Pro', var(--md-text-font), sans-serif;
 }
 
-input:read-only {
-	cursor: not-allowed;
+input:read-only,
+textarea:read-only {
 	background-color: light-dark(
 		rgba(239, 239, 239, 0.3),
 		rgba(59, 59, 59, 0.3)
 	);
 	color: light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+}
+
+textarea:read-only:focus {
+	outline: none;
+}
+
+.hidden {
+	display: none !important;
 }
