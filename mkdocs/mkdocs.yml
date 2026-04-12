@@ -48,10 +48,15 @@ extra:
     provider: google
     property: G-D9MFM5S3BH
 extra_javascript:
-  - js/custom.js
+  - js/alertmodal.js
+  - js/audio.js
+  - js/externallinkicons.js
+  - js/forms.js
+  - js/lastupdatedates.js
   - js/overlayscrollbars.js
 extra_css:
   - css/admonitions.css
+  - css/alertmodal.css
   - css/status.css
   - css/custom.css
   - css/overlayscrollbars.css

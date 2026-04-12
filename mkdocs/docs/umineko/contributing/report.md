@@ -37,5 +37,5 @@ status: new
     <input class="md-input" type="email" id="email" name="email" placeholder="Size geri dönüş yapabilmemiz için" style="padding:0.5rem;border-radius:0.375rem;">
   </div>
 
-  <button id="submit-report" type="submit" class="md-button md-button--primary" style="padding:0.5rem 1rem;">Gönder</button>
+  <button type="submit" class="md-button md-button--primary" style="padding:0.5rem 1rem;">Gönder</button>
 </form>
