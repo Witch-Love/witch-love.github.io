@@ -42,6 +42,8 @@ function initVersionCheck() {
 
 	const urlParams = new URL(location.href).searchParams;
 
+	window.history.replaceState(null, '', location.pathname);
+
 	const isFilled = fillFormValue(
 		'currentversion',
 		cleanVersion(urlParams.get('currentversion')),
@@ -182,6 +184,8 @@ function initReport() {
 	if (!form) return;
 
 	const urlParams = new URL(location.href).searchParams;
+
+	window.history.replaceState(null, '', location.pathname);
 
 	const chapterData = urlParams.get('chapter');
 	let text = urlParams.get('text');
