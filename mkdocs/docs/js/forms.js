@@ -29,6 +29,12 @@ async function formHandler(e, submitFunction) {
 	isSubmitting = false;
 }
 
+function cleanVersion(version) {
+	if (!version) return;
+
+	return version.replace(/8\.3b\s/g, '');
+}
+
 function initVersionCheck() {
 	const form = document.getElementById('checkversion');
 
@@ -38,7 +44,7 @@ function initVersionCheck() {
 
 	const isFilled = fillFormValue(
 		'currentversion',
-		urlParams.get('currentversion'),
+		cleanVersion(urlParams.get('currentversion')),
 		true,
 	);
 
@@ -68,19 +74,15 @@ async function submitVersionCheck(formData) {
 	}
 
 	try {
-		const finalCurrentVersion = formData.currentversion.replace(
-			/8\.3b\s/g,
-			'',
-		);
 		const latest = await getLatestVersionData();
 
-		if (finalCurrentVersion.includes(latest.tag_name)) {
+		if (formData.currentversion.includes(latest.tag_name)) {
 			openModal('Türkçe Yama Sürüm Kontrolü', 'Son sürüme sahipsin.');
 		} else {
 			openModal(
 				`Türkçe Yama Sürüm Kontrolü`,
 				'Türkçe oyun versiyonunuz güncel değil!<br />Lütfen <a href="/umineko/tr-installation/" onclick="closeModal()">Türkçe Yama</a> sayfasından yeni sürümü yükleyin.<br /><br />' +
-					`Mevcut Sürümün: <code>${finalCurrentVersion}</code><br />En Güncel Sürüm: <code><a href="${latest.html_url}" target="_blank">${latest.tag_name}</a></code>`,
+					`Mevcut Sürümün: <code>${formData.currentversion}</code><br />En Güncel Sürüm: <code><a href="${latest.html_url}" target="_blank">${latest.tag_name}</a></code>`,
 			);
 		}
 	} catch (error) {
@@ -176,12 +178,11 @@ function initReport() {
 	const urlParams = new URL(location.href).searchParams;
 
 	const chapterData = urlParams.get('chapter');
-	fillFormValue('chapter', chapterData, true);
-	fillFormValue('version', urlParams.get('version'), true);
-
 	let text = urlParams.get('text');
-	if (text) text = text.replace(/``/g, '`\n`');
 
+	fillFormValue('chapter', chapterData, true);
+	fillFormValue('version', cleanVersion(urlParams.get('version')), true);
+	if (text) text = text.replace(/``/g, '`\n`');
 	fillFormValue('message', text, false);
 
 	form.addEventListener('submit', async (e) => formHandler(e, submitReport));
