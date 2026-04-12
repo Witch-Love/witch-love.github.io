@@ -39,6 +39,8 @@ status: new
 
   <textarea class="md-input hidden" id="show-text" form="" style="padding:0.5rem;border:none;border-radius:0.375rem;resize:none;height:150px;" readonly></textarea>
 
+  <span class="hidden" id="show-text-a-wrapper" style="text-align: right;font-size: smaller;margin: -0.8rem 0.1rem;"><a id="show-text-a" href="#" target="_blank">Kaynağa git</a></span>
+
   <div style="display:flex;flex-direction:column;">
     <label for="email" style="font-weight:500;margin-bottom:0.25rem;">E-mail (isteğe bağlı)</label>
     <input class="md-input" type="email" id="email" name="email" placeholder="Size geri dönüş yapabilmemiz için" style="padding:0.5rem;border-radius:0.375rem;">

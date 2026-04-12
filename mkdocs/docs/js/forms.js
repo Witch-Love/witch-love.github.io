@@ -150,8 +150,11 @@ async function getAlternativeText(chapterData, text, language) {
 		}
 
 		const alternativeText = await getTexts(ep, ch, lineNumbers, language);
+		let url = `https://github.com/Witch-Love/umineko-scripting-tr/blob/master/story/ep${ep}/${language}/umi${ep}_${ch}.txt#L${lineNumbers[0] + 1}`;
+		if (lineNumbers.length > 1)
+			url += `-L${lineNumbers[lineNumbers.length - 1] + 1}`;
 
-		showAlternativeText(alternativeText);
+		showAlternativeText(alternativeText, url);
 	} catch (error) {
 		console.error(error);
 		openModal(
@@ -161,13 +164,16 @@ async function getAlternativeText(chapterData, text, language) {
 	}
 }
 
-function showAlternativeText(text) {
+function showAlternativeText(text, url) {
 	const inputElement = document.getElementById('show-text');
 
 	if (!inputElement) throw new Error();
 
 	inputElement.classList.remove('hidden');
 	inputElement.value = text;
+
+	document.getElementById('show-text-a-wrapper').classList.remove('hidden');
+	document.getElementById('show-text-a').href = url;
 }
 
 function initReport() {
