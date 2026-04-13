@@ -143,6 +143,7 @@ description: Çeviri kurallarımız
 * Storehouse `->` Ambar
 * Study `->` Çalışma Odası
 * Successor `->` Halef
+* Succession Ceremony `->` Halefiyet Seremonisi
 * Toxin `->` Toksin
 * Trick `->` Numara / Yöntem *`(kullanımına bağlı olarak farklılık var)`*
 * Trick or Treat `->` Şaka mı Şeker mi
