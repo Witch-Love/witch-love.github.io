@@ -41,7 +41,7 @@ async function replaceLastUpdateDate(githubRepo, replaceText) {
 		versionElement.textContent = data.version;
 	} else {
 		versionElement.style.color = '#FF0000';
-		dateElement.textContent =
+		versionElement.textContent =
 			'Sürüm bilgisi alınırken hata! Sayfayı yenileyin.';
 	}
 
