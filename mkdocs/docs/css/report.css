@@ -1,0 +1,16 @@
+.report-textarea {
+	padding: 0.5rem !important;
+	border: none;
+	border-radius: 0.375rem !important;
+	resize: none;
+	outline: none;
+	height: unset !important;
+
+	field-sizing: content;
+	min-inline-size: 20ch;
+	max-inline-size: 100%;
+	min-block-size: 100px;
+
+	/* font-family: 'Arno Pro';
+	font-size: 0.9rem !important; */
+}

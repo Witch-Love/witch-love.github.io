@@ -57,9 +57,10 @@ extra_javascript:
 extra_css:
   - css/admonitions.css
   - css/alertmodal.css
-  - css/status.css
   - css/custom.css
   - css/overlayscrollbars.css
+  - css/report.css
+  - css/status.css
 
 # plugins
 plugins:

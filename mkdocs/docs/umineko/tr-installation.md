@@ -18,7 +18,7 @@ comments: true
 Aşağıda bulunan Türkçe dosyaların ikisini de bilgisayarınıza indirin ve ikisini de **Umineko Project**'in kurulu olduğu klasörünüze çıkartın.
 
 **Son Güncelleme:** `<UMINEKO_LAST_UPDATE_SCRIPTS>`  
-**Yayınlanan Son Sürüm:** `<LAST_UPDATE_VERSION>`
+**Yayımlanan Son Sürüm:** `<LAST_UPDATE_VERSION>`
 
 [:fontawesome-solid-download: Türkçe Script](https://github.com/Witch-Love/umineko-scripting-tr/releases/latest/download/umineko-tr-scripts.zip){ .md-button .md-button--primary }
 [:fontawesome-solid-download: Türkçe Grafikler](https://github.com/Witch-Love/umineko-scripting-tr-files/releases/latest/download/umineko-tr-files.zip){ .md-button .md-button--primary }

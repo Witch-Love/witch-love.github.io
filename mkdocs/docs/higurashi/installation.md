@@ -14,7 +14,7 @@ Her şeyden önce oyununuza [**07th-mod**](https://07th-mod.com/)'u kurunuz.
 	Tüm chapterların çevirisi tamamlanmamıştır. İlerlemeyi [**bu sayfadan**](https://github.com/Witch-Love/higurashi-scripting-tr/?tab=readme-ov-file#i%CC%87lerleme) kontrol edebilirsiniz.
 
 **Son Güncelleme:** `<HIGURASHI_LAST_UPDATE_SCRIPTS>`  
-**Yayınlanan Son Sürüm:** `<LAST_UPDATE_VERSION>`
+**Yayımlanan Son Sürüm:** `<LAST_UPDATE_VERSION>`
 
 === "Chapter 1"
     [:fontawesome-solid-download: Onikakushi Türkçe](https://github.com/Witch-Love/higurashi-scripting-tr/releases/latest/download/01_onikakushi-turkish.zip){ .md-button .md-button--primary }

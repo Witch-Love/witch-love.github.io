@@ -8,43 +8,48 @@ status: new
 	Basit hataları bildirmek için alttaki formu kullanabilirsiniz.  
 	Daha detaylıca açıklamanız gereken önemli bir hatayı bildirmek için ise [GitHub](https://github.com/Witch-Love/umineko-scripting-tr/issues) sayfamıza uğrayabilirsiniz.
 
-!!! question "Otomatik doldurma hakkında"
-	Bu sayfayı oyun içi menüde bulunan buton aracılığıyla açtığınızda form otomatik olarak doldurulmuş olur.  
+!!! question "Otomatik doldurma (bunu tercih edin)"
+	Bu sayfayı oyun içi menüde bulunan buton aracılığıyla açtığınızda form otomatik olarak doldurulmuş olur.
 
-	Eklemek istediğiniz bir şey var ise mesaj kutusuna orijinal metni bozmadan, **yeni bir satır olarak** yazabilirsiniz. 
+	Ardından metnin İngilizce ve Japoncasını görebilir, eklemek istediğiniz bir şey varsa da açıklama kutusuna yazabilirsiniz. 
 
 ***
 
 <form action="#" method="POST" id="report" class="md-typeset" style="max-width:500px;margin:auto;display:flex;flex-direction:column;gap:1rem;">
 
-  <div style="display:flex;flex-direction:column;">
-    <label for="chapter" style="font-weight:500;margin-bottom:0.25rem;">Episode ve Chapter*</label>
-    <input class="md-input" type="text" id="chapter" name="chapter" placeholder="Örnek: Episode: 1, Chapter: Mektup ve Şemsiye" style="padding:0.5rem;border-radius:0.375rem;" required>
-  </div>
+<div style="display:flex;flex-direction:column;">
+	<label for="chapter" style="font-weight:500;margin-bottom:0.25rem;">Episode ve Chapter*</label>
+	<input class="md-input" type="text" id="chapter" name="chapter" placeholder="Örnek: Episode: 1, Chapter: 7" style="padding:0.5rem;border-radius:0.375rem;" required>
+</div>
 
-  <div style="display:flex;flex-direction:column;">
-    <label for="version" style="font-weight:500;margin-bottom:0.25rem;">Türkçe Oyun Sürümü (isteğe bağlı)</label>
-    <input class="md-input" type="text" id="version" name="version" placeholder="Ana ekranda yazan versiyon" style="padding:0.5rem;border-radius:0.375rem;">
-  </div>
+<div style="display:flex;flex-direction:column;">
+	<label for="version" style="font-weight:500;margin-bottom:0.25rem;">Türkçe Oyun Sürümü (isteğe bağlı)</label>
+	<input class="md-input" type="text" id="version" name="version" placeholder="Menü ekranında yazan sürüm" style="padding:0.5rem;border-radius:0.375rem;">
+</div>
 
-  <div style="display:flex;flex-direction:column;">
-    <label for="message" style="font-weight:500;margin-bottom:0.25rem;">Mesaj*</label>
-    <textarea class="md-input" id="message" name="message" placeholder="Hata açıklaması veya hatalı metinden bir kesit" style="padding:0.5rem;border:none;border-radius:0.375rem;resize:none;height:150px;" required></textarea>
-  </div>
+<div id="ingametext-wrapper" class="hidden" style="display:flex;flex-direction:column;">
+	<label for="ingametext" style="font-weight:500;margin-bottom:0.25rem;">Oyun İçi Yazı*</label>
+	<textarea class="md-input report-textarea" id="ingametext" name="ingametext" placeholder=""></textarea>
+</div>
 
-  <div id="show-alternatives" class="hidden" style="display:flex;flex-direction:row;gap:1rem;padding:0 0.5rem;">
-    <button type="button" id="show-en" class="md-button md-button--primary" style="padding:0.5rem 1rem;flex-grow:1;">İngilizcesini Gör</button>
-    <button type="button" id="show-jp" class="md-button md-button--primary" style="padding:0.5rem 1rem;flex-grow:1;">Japoncasını Gör</button>
-  </div>
+<div id="show-alternatives" class="hidden" style="display:flex;flex-direction:row;gap:1rem;padding:0 0.5rem;">
+	<button type="button" id="show-en" class="md-button md-button--primary" style="padding:0.5rem 1rem;flex-grow:1;">İngilizcesini Gör</button>
+	<button type="button" id="show-jp" class="md-button md-button--primary" style="padding:0.5rem 1rem;flex-grow:1;">Japoncasını Gör</button>
+</div>
 
-  <textarea class="md-input hidden" id="show-text" form="" style="padding:0.5rem;border:none;border-radius:0.375rem;resize:none;height:150px;" readonly></textarea>
+<textarea class="md-input report-textarea hidden" id="show-text" form="" readonly></textarea>
 
-  <span class="hidden" id="show-text-a-wrapper" style="text-align: right;font-size: smaller;margin: -0.8rem 0.1rem;"><a id="show-text-a" href="#" target="_blank">Kaynağa git</a></span>
+<span class="hidden" id="show-text-a-wrapper" style="text-align: right;font-size: smaller;margin: -0.8rem 0.1rem;"><a id="show-text-a" href="#" target="_blank">Kaynağa git</a></span>
 
-  <div style="display:flex;flex-direction:column;">
-    <label for="email" style="font-weight:500;margin-bottom:0.25rem;">E-mail (isteğe bağlı)</label>
-    <input class="md-input" type="email" id="email" name="email" placeholder="Size geri dönüş yapabilmemiz için" style="padding:0.5rem;border-radius:0.375rem;">
-  </div>
+<div style="display:flex;flex-direction:column;">
+	<label for="message" style="font-weight:500;margin-bottom:0.25rem;">Açıklama</label>
+	<textarea class="md-input report-textarea" id="message" name="message" placeholder="Hata açıklaması (gerekliyse)"></textarea>
+</div>
 
-  <button type="submit" class="md-button md-button--primary" style="padding:0.5rem 1rem;">Gönder</button>
+<div style="display:flex;flex-direction:column;">
+	<label for="email" style="font-weight:500;margin-bottom:0.25rem;">E-mail (isteğe bağlı)</label>
+	<input class="md-input" type="email" id="email" name="email" placeholder="Size geri dönüş yapabilmemiz için" style="padding:0.5rem;border-radius:0.375rem;">
+</div>
+
+<button type="submit" class="md-button md-button--primary" style="padding:0.5rem 1rem;">Gönder</button>
 </form>

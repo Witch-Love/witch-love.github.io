@@ -193,15 +193,17 @@ function initReport() {
 	fillFormValue('chapter', chapterData, true);
 	fillFormValue('version', cleanVersion(urlParams.get('version')), true);
 	if (text) text = text.replace(/``/g, '`\n`');
-	fillFormValue('message', text, false);
+	fillFormValue('ingametext', text, true);
 
 	form.addEventListener('submit', async (e) => formHandler(e, submitReport));
 
 	if (chapterData && text) {
 		const buttonDiv = document.getElementById('show-alternatives');
-		if (!buttonDiv) return;
+		const ingameText = document.getElementById('ingametext-wrapper');
+		if (!buttonDiv || !ingameText) return;
 
 		buttonDiv.classList.remove('hidden');
+		ingameText.classList.remove('hidden');
 
 		const showEn = document.getElementById('show-en');
 		const showJp = document.getElementById('show-jp');
@@ -216,6 +218,13 @@ function initReport() {
 }
 
 async function submitReport(formData) {
+	if (formData.ingametext) {
+		formData.message = formData.message
+			? formData.ingametext + '\n\n' + formData.message
+			: formData.ingametext;
+		delete formData.ingametext;
+	}
+
 	if (!formData.chapter || !formData.message) {
 		openModal('Uyarı', 'Chapter ve mesaj alanları boş bırakılamaz.');
 		return false;

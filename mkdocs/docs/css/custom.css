@@ -182,10 +182,6 @@ textarea:read-only {
 	color: light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
 }
 
-textarea:read-only:focus {
-	outline: none;
-}
-
 .hidden {
 	display: none !important;
 }
