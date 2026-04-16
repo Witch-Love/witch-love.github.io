@@ -56,6 +56,10 @@ description: Çeviri kurallarımız
 ## Sözlük
 
 ### Terimler
+<!--
+Karşılığı olmak yerine bir açıklama gerektiren kelimelere "Özel Durum" yazılmalıdır.
+Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin yanına eklenebilir.
+-->
 
 * Alibi `->` Mazeret
 * Alliance `->` İttifak
@@ -117,7 +121,7 @@ description: Çeviri kurallarımız
 * Master Key `->` Master Anahtar
 * Milady `->` Leydim
 * Mistress `->` Metres
-* Motive `->` Motivasyon
+* Motive `->` Motive *`(aynı)`*
 * Narrative `->` Anlatı
 * North Wind and the Sun `->` Güneş ve Kuzey Rüzgârı
 * Objection `->` İtiraz
