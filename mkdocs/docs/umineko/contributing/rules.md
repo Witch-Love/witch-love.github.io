@@ -164,10 +164,12 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Asmodeus the Lustful `->` Şehvetin Asmodeus'u
 * Beelzebub the Gluttonous `->` Oburluğun Beelzebub'u
 * Belphegor the Slothful `->` Tembelliğin Belphegor'u
+* Chiester Sisters `->` Chiester Kardeşler
 * Leviathan the Envious `->` Kıskançlığın Leviathan'ı
 * Lucifer the Proud `->` Kibrin Lucifer'ı
 * Mammon the Covetous `->` Açgözlülüğün Mammon'u
 * Mariage Sorcière Alliance of Witches `->` Mariage Sorcière Cadı İttifakı
+* Pendragon's Memorial Troops `->` Pendragon Muhafız Birliği
 * Satan the Wrathful `->` Öfkenin Satan'ı
 * Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * The Seven Sisters of Purgatory `->` Araf'ın Yedi Kız Kardeşi
