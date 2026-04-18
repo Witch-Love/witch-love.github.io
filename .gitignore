@@ -1,3 +1,4 @@
 wiki/
 site/
 .cache/
+__pycache__/

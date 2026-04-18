@@ -1,7 +1,6 @@
 ---
 title: Hata Bildirimi
 description: Umineko çevirisinden bize bir hata bildirin
-status: new
 ---
 
 !!! info "Bilgi"

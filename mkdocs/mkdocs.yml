@@ -68,6 +68,7 @@ plugins:
   - glightbox
   - git-revision-date-localized:
       enabled: true
+      fallback_to_build_date: true
       enable_creation_date: true
       type: timeago
       locale: tr
@@ -77,6 +78,12 @@ plugins:
       repository: Witch-Love/witch-love.github.io
       docs_path: mkdocs/docs/
       branch: main
+      exclude_committers:
+        - web-flow
+
+# hooks
+hooks:
+  - hooks/new_status.py
 
 # theme
 theme:
