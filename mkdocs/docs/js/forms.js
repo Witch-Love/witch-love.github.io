@@ -134,13 +134,8 @@ async function getTexts(ep, ch, lineNumbers, language) {
 }
 
 async function getAlternativeText(chapterData, text, language) {
-	// chapter -> 1_op, 5_10...
-	const splitted = chapterData.split('_');
-
-	const ep = splitted[0];
-	const ch = splitted[1].replace(/^0+/, '');
-
 	try {
+		const { ep, ch } = parseEpisodeChapter(chapterData);
 		const lineNumbers = await getLineNumbers(ep, ch, text);
 
 		if (!lineNumbers) {
@@ -164,6 +159,31 @@ async function getAlternativeText(chapterData, text, language) {
 			'Yazı alınırken bir hata oluştu!<br />Lütfen Daha sonra tekrar dene!',
 		);
 	}
+}
+
+function parseEpisodeChapter(chapterData) {
+	// chapter -> 1_op, 5_10, 3_tea, 6_ura...
+	const splitted = chapterData.split('_');
+
+	let ep = splitted[0];
+	let ch = splitted[1].replace(/^0+/, '');
+
+	const teaIndex = {
+		1: 18,
+		2: 19,
+		3: 19,
+		4: 20,
+		5: 16,
+		6: 19,
+		7: 19,
+		8: 17,
+	}[Number(ep)];
+
+	if (!teaIndex) return { ep, ch };
+	if (ch == 'tea') return { ep, ch: String(teaIndex) };
+	if (ch == 'ura') return { ep, ch: String(teaIndex + 1) };
+
+	return { ep, ch };
 }
 
 function showAlternativeText(text, url) {
