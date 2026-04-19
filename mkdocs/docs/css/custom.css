@@ -10,6 +10,11 @@
 
 	--md-codeblock-name-color: #82b0ff;
 	--background-image: url('../img/background.png');
+
+	--input-normal-color: #2d323e;
+	--input-normal-text-color: #e6eaf2;
+	--input-disabled-color: #232833;
+	--input-disabled-text-color: #6b7280;
 }
 
 [data-md-color-scheme='default'] {
@@ -23,6 +28,11 @@
 
 	--md-codeblock-name-color: #3638c3;
 	--background-image: url('../img/background-white.png');
+
+	--input-normal-color: #ffffff;
+	--input-normal-text-color: #101828;
+	--input-disabled-color: #f9fafb;
+	--input-disabled-text-color: #98a2b3;
 }
 
 html {
@@ -173,13 +183,22 @@ li.md-nav__item > a {
 	font-family: 'Arno Pro', var(--md-text-font), sans-serif;
 }
 
-input:read-only,
-textarea:read-only {
+/* .md-input:read-only {
 	background-color: light-dark(
 		rgba(239, 239, 239, 0.3),
 		rgba(59, 59, 59, 0.3)
 	);
 	color: light-dark(rgb(84, 84, 84), rgb(170, 170, 170));
+} */
+
+.md-input {
+	background: var(--input-normal-color);
+	color: var(--input-normal-text-color) !important;
+}
+
+.md-input:read-only {
+	background-color: var(--input-disabled-color);
+	color: var(--input-disabled-text-color) !important;
 }
 
 .hidden {

@@ -1,0 +1,26 @@
+.cimg-tabs {
+	padding: 0.5rem 1rem;
+	border-left: 4px solid var(--md-accent-fg-color);
+	border-radius: 0.2rem;
+	box-shadow: var(--md-shadow-z2) !important;
+}
+
+.cimg-tabs img {
+	opacity: 0.5;
+	width: 60px;
+	cursor: pointer;
+
+	user-select: none;
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-ms-user-select: none;
+}
+
+.cimg-tabs img.active {
+	opacity: 1;
+	transform: scale(1.08);
+}
+
+.cimg-tabs img:hover {
+	opacity: 1;
+}

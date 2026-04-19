@@ -1,10 +1,7 @@
 ---
 title: İletişim
-description: Bize ulaşabileceğiniz yollar
+description: Bize ulaşabileceğiniz iletişim yolları
 ---
-
-!!! info ""
-	Bize ulaşmanızın en hızlı yolu **[Discord](discord.md){ target=_blank }** sunucumuza katılmak.
 
 ## Katkıda bulunma hakkında
 
@@ -14,18 +11,27 @@ Katkıda bulunmak ve bizimle beraber çeviri yapmak istiyorsanız kapımız her 
 
 İhtiyacınız olan tüm materyalleri ve çeviri araçlarımızı sizinle paylaşarak çeviriyi en etkili bir şekilde nasıl yapabileceğinizi açıklayacağımızdan emin olabilirsiniz.
 
-## İletişim
+## İletişim Seçenekleri
 
-* :fontawesome-brands-discord: [Discord Sunucusu](discord.md){ target=_blank }
-* :octicons-mail-16: [contact@witch-love.com](mailto:contact@witch-love.com)
+[:fontawesome-brands-discord: Discord'a Katıl](discord.md){ .md-button .md-button--primary target=_blank }
+[:fontawesome-solid-paper-plane: E-mail Gönder](mailto:contact@witch-love.com){ .md-button .md-button--primary }
 
-## Yetkililer
+## Ekip
 
-#### :octicons-person-fill-16: Singularity
-* :fontawesome-brands-discord: singulariity
-* :octicons-mail-16: singularity witch-love com
+<div class="grid cards" markdown>
 
-#### :octicons-person-fill-16: Folivore
-* :fontawesome-brands-discord: folivore
-* :octicons-mail-16: folivore witch-love com
-***
+-   :octicons-person-fill-16:{ .lg .middle } __Singularity__
+
+    ---
+
+    :fontawesome-brands-discord: singulariity  
+    :octicons-mail-16: singularity witch-love com
+
+-   :octicons-person-fill-16:{ .lg .middle } __Folivore__
+
+    ---
+
+    :fontawesome-brands-discord: folivore  
+    :octicons-mail-16: folivore witch-love com
+
+</div>

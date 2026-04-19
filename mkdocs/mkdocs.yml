@@ -20,6 +20,8 @@ nav:
     - Katkıda Bulunma:
       - umineko/contributing/rules.md
       - umineko/contributing/report.md
+    - Diğer:
+      - umineko/checkversion.md
   - Higurashi:
     - higurashi/index.md
     - Kurulum:
@@ -50,6 +52,7 @@ extra:
 extra_javascript:
   - js/alertmodal.js
   - js/audio.js
+  - js/cimagetabs.js
   - js/externallinkicons.js
   - js/forms.js
   - js/lastupdatedates.js
@@ -57,6 +60,7 @@ extra_javascript:
 extra_css:
   - css/admonitions.css
   - css/alertmodal.css
+  - css/cimagetabs.css
   - css/custom.css
   - css/overlayscrollbars.css
   - css/report.css
@@ -152,6 +156,9 @@ markdown_extensions:
           - overrides/.icons
   - pymdownx.tabbed:
       alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
   - attr_list
   - md_in_html
   - footnotes

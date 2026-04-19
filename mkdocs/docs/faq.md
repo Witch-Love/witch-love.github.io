@@ -2,10 +2,8 @@
 title: Sıkça Sorulan Sorular
 description: Sıkça sorulan sorular ve cevapları
 ---
-
-Burada bulamadığınız bir sorunuz veya önemli bir sorununuz varsa bizimle [iletişim](contact.md)e geçebilirsiniz.
-
 <!-- lines 10-20 are displayed in the home page -->
+
 
 
 

@@ -187,9 +187,86 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Witch of Theatergoing `->` Tiyatronun Cadısı
 * Witch of Truth `->` Gerçeklerin Cadısı
 
-### Kitabe
+***
 
-???+ quote "Epitaph of the Witch"
+## Kalıplar
+
+### Karakterler
+
+<div class="cimg-tabs" markdown="1">
+  <img class="off-glb" src="/img/characters/battler.png" title="Battler" data-tab="1" />
+  <img class="off-glb" src="/img/characters/evabeatrice.png" title="Eva Beatrice" data-tab="2" />
+  <img class="off-glb" src="/img/characters/chiester410.png" title="Chiester410" data-tab="3" />
+  <img class="off-glb" src="/img/characters/erika.png" title="Erika" data-tab="4" />
+  <img class="off-glb" src="/img/characters/dlanor.png" title="Dlanor" data-tab="5" />
+  <img class="off-glb" src="/img/characters/clair.png" title="Clair Vaux Bernardus" data-tab="6" />
+
+  <div class="content" markdown="1" data-tab="1">
+
+???+ info "Bilgi"
+
+    Bu kalıbı genel olarak Battler kullanıyor.  
+    Ama nadir de olsa Ange ve Kinzo gibi karakterlerin de kullandığı yerler mevcut.
+
+|İngilizce|Türkçe çevirisi|
+|:---:|:---:|
+|It's no good, it's no goddamn good|Bu hiç iyi değil, hiç de iyi değil|
+
+  </div>
+  <div class="content" markdown="1" data-tab="2">
+
+???+ info "Bilgi"
+
+    Eva Beatrice'in sıklıkla kullandığı __Heso demo kande shinjaeba?__ sözünü alttaki örnekler gibi çeviriyoruz.  
+    Cümle sonundaki "ya" ise seslendirmede ne kadar uzadığına bağlı olarak uzayabiliyor.
+
+    Ayrıca karakter çok vahşi bir tavır takındığı için "ölmek" yerine "gebermek" kullanıyoruz.
+
+|İngilizce|Türkçe çevirisi|
+|:---:|:---:|
+|Why not give up and die forever...?|Pes edip gebersen yaaa...?|
+|If you're that tired, why not just go into a futon and sleep forever...?|Bu kadar yorulduysan, yere bir futon serip uyusan yaa...?|
+
+  </div>
+  <div class="content" markdown="1" data-tab="3">
+
+Chiester410
+
+  </div>
+  <div class="content" markdown="1" data-tab="4">
+
+|İngilizce|Türkçe çevirisi|
+|:---:|:---:|
+|All it takes is the presence of x, and a deduction like this becomes trivial for Furudo Erika. Your thoughts, ladies and gentlemen?|Sadece x'in varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hâle gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?|
+
+  </div>
+  <div class="content" markdown="1" data-tab="5">
+
+Dlanor
+
+  </div>
+  <div class="content" markdown="1" data-tab="6">
+
+|İngilizce|Türkçe çevirisi|
+|:---:|:---:|
+|I am one yet many|Ben biriyim ve de birçoğuyum|
+
+  </div>
+</div>
+
+### Diğer
+
+|İngilizce|Türkçe çevirisi|
+|:---:|:---:|
+|Old Testament's Book of Psalms, Psalm x, verses y and z|Eski Ahit'in Mezmurlar Kitabı, x. Mezmur, ayet y ve z|
+|Come, arise, forgive the sin, one of the seven stakes of Purgatory, lust!!!|Gel, yüksel, günahları affet, Araf'ın Yedi Kazığı'ndan, şehvet!!!|
+|Come, try closing your eyes. And try to remember. What form did you have? It was surely a very, very beautiful form. Please, show me that form one more time...|Gel, gözlerini kapatmayı dene. Ve hatırlamaya çalış. Senin nasıl bir formun vardı? Eminim çok, çok güzel bir formdu. Lütfen bana o formu bir kez daha göster...|
+
+***
+
+## Kitabe
+
+???+ quote "Cadının Kitabesi"
     <center><span class="arno-pro" style="font-size: large;">Tatlı balık nehrine bakın, sevgili memleketimin üzerinden geçen.  
     Anahtarın arayışında, akıntı yönündeki patikayı takip edeceksiniz, Altın Diyar’ın peşinde olan sizler.
 
@@ -217,14 +294,3 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
     Ve birisi de cadıyı sonsuza dek uyutmak olacak.
 
     Huzur içinde uyu, sevgili cadım, <span class="small-caps">Beatrice</span></span>.</center>
-
-### Diğer Kalıplar
-
-|İngilizcesi|Türkçe çevirisi|
-|:---:|:---:|
-|Old Testament's Book of Psalms, Psalm x, verses y and z|Eski Ahit'in Mezmurlar Kitabı, x. Mezmur, ayet y ve z|
-|Come, arise, forgive the sin, one of the seven stakes of Purgatory, lust!!!|Gel, yüksel, günahları affet, Araf'ın Yedi Kazığı'ndan, şehvet!!!|
-|Come, try closing your eyes. And try to remember. What form did you have? It was surely a very, very beautiful form. Please, show me that form one more time...|Gel, gözlerini kapatmayı dene. Ve hatırlamaya çalış. Senin nasıl bir formun vardı? Eminim çok, çok güzel bir formdu. Lütfen bana o formu bir kez daha göster...|
-|All it takes is the presence of x, and a deduction like this becomes trivial for Furudo Erika. Your thoughts, ladies and gentlemen?|Sadece x'in varlığı bile, Furudo Erika için böyle bir çıkarımın sıradan hale gelmesi için yeterli. Görüşleriniz, bayanlar ve baylar?|
-|I am one yet many|Ben biriyim ve de birçoğuyum|
-|It's no good, it's no goddamn good|Bu hiç iyi değil, hiç de iyi değil|
