@@ -10,11 +10,16 @@ Her şeyden önce oyununuza [**07th-mod**](https://07th-mod.com/)'u kurunuz.
 
 ## 2. Türkçe Dosyaların İndirmesi
 
-???+ abstract "Çeviri Durumu"
-	Tüm chapterların çevirisi tamamlanmamıştır. İlerlemeyi [**bu sayfadan**](https://github.com/Witch-Love/higurashi-scripting-tr/?tab=readme-ov-file#i%CC%87lerleme) kontrol edebilirsiniz.
+Tüm chapterların çevirisi tamamlanmamıştır. İlerlemeyi [**bu sayfadan**](https://github.com/Witch-Love/higurashi-scripting-tr/?tab=readme-ov-file#i%CC%87lerleme) kontrol edebilirsiniz.
 
-**Son Güncelleme:** `<HIGURASHI_LAST_UPDATE_SCRIPTS>`  
-**Yayımlanan Son Sürüm:** `<LAST_UPDATE_VERSION>`
+!!! quote "Sürüm Bilgisi"
+
+	**Son Güncelleme:** `<LAST_UPDATE_SCRIPTS>`  
+	**Yayımlanan Son Sürüm: `<LAST_UPDATE_VERSION>`**
+
+	```{ .yaml title="Sürüm Notları" .no-copy }
+	<LAST_UPDATE_RELEASE_NOTES>
+	```
 
 === "Chapter 1"
     [:fontawesome-solid-download: Onikakushi Türkçe](https://github.com/Witch-Love/higurashi-scripting-tr/releases/latest/download/01_onikakushi-turkish.zip){ .md-button .md-button--primary }
