@@ -75,6 +75,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Circumstantial Evidence `->` Dolaylı Kanıt
 * Conference `->` Konferans
 * Contract `->` Sözleşme
+* Contrapositive `->` Karşıt Argüman
 * Courtroom `->` Mahkeme Salonu
 * Culprit `->` Suçlu
 * Crest `->` Arma
@@ -88,7 +89,8 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Devil's Proof `->` Şeytan'ın İspatı
 * Dining Hall `->` Yemek Salonu
 * Disciple `->` Öğrenci
-* Entrance Hall `->` Giriş
+* Endless Nine `->` Özel Durum *`(<Endless Nine>)`*
+* Entrance Hall `->` Giriş Holü
 * Epitaph `->` Kitabe
 * Excuse me `->` İzninizle
 * Family Head `->` Aile Reisi
@@ -130,12 +132,13 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Piece `->` Taş *`(satranç taşı olan için)`*
 * Portrait `->` Portre
 * Predecessor `->` Selef
-* Puzzle `->` Bilmece
+* Puzzle `->` Bulmaca
 * Reasoning `->` Muhakeme
 * Red Truth `->` Kırmızı Gerçek
 * Register `->` Nüfus
 * Repetition Request `->` Tekrarla
 * Resign `->` Pes Etmek
+* Riddle `->` Bilmece
 * Rifle `->` Tüfek
 * Ritual `->` Ritüel
 * Rose Garden `->` Gül Bahçesi
@@ -266,31 +269,66 @@ Dlanor
 
 ## Kitabe
 
-???+ quote "Cadının Kitabesi"
-    <center><span class="arno-pro" style="font-size: large;">Tatlı balık nehrine bakın, sevgili memleketimin üzerinden geçen.  
-    Anahtarın arayışında, akıntı yönündeki patikayı takip edeceksiniz, Altın Diyar’ın peşinde olan sizler.
+=== "Türkçe"
 
-    Bir köy göreceksiniz, patikada ilerlerken.  
-    Sizler, düşün peşine ve ilerleyin, köydeki o ikilinin size bahsettiği kıyıya.  
-    Orada yatmaktadır, Altın Diyar'ın anahtarı.
+    !!! quote "Cadının Kitabesi"
+        <center><span class="arno-pro" style="font-size: large;">Tatlı balık nehrine bakın, sevgili memleketimin üzerinden geçen.  
+        Anahtarın arayışında, akıntı yönündeki patikayı takip edeceksiniz, Altın Diyar’ın peşinde olan sizler.
 
-    Bu kurallara uyarak Altın Diyar'a seyahat etmelidir, anahtarı uyandıran kişi.
+        Bir köy göreceksiniz, patikada ilerlerken.  
+        Sizler, düşün peşine ve ilerleyin, köydeki o ikilinin size bahsettiği kıyıya.  
+        Orada yatmaktadır, Altın Diyar'ın anahtarı.
 
-    İlk alacakaranlıkta anahtar tarafından seçilen altısı kurban olarak sunulacak.  
-    İkinci alacakaranlıkta, geride kalanlar yakın olan ikisini birbirinden ayıracak.  
-    Üçüncü alacakaranlıkta, hayatta kalanlar asil ismimi yüceltecek.  
-    Dördüncü alacakaranlıkta, kafasını oy ve öldür.  
-    Beşinci alacakaranlıkta, göğsünü oy ve öldür.  
-    Altıncı alacakaranlıkta, karnını oy ve öldür.  
-    Yedinci alacakaranlıkta, dizini oy ve öldür.  
-    Sekizinci alacakaranlıkta, bacağını oy ve öldür.  
-    Dokuzuncu alacakaranlıkta, cadı dirilecek, ve hiçbiri hayatta kalmayacak.  
-    Onuncu alacakaranlıkta, yolculuk sona erecek, ve Altın Vatan'a kavuşacaksın.  
+        Bu kurallara uyarak Altın Diyar'a seyahat etmelidir, anahtarı uyandıran kişi.
 
-    Cadı bilgeleri övecek ve dört hazine bahşedecek.  
-    Biri Altın Diyar'ın bütün altınları olacak.  
-    Biri tüm ölü ruhların dirilişi olacak.  
-    Biri kaybedilmiş aşkın dirilişi olacak.  
-    Ve birisi de cadıyı sonsuza dek uyutmak olacak.
+        İlk alacakaranlıkta anahtar tarafından seçilen altısı kurban olarak sunulacak.  
+        İkinci alacakaranlıkta, geride kalanlar yakın olan ikisini birbirinden ayıracak.  
+        Üçüncü alacakaranlıkta, hayatta kalanlar asil ismimi yüceltecek.  
+        Dördüncü alacakaranlıkta, kafasını oy ve öldür.  
+        Beşinci alacakaranlıkta, göğsünü oy ve öldür.  
+        Altıncı alacakaranlıkta, karnını oy ve öldür.  
+        Yedinci alacakaranlıkta, dizini oy ve öldür.  
+        Sekizinci alacakaranlıkta, bacağını oy ve öldür.  
+        Dokuzuncu alacakaranlıkta, cadı dirilecek, ve hiçbiri hayatta kalmayacak.  
+        Onuncu alacakaranlıkta, yolculuk sona erecek, ve Altın Vatan'a kavuşacaksın.  
 
-    Huzur içinde uyu, sevgili cadım, <span class="small-caps">Beatrice</span></span>.</center>
+        Cadı bilgeleri övecek ve dört hazine bahşedecek.
+
+        Biri Altın Diyar'ın bütün altınları olacak.  
+        Biri tüm ölü ruhların dirilişi olacak.  
+        Biri kaybedilmiş aşkın dirilişi olacak.  
+        Ve birisi de cadıyı sonsuza dek uyutmak olacak.
+
+        Huzur içinde uyu, sevgili cadım, <span class="small-caps">Beatrice</span></span>.</center>
+
+=== "İngilizce"
+
+    !!! quote "Epitaph of the Witch"
+        <center><span class="arno-pro" style="font-size: large;">Behold the sweetfish river, running through my beloved home of old.  
+        You who seek the Golden Land, follow its path downstream in search of the key.
+
+        As you travel down it, you will see a village.  
+        In that village, look for the shore the two speak of.  
+        There the key to the Golden Land sleeps.
+
+        You who laid hand upon the key must journey as follows to the Golden Land.
+
+        On the first twilight, sacrifice the six chosen by the key.  
+        On the second twilight, those who remain shall tear apart the two who are close.  
+        On the third twilight, those who remain shall praise my noble name.  
+        On the fourth twilight, gouge the head and kill.  
+        On the fifth twilight, gouge the chest and kill.  
+        On the sixth twilight, gouge the stomach and kill.  
+        On the seventh twilight, gouge the knee and kill.  
+        On the eighth twilight, gouge the leg and kill.  
+        On the ninth twilight, the witch revives, and none shall be left alive.  
+        On the tenth twilight, the journey ends, and you shall reach the Home of the Gold.
+
+        The witch shall praise the wise, and bestow four treasures.
+
+        One shall be all of the Golden Land's gold.  
+        One resurrects all the dead people's souls.  
+        One even revives all the love they possessed.  
+        And one for the witch to eternally rest.
+
+        Rest in peace, my beloved witch, <span class="small-caps">Beatrice</span></span>.</center>
