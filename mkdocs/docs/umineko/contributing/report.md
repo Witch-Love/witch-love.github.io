@@ -46,7 +46,7 @@ description: Umineko çevirisinden bize bir hata bildirin
 </div>
 
 <div style="display:flex;flex-direction:column;">
-	<label for="email" style="font-weight:500;margin-bottom:0.25rem;">Size geri dönüş yapabilmemiz için (isteğe bağlı)</label>
+	<label style="font-weight:500;margin-bottom:0.25rem;">Size geri dönüş yapabilmemiz için (isteğe bağlı)</label>
 	<div style="display:flex;flex-direction:row;gap:0.5rem;flex-wrap:wrap;">
 		<input class="md-input" type="text" id="discord" name="discord" placeholder="Discord" style="padding:0.5rem;border-radius:0.375rem;flex:1 auto;">
 		<input class="md-input" type="email" id="email" name="email" placeholder="Email" style="padding:0.5rem;border-radius:0.375rem;flex:1 auto;">

@@ -215,6 +215,9 @@ function initReport() {
 	if (text) text = text.replace(/``/g, '`\n`');
 	fillFormValue('ingametext', text, true);
 
+	fillFormValue('discord', localStorage.getItem('reportDiscord'), false);
+	fillFormValue('email', localStorage.getItem('reportEmail'), false);
+
 	form.addEventListener('submit', async (e) => formHandler(e, submitReport));
 
 	if (chapterData && text) {
@@ -252,6 +255,9 @@ async function submitReport(formData) {
 
 	const json = JSON.stringify(formData);
 
+	localStorage.setItem('reportDiscord', formData.discord ?? '');
+	localStorage.setItem('reportEmail', formData.email ?? '');
+
 	try {
 		const res = await fetch('https://api.witch-love.com/report', {
 			method: 'POST',
@@ -267,7 +273,7 @@ async function submitReport(formData) {
 			'Hata bildirimin gönderildi!',
 			'Yardımın için çok teşekkür ederiz!<br /><br /><strong>Bildirim kodun:</strong><pre><code><span style="color:var(--md-code-hl-number-color);">' +
 				data.id +
-				'</span></code></pre>Düzeltilen hataların bildirim kodları bir sonraki güncelleme notlarına eklenir!<br />E-mail adresini paylaşmadıysan hatanı bu kod ile takip edebilirsin.',
+				'</span></code></pre>Düzeltilen hataların bildirim kodları bir sonraki güncelleme notlarına eklenir!<br />Discord veya Email adresini paylaşmadıysan hatanı bu kod ile takip edebilirsin.',
 		);
 
 		return true;
