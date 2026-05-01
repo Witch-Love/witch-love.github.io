@@ -100,6 +100,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * GHQ `->` GHQ
 * Goat Attendant `->` Keçi Uşağı
 * Golden Land `->` Altın Diyar
+* Good day to you `->` Esenlikler *`(St. Lucia selamlaması)`*
 * Gospel House `->` Fukuin Evi
 * Great Demon `->` Yüce İblis
 * Grimoire `->` Grimoire *`(aynı)`*
@@ -261,6 +262,7 @@ Dlanor
 
 |İngilizce|Türkçe çevirisi|
 |:---:|:---:|
+|Without love, it cannot be seen.|Aşk olmadan, görülemez.|
 |Old Testament's Book of Psalms, Psalm x, verses y and z|Eski Ahit'in Mezmurlar Kitabı, x. Mezmur, ayet y ve z|
 |Come, arise, forgive the sin, one of the seven stakes of Purgatory, lust!!!|Gel, yüksel, günahları affet, Araf'ın Yedi Kazığı'ndan, şehvet!!!|
 |Come, try closing your eyes. And try to remember. What form did you have? It was surely a very, very beautiful form. Please, show me that form one more time...|Gel, gözlerini kapatmayı dene. Ve hatırlamaya çalış. Senin nasıl bir formun vardı? Eminim çok, çok güzel bir formdu. Lütfen bana o formu bir kez daha göster...|
