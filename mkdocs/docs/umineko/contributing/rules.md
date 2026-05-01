@@ -1,6 +1,6 @@
 ---
 title: Çeviri Kuralları
-description: Çeviri kurallarımız
+description: Umineko'yu çevirirken takip ettiğimiz çeviri kurallarımız.
 ---
 
 !!! tip "Bilgi"

@@ -1,4 +1,5 @@
 ---
+description: Umineko Project üzerine Türkçe yamanın kurulum rehberi.
 comments: true
 ---
 
