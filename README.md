@@ -19,4 +19,4 @@ mkdocs serve
 ### Page Meta
 
 1. Comments: `comments: <bool>` (default is false)
-2. Page status: `status: <new|draft|deprecated>` (default is null)
+2. Page status: `status: <draft|deprecated>` (default is null)
