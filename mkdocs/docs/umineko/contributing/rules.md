@@ -107,6 +107,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Gruesome `->` Dehşet verici
 * Guesthouse `->` Konukevi
 * Guest room `->` Misafir odası
+* The Hall `->` Özel Durum *`(Giriş holü olan ise "hol" - bazı yerlerde koridor için kullanılıyor, dikkat)`*
 * Head's Ring `->` Aile Reisi Yüzüğü
 * Hempel's Raven `->` Hempel'in Kuzgunu
 * Incinerator `->` Çöp Fırını
@@ -137,7 +138,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Reasoning `->` Muhakeme
 * Red Truth `->` Kırmızı Gerçek
 * Register `->` Nüfus
-* Repetition Request `->` Tekrarla
+* Repetition Request `->` Tekrarlama Talebi
 * Resign `->` Pes Etmek
 * Riddle `->` Bilmece
 * Rifle `->` Tüfek
