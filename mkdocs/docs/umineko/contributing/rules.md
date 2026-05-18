@@ -159,7 +159,6 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Uncle `->` Özel Durum *`(akraba hitapları kuralına bakın)`*
 * Ushiromiya Head Family `->` Ushiromiya Baş Ailesi
 * Vessel `->` Beden
-* Voyager `->` Gezgin
 * Western Envelope `->` Batı Tarzı Zarf
 * Witch Legend Serial Murder Case `->` Cadı'nın Seri Cinayet Efsanesi
 * Wolves and Sheep Puzzle `->` Kurtlar ve Koyunlar Bulmacası
@@ -170,6 +169,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Beelzebub the Gluttonous `->` Oburluğun Beelzebub'u
 * Belphegor the Slothful `->` Tembelliğin Belphegor'u
 * Chiester Sisters `->` Chiester Kardeşler
+* Creator `->` Yaratıcı
 * Leviathan the Envious `->` Kıskançlığın Leviathan'ı
 * Lucifer the Proud `->` Kibrin Lucifer'ı
 * Mammon the Covetous `->` Açgözlülüğün Mammon'u
@@ -179,6 +179,7 @@ Notlar kelimenin karşılığından sonra *`(not buraya)`* şeklinde kelimenin y
 * Seven Stakes of Purgatory `->` Araf'ın Yedi Kazığı
 * The Seven Sisters of Purgatory `->` Araf'ın Yedi Kız Kardeşi
 * The Sisters of the Seven Stakes `->` Yedi Kazığın Kız Kardeşleri
+* Voyager `->` Seyyah
 
 ### Cadıların Ünvanları
 
