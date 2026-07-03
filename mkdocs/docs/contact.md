@@ -24,14 +24,12 @@ Katkıda bulunmak ve bizimle beraber çeviri yapmak istiyorsanız kapımız her 
 
     ---
 
-    :fontawesome-brands-discord: singulariity  
     :octicons-mail-16: singularity witch-love com
 
 -   :octicons-person-fill-16:{ .lg .middle } __Folivore__
 
     ---
 
-    :fontawesome-brands-discord: folivore  
     :octicons-mail-16: folivore witch-love com
 
 </div>
