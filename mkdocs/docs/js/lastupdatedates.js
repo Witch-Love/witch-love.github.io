@@ -84,7 +84,7 @@ async function replaceLastUpdateInfo(githubRepo) {
 	}
 }
 
-function initLastUpdateDates() {
+function invite() {
 	if (location.pathname.startsWith('/umineko/tr-installation')) {
 		replaceLastUpdateInfo('umineko-scripting-tr');
 	} else if (location.pathname.startsWith('/higurashi/installation')) {
@@ -92,4 +92,22 @@ function initLastUpdateDates() {
 	}
 }
 
-document$.subscribe(initLastUpdateDates);
+document$.subscribe(invite);
+
+async function invite() {
+	if (!location.pathname.startsWith('/discord')) return;
+
+	try {
+		const res = await fetch(`https://api.witch-love.com/discord`);
+
+		if (!res.ok) throw new Error('Bir hata oluştu!');
+
+		const data = await res.json();
+
+		window.location.replace(data.invite_url);
+	} catch (error) {
+		alert(error.message);
+	}
+}
+
+document$.subscribe(invite);
