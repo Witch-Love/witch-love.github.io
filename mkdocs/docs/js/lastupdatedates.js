@@ -107,6 +107,8 @@ async function invite() {
 		window.location.replace(data.invite_url);
 	} catch (error) {
 		alert(error.message);
+
+		window.location.replace('/');
 	}
 }
 
