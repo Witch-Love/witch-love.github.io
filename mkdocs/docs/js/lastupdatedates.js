@@ -100,13 +100,16 @@ async function invite() {
 	try {
 		const res = await fetch(`https://api.witch-love.com/discord`);
 
-		if (!res.ok) throw new Error('Bir hata oluştu!');
-
 		const data = await res.json();
+
+		if (data.error) throw new Error(data.error);
 
 		window.location.replace(data.invite_url);
 	} catch (error) {
-		alert(error.message);
+		alert(
+			'Bir hata oluştu! Lütfen daha sonra tekrar deneyin.\n\nHata: ' +
+				error.message,
+		);
 
 		window.location.replace('/');
 	}
