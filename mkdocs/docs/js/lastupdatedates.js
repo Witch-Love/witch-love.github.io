@@ -84,7 +84,7 @@ async function replaceLastUpdateInfo(githubRepo) {
 	}
 }
 
-function invite() {
+function initLastUpdateDates() {
 	if (location.pathname.startsWith('/umineko/tr-installation')) {
 		replaceLastUpdateInfo('umineko-scripting-tr');
 	} else if (location.pathname.startsWith('/higurashi/installation')) {
@@ -92,7 +92,7 @@ function invite() {
 	}
 }
 
-document$.subscribe(invite);
+document$.subscribe(initLastUpdateDates);
 
 async function invite() {
 	if (!location.pathname.startsWith('/discord')) return;
