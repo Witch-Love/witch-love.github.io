@@ -13,23 +13,4 @@ Katkıda bulunmak ve bizimle beraber çeviri yapmak istiyorsanız kapımız her 
 
 ## İletişim Seçenekleri
 
-[:fontawesome-brands-discord: Discord'a Katıl](discord.md){ .md-button .md-button--primary target=_blank }
 [:fontawesome-solid-paper-plane: E-mail Gönder](mailto:contact@witch-love.com){ .md-button .md-button--primary }
-
-## Ekip
-
-<div class="grid cards" markdown>
-
--   :octicons-person-fill-16:{ .lg .middle } __Singularity__
-
-    ---
-
-    :octicons-mail-16: singularity witch-love com
-
--   :octicons-person-fill-16:{ .lg .middle } __Folivore__
-
-    ---
-
-    :octicons-mail-16: folivore witch-love com
-
-</div>
