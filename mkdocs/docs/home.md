@@ -29,5 +29,5 @@ Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katı
     [![Discord](./img/discord.png){ width="100" align=left }](./discord.md){ target=_blank }
     ## [Discord](./discord.md){ target=_blank }'da aramıza katılın
 
-    Destek almak, sohbet etmek ve diğer takipçilerimizle beraber vakit geçirmek için sunucumuza katılabilirsiniz.
+    Sohbet etmek ve diğer takipçilerimizle beraber vakit geçirmek için sunucumuza katılabilirsiniz.
 

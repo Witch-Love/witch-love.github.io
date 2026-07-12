@@ -3,7 +3,6 @@ title: "Hollow Knight: Silksong"
 description: Hollow Knight Silksong Türkçe çeviri
 status: deprecated
 index: false
-comments: true
 search:
   exclude: true
 ---

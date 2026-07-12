@@ -1,6 +1,6 @@
 ---
 description: Umineko Project kurulum rehberi.
-comments: true
+comments: false
 ---
 
 # Umineko Project Kurulumu
@@ -8,6 +8,8 @@ comments: true
 !!! info "Bilgi"
 	Bu sayfa [Umineko Project](https://umineko-project.org/) kurulumunu içermektedir.  
 	Umineko Project kurulumunu çoktan yaptıysanız bu sayfayı atlayıp [2. adıma](tr-installation.md) geçebilirsiniz.
+
+	Takıldığınız bir konuda destek almak için [forum](../forum.md) sayfamıza uğrayabilirsiniz.
 
 ???+ warning "Umineko Project: Önemli Telif Hakkı Uyarısı"
 	Alttaki metin **Umineko Project**'in sitesinde bulunan [Copyright message](https://umineko-project.org/en/copyright-message/) sayfasından alınmıştır.

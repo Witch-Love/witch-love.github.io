@@ -1,6 +1,6 @@
 ---
 title: Kurulum
-comments: true
+comments: false
 status: draft
 ---
 

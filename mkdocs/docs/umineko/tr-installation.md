@@ -8,6 +8,8 @@ comments: true
 !!! warning "Dikkat"
 	Henüz [Umineko Project](https://umineko-project.org/en/) kurmadıysanız ilk olarak [önceki sayfaya](installation.md) dönüp kurunuz.
 
+	Takıldığınız bir konuda destek almak için [forum](../forum.md) sayfamıza uğrayabilirsiniz.
+
 --8<-- "faq/steam_support.md"
 
 --8<-- "faq/tr_patch_update.md"

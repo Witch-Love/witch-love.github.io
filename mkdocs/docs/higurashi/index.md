@@ -1,7 +1,7 @@
 ---
 title: Higurashi no Naku Koro ni
 description: Keiichi Maebara 1983 yazında sessiz sakin bir köy olan Hinamizawa'ya yeni taşınmıştır ve kısa sürede okul arkadaşları...
-comments: true
+comments: false
 ---
 
 !!! warning "Higurashi çevirisi hakkında"
