@@ -37,9 +37,7 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/discord 
-      link: https://discord.gg/jyD5jn9Vpd
-    - icon: fontawesome/brands/youtube 
-      link: https://www.youtube.com/@Singularityy
+      link: /discord
     - icon: fontawesome/solid/paper-plane
       link: mailto:contact@witch-love.com
   status:
