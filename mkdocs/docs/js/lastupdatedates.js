@@ -98,7 +98,11 @@ async function invite() {
 	if (!location.pathname.startsWith('/discord')) return;
 
 	try {
-		const res = await fetch(`https://api.witch-love.com/discord`);
+		const res = await fetch(`https://api.witch-love.com/discord`, {
+			headers: {
+				'X-App-Request': 'v1',
+			},
+		});
 
 		const data = await res.json();
 
