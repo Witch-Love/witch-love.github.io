@@ -8,7 +8,7 @@ search:
   exclude: true
 hide:
   - toc
-  - nagivation
+  - navigation
 ---
 
 3 saniye içinde otomatik olarak yönlendirilmediyseniz sayfayı yenileyin.

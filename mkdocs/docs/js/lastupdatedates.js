@@ -95,7 +95,7 @@ function initLastUpdateDates() {
 document$.subscribe(initLastUpdateDates);
 
 async function invite() {
-	if (!location.pathname.startsWith('/discord')) return;
+	if (!location.pathname.startsWith('/invite')) return;
 
 	try {
 		const res = await fetch(`https://api.witch-love.com/discord`, {

@@ -9,7 +9,11 @@ search:
   exclude: true
 hide:
   - toc
-  - nagivation
+  - navigation
 ---
 
-3 saniye içinde otomatik olarak yönlendirilmediyseniz sayfayı yenileyin.
+!!! info "Bilgilendirme"
+	Belirli olmayan ileri bir tarihe kadar yeni üyeleri sunucumuza kabul etmiyoruz. Yoğun katılım nedeniyle bu kararı almak zorunda kaldık.  
+	Takıldığınız bir konuda destek almak için [forum](./forum.md) sayfamıza uğrayabilirsiniz.  
+	
+	Sorularınız için e-posta adresimiz üzerinden bizimle iletişime geçebilirsiniz.
