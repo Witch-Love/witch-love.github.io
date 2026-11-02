@@ -5,7 +5,7 @@ icon: material/home
 
 Sitemize hoş geldiniz! Menüden ilgili içeriklere tıklayarak içerikler hakkında detaylı bilgi alabilirsiniz.
 
-Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katılabilir veya bizimle doğrudan [iletişim](contact.md)e geçebilirsiniz.
+Yardıma ihtiyacınız olan bir konu var ise [forum](forum.md) sayfamızda başlık açabilir veya bizimle doğrudan [iletişim](contact.md)e geçebilirsiniz.
 
 ***
 
@@ -22,12 +22,3 @@ Yardıma ihtiyacınız olan bir konu var ise dilerseniz discord sunucumuza katı
 --8<-- "faq.md:8:20"
 
 <span style="text-align: right; width: 100%; display: block">~[Tümünü görüntüle :octicons-arrow-right-16:](faq.md)~</span>
-
-***
-
-!!! info "Discord Sunucusu"
-    [![Discord](./img/discord.png){ width="100" align=left }](./discord.md){ target=_blank }
-    ## [Discord](./discord.md){ target=_blank }'da aramıza katılın
-
-    Sohbet etmek ve diğer takipçilerimizle beraber vakit geçirmek için sunucumuza katılabilirsiniz.
-
