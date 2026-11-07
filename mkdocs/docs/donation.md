@@ -3,7 +3,7 @@ title: Bağış
 description: Bizlerin kâr amacı gütmeyerek yaptığı bu işi beğeniyor ve bizi ekstra olarak destekleyip, moral sağlamak istiyorsanız...
 ---
 
-Bize bağışta bulunmanız halinde özel bir şey elde etmeyeceğinizin bilincinde olunuz. Bağışta bulunanlar için Discord üzerinde birkaç özellik dışında başka bir şey sağlamıyoruz. Yüksek miktarlı bağışları kredilere[^1] eklemeyi değerlendiriyoruz.
+Bize bağışta bulunmanız durumunda özel bir şey elde etmeyeceğinizin bilincinde olunuz. Bağışta bulunanlar için ekstra bir şey sağlamasak da yüksek tutarlı bağışları kredilere[^1] eklemeyi değerlendiriyoruz.
 
 Bizlerin kâr amacı gütmeyerek yaptığı bu işi beğeniyor ve bizi ekstra olarak destekleyip, moral sağlamak istiyorsanız çok teşekkür ederiz! :octicons-heart-fill-24:{ .heart }
 
